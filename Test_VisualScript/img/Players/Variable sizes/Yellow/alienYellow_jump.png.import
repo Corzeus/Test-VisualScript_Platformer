@@ -1,0 +1,32 @@
+[remap]
+
+importer="texture"
+type="StreamTexture"
+path="res://.import/alienYellow_jump.png-52e58158bd7bdb21567aca0e728e409c.stex"
+
+[deps]
+
+source_file="res://img/Players/Variable sizes/Yellow/alienYellow_jump.png"
+source_md5="6a4ea57c06db08b7805bd2575cc01581"
+
+dest_files=[ "res://.import/alienYellow_jump.png-52e58158bd7bdb21567aca0e728e409c.stex" ]
+dest_md5="dfdbc17d7b194a61b6ef4ece486aba64"
+
+[params]
+
+compress/mode=0
+compress/lossy_quality=0.7
+compress/hdr_mode=0
+compress/normal_map=0
+flags/repeat=0
+flags/filter=true
+flags/mipmaps=false
+flags/anisotropic=false
+flags/srgb=2
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/HDR_as_SRGB=false
+stream=false
+size_limit=0
+detect_3d=true
+svg/scale=1.0

@@ -1,0 +1,32 @@
+[remap]
+
+importer="texture"
+type="StreamTexture"
+path="res://.import/alienPink_walk2.png-733d0d9c091ff16bf2567eee054ae20c.stex"
+
+[deps]
+
+source_file="res://img/Players/Variable sizes/Pink/alienPink_walk2.png"
+source_md5="9675c820457358ad58bd2d2e45797130"
+
+dest_files=[ "res://.import/alienPink_walk2.png-733d0d9c091ff16bf2567eee054ae20c.stex" ]
+dest_md5="d068522b8432ae0c1909a0166a9365a7"
+
+[params]
+
+compress/mode=0
+compress/lossy_quality=0.7
+compress/hdr_mode=0
+compress/normal_map=0
+flags/repeat=0
+flags/filter=true
+flags/mipmaps=false
+flags/anisotropic=false
+flags/srgb=2
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/HDR_as_SRGB=false
+stream=false
+size_limit=0
+detect_3d=true
+svg/scale=1.0

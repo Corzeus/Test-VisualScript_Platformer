@@ -1,0 +1,32 @@
+[remap]
+
+importer="texture"
+type="StreamTexture"
+path="res://.import/alienPink_climb2.png-729f94752a5dc98367e5e4996e28aa16.stex"
+
+[deps]
+
+source_file="res://img/Players/Variable sizes/Pink/alienPink_climb2.png"
+source_md5="a81366159649ab56173a9a6b6af31891"
+
+dest_files=[ "res://.import/alienPink_climb2.png-729f94752a5dc98367e5e4996e28aa16.stex" ]
+dest_md5="ab3af533396d57816b25b4c92ac36abe"
+
+[params]
+
+compress/mode=0
+compress/lossy_quality=0.7
+compress/hdr_mode=0
+compress/normal_map=0
+flags/repeat=0
+flags/filter=true
+flags/mipmaps=false
+flags/anisotropic=false
+flags/srgb=2
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/HDR_as_SRGB=false
+stream=false
+size_limit=0
+detect_3d=true
+svg/scale=1.0

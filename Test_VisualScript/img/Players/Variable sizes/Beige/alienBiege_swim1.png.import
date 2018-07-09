@@ -1,0 +1,32 @@
+[remap]
+
+importer="texture"
+type="StreamTexture"
+path="res://.import/alienBiege_swim1.png-5001225eec7d8aa0d1874ad9b5de3186.stex"
+
+[deps]
+
+source_file="res://img/Players/Variable sizes/Beige/alienBiege_swim1.png"
+source_md5="3b5942377cdcf9531951932fd9b53809"
+
+dest_files=[ "res://.import/alienBiege_swim1.png-5001225eec7d8aa0d1874ad9b5de3186.stex" ]
+dest_md5="18021a79d79c1a309875e1a1489665c8"
+
+[params]
+
+compress/mode=0
+compress/lossy_quality=0.7
+compress/hdr_mode=0
+compress/normal_map=0
+flags/repeat=0
+flags/filter=true
+flags/mipmaps=false
+flags/anisotropic=false
+flags/srgb=2
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/HDR_as_SRGB=false
+stream=false
+size_limit=0
+detect_3d=true
+svg/scale=1.0

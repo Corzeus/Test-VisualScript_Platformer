@@ -1,0 +1,32 @@
+[remap]
+
+importer="texture"
+type="StreamTexture"
+path="res://.import/alienYellow_climb1.png-931ad1e22436a21dc513a4372d6a7c92.stex"
+
+[deps]
+
+source_file="res://img/Players/Variable sizes/Yellow/alienYellow_climb1.png"
+source_md5="06a913d2fcd155279b5af678cc57959c"
+
+dest_files=[ "res://.import/alienYellow_climb1.png-931ad1e22436a21dc513a4372d6a7c92.stex" ]
+dest_md5="9757bc9c84648e07ee1816237116f04b"
+
+[params]
+
+compress/mode=0
+compress/lossy_quality=0.7
+compress/hdr_mode=0
+compress/normal_map=0
+flags/repeat=0
+flags/filter=true
+flags/mipmaps=false
+flags/anisotropic=false
+flags/srgb=2
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/HDR_as_SRGB=false
+stream=false
+size_limit=0
+detect_3d=true
+svg/scale=1.0

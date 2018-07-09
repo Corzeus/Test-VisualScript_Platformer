@@ -1,0 +1,32 @@
+[remap]
+
+importer="texture"
+type="StreamTexture"
+path="res://.import/alienPink_stand.png-80d8f2958be7784736bf480203fef7fb.stex"
+
+[deps]
+
+source_file="res://img/Players/Variable sizes/Pink/alienPink_stand.png"
+source_md5="3cc61494202b85ea369423565980e632"
+
+dest_files=[ "res://.import/alienPink_stand.png-80d8f2958be7784736bf480203fef7fb.stex" ]
+dest_md5="d7dfe5ba05126ca931cdc172217f597c"
+
+[params]
+
+compress/mode=0
+compress/lossy_quality=0.7
+compress/hdr_mode=0
+compress/normal_map=0
+flags/repeat=0
+flags/filter=true
+flags/mipmaps=false
+flags/anisotropic=false
+flags/srgb=2
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/HDR_as_SRGB=false
+stream=false
+size_limit=0
+detect_3d=true
+svg/scale=1.0

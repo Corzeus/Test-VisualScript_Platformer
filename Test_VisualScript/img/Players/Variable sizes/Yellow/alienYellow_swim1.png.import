@@ -1,0 +1,32 @@
+[remap]
+
+importer="texture"
+type="StreamTexture"
+path="res://.import/alienYellow_swim1.png-4881cb9eb74256edcbff81abaf9923cf.stex"
+
+[deps]
+
+source_file="res://img/Players/Variable sizes/Yellow/alienYellow_swim1.png"
+source_md5="965b2d2de1d72bbc596a1af4fc57410b"
+
+dest_files=[ "res://.import/alienYellow_swim1.png-4881cb9eb74256edcbff81abaf9923cf.stex" ]
+dest_md5="dae7f03a1d4f25cbad8a72948f14d4e0"
+
+[params]
+
+compress/mode=0
+compress/lossy_quality=0.7
+compress/hdr_mode=0
+compress/normal_map=0
+flags/repeat=0
+flags/filter=true
+flags/mipmaps=false
+flags/anisotropic=false
+flags/srgb=2
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/HDR_as_SRGB=false
+stream=false
+size_limit=0
+detect_3d=true
+svg/scale=1.0

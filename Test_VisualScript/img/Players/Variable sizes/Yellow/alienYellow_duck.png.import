@@ -1,0 +1,32 @@
+[remap]
+
+importer="texture"
+type="StreamTexture"
+path="res://.import/alienYellow_duck.png-6d0dce71f6f70a54543e308556cfbb04.stex"
+
+[deps]
+
+source_file="res://img/Players/Variable sizes/Yellow/alienYellow_duck.png"
+source_md5="5767ed4ac896c1014c81d8989120c124"
+
+dest_files=[ "res://.import/alienYellow_duck.png-6d0dce71f6f70a54543e308556cfbb04.stex" ]
+dest_md5="f88fae5f5901a2f4a49bcd479b38417e"
+
+[params]
+
+compress/mode=0
+compress/lossy_quality=0.7
+compress/hdr_mode=0
+compress/normal_map=0
+flags/repeat=0
+flags/filter=true
+flags/mipmaps=false
+flags/anisotropic=false
+flags/srgb=2
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/HDR_as_SRGB=false
+stream=false
+size_limit=0
+detect_3d=true
+svg/scale=1.0

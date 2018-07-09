@@ -1,0 +1,32 @@
+[remap]
+
+importer="texture"
+type="StreamTexture"
+path="res://.import/alienBiege_hit.png-dd636de43cea463d991c39cf4e5d2e5a.stex"
+
+[deps]
+
+source_file="res://img/Players/Variable sizes/Beige/alienBiege_hit.png"
+source_md5="0754791a63fad3b1f5a8241c53469190"
+
+dest_files=[ "res://.import/alienBiege_hit.png-dd636de43cea463d991c39cf4e5d2e5a.stex" ]
+dest_md5="9649e106c5ebadcc0c98adc138f66321"
+
+[params]
+
+compress/mode=0
+compress/lossy_quality=0.7
+compress/hdr_mode=0
+compress/normal_map=0
+flags/repeat=0
+flags/filter=true
+flags/mipmaps=false
+flags/anisotropic=false
+flags/srgb=2
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/HDR_as_SRGB=false
+stream=false
+size_limit=0
+detect_3d=true
+svg/scale=1.0

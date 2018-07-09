@@ -1,0 +1,32 @@
+[remap]
+
+importer="texture"
+type="StreamTexture"
+path="res://.import/alienGreen_front.png-3dac95a0913013ac56314cfc1bad1f38.stex"
+
+[deps]
+
+source_file="res://img/Players/Variable sizes/Green/alienGreen_front.png"
+source_md5="d3c27fae8d2e7ff3cef073eb523521d4"
+
+dest_files=[ "res://.import/alienGreen_front.png-3dac95a0913013ac56314cfc1bad1f38.stex" ]
+dest_md5="20163ad3bb557c2cc51e6b444ea3d60d"
+
+[params]
+
+compress/mode=0
+compress/lossy_quality=0.7
+compress/hdr_mode=0
+compress/normal_map=0
+flags/repeat=0
+flags/filter=true
+flags/mipmaps=false
+flags/anisotropic=false
+flags/srgb=2
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/HDR_as_SRGB=false
+stream=false
+size_limit=0
+detect_3d=true
+svg/scale=1.0

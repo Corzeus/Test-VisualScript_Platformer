@@ -1,0 +1,32 @@
+[remap]
+
+importer="texture"
+type="StreamTexture"
+path="res://.import/alienBiege_stand.png-57908c8fd439ff5d8dfa8b7da75d0e18.stex"
+
+[deps]
+
+source_file="res://img/Players/Variable sizes/Beige/alienBiege_stand.png"
+source_md5="f0c1b6aa828b85e1c992cccbe6002b48"
+
+dest_files=[ "res://.import/alienBiege_stand.png-57908c8fd439ff5d8dfa8b7da75d0e18.stex" ]
+dest_md5="2fe149f81a19b8426f06f63f460b506d"
+
+[params]
+
+compress/mode=0
+compress/lossy_quality=0.7
+compress/hdr_mode=0
+compress/normal_map=0
+flags/repeat=0
+flags/filter=true
+flags/mipmaps=false
+flags/anisotropic=false
+flags/srgb=2
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/HDR_as_SRGB=false
+stream=false
+size_limit=0
+detect_3d=true
+svg/scale=1.0

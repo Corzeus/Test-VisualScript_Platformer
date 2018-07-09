@@ -1,0 +1,32 @@
+[remap]
+
+importer="texture"
+type="StreamTexture"
+path="res://.import/alienBlue_climb1.png-65b721cf5677275dc7f13a9bc6eebb49.stex"
+
+[deps]
+
+source_file="res://img/Players/Variable sizes/Blue/alienBlue_climb1.png"
+source_md5="77ffc2b457c2f9902abde503602f0fa6"
+
+dest_files=[ "res://.import/alienBlue_climb1.png-65b721cf5677275dc7f13a9bc6eebb49.stex" ]
+dest_md5="c59fc048741328da285ad647cbeef615"
+
+[params]
+
+compress/mode=0
+compress/lossy_quality=0.7
+compress/hdr_mode=0
+compress/normal_map=0
+flags/repeat=0
+flags/filter=true
+flags/mipmaps=false
+flags/anisotropic=false
+flags/srgb=2
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/HDR_as_SRGB=false
+stream=false
+size_limit=0
+detect_3d=true
+svg/scale=1.0
