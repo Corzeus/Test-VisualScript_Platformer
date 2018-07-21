@@ -7,10 +7,7 @@ path="res://.import/stoneCliffAlt_left.png-042130c788438cb5bb8c5905cf658357.stex
 [deps]
 
 source_file="res://img/Ground/Stone/stoneCliffAlt_left.png"
-source_md5="b1fc1c1d25dc2b931b386385e56091e4"
-
 dest_files=[ "res://.import/stoneCliffAlt_left.png-042130c788438cb5bb8c5905cf658357.stex" ]
-dest_md5="3d20d57fc07d642e5941fc2ac7562630"
 
 [params]
 

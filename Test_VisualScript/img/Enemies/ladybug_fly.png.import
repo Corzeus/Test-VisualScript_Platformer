@@ -7,10 +7,7 @@ path="res://.import/ladybug_fly.png-346205462b2f24b54bf4f4bd7bd5a699.stex"
 [deps]
 
 source_file="res://img/Enemies/ladybug_fly.png"
-source_md5="d5cec89ba278c9002e53abf42a926928"
-
 dest_files=[ "res://.import/ladybug_fly.png-346205462b2f24b54bf4f4bd7bd5a699.stex" ]
-dest_md5="4df356dcdaad5cf515830f96ce077288"
 
 [params]
 

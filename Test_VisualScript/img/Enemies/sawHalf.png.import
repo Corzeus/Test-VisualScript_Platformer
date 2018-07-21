@@ -7,10 +7,7 @@ path="res://.import/sawHalf.png-25ccde6efe374f80784b736a711e1c98.stex"
 [deps]
 
 source_file="res://img/Enemies/sawHalf.png"
-source_md5="c9ae3619344dccaa32c97fa8dfcbbe0d"
-
 dest_files=[ "res://.import/sawHalf.png-25ccde6efe374f80784b736a711e1c98.stex" ]
-dest_md5="0bdc9067f63a2f35a905b02d91133945"
 
 [params]
 

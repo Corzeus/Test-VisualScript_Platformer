@@ -7,10 +7,7 @@ path="res://.import/leverMid.png-6a02aafbcbadaae007c5c258dd239e12.stex"
 [deps]
 
 source_file="res://img/Tiles/leverMid.png"
-source_md5="9ab69c4f3fc9ab4e9df571c67b0cd540"
-
 dest_files=[ "res://.import/leverMid.png-6a02aafbcbadaae007c5c258dd239e12.stex" ]
-dest_md5="e31d86dc64a12914c5fa0653607a564e"
 
 [params]
 

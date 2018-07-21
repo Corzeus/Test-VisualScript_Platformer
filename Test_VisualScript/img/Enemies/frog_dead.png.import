@@ -7,10 +7,7 @@ path="res://.import/frog_dead.png-0acb21d8848ba6d54dd636c539cffeee.stex"
 [deps]
 
 source_file="res://img/Enemies/frog_dead.png"
-source_md5="59ad4dfc44f638f10a0e74e650881f68"
-
 dest_files=[ "res://.import/frog_dead.png-0acb21d8848ba6d54dd636c539cffeee.stex" ]
-dest_md5="58f40fb33783d5d75f67c35f3d369145"
 
 [params]
 

@@ -7,10 +7,7 @@ path="res://.import/alienGreen_climb1.png-0c346f7242d1949aa271fea6f8b4de15.stex"
 [deps]
 
 source_file="res://img/Players/Variable sizes/Green/alienGreen_climb1.png"
-source_md5="ed3e85b5bdc949d2f95f9b1b2e74186f"
-
 dest_files=[ "res://.import/alienGreen_climb1.png-0c346f7242d1949aa271fea6f8b4de15.stex" ]
-dest_md5="f246e1688b1af87c24f515278f87c46a"
 
 [params]
 

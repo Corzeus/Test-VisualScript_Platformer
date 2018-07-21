@@ -7,10 +7,7 @@ path="res://.import/snowCorner_right.png-8a0e5148eceff5f30dbee419c25a452c.stex"
 [deps]
 
 source_file="res://img/Ground/Snow/snowCorner_right.png"
-source_md5="091023fd4ca932060ec0b62f4dbad6cd"
-
 dest_files=[ "res://.import/snowCorner_right.png-8a0e5148eceff5f30dbee419c25a452c.stex" ]
-dest_md5="dbb62c73f1751ed2fceae0591b5fc01d"
 
 [params]
 

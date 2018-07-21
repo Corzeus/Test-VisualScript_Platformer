@@ -7,10 +7,7 @@ path="res://.import/waterTop_low.png-22758ac4e4387d20f314217874e2ee57.stex"
 [deps]
 
 source_file="res://img/Tiles/waterTop_low.png"
-source_md5="70dde89d5245d8b52dc6cf87ce0b4332"
-
 dest_files=[ "res://.import/waterTop_low.png-22758ac4e4387d20f314217874e2ee57.stex" ]
-dest_md5="58662879dfe7070ef4b58305bbdeda21"
 
 [params]
 

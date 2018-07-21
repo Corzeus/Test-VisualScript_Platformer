@@ -7,10 +7,7 @@ path="res://.import/lockRed.png-13d59dec213bec00a5baa9cf54ef7111.stex"
 [deps]
 
 source_file="res://img/Tiles/lockRed.png"
-source_md5="4704e7f2bc8d6ce7e81efcdf832c4f8e"
-
 dest_files=[ "res://.import/lockRed.png-13d59dec213bec00a5baa9cf54ef7111.stex" ]
-dest_md5="4732e0a42db683ecf27737490dcb0bc1"
 
 [params]
 

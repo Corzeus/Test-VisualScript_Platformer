@@ -7,10 +7,7 @@ path="res://.import/alienBiege_front.png-a10788de98e7ab33811809c20631a97a.stex"
 [deps]
 
 source_file="res://img/Players/Variable sizes/Beige/alienBiege_front.png"
-source_md5="90d9b7a7e0a48904e543bfce3f941e26"
-
 dest_files=[ "res://.import/alienBiege_front.png-a10788de98e7ab33811809c20631a97a.stex" ]
-dest_md5="0300108de1831ce164785dacce34901a"
 
 [params]
 

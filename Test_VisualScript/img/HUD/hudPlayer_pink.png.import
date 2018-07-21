@@ -7,10 +7,7 @@ path="res://.import/hudPlayer_pink.png-7142b0c6d6bd0ca9564ce007cb1fed9a.stex"
 [deps]
 
 source_file="res://img/HUD/hudPlayer_pink.png"
-source_md5="31cea88f002ea950d3ca0225989372bc"
-
 dest_files=[ "res://.import/hudPlayer_pink.png-7142b0c6d6bd0ca9564ce007cb1fed9a.stex" ]
-dest_md5="1dc4579485bc07147dcb7afd5be675e5"
 
 [params]
 

@@ -7,10 +7,7 @@ path="res://.import/blue_desert.png-87cb4203abe352a2962f410bfe015762.stex"
 [deps]
 
 source_file="res://img/Backgrounds/blue_desert.png"
-source_md5="405b7cda07dd2f07d0f9933ac342839c"
-
 dest_files=[ "res://.import/blue_desert.png-87cb4203abe352a2962f410bfe015762.stex" ]
-dest_md5="87a10e2fe47c55a31d985c7e910afbe4"
 
 [params]
 

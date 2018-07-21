@@ -7,10 +7,7 @@ path="res://.import/barnacle.png-afd18112068c57f0db9f47cefec12021.stex"
 [deps]
 
 source_file="res://img/Enemies/barnacle.png"
-source_md5="9db9f8b6807d368c8c65112e2d06b582"
-
 dest_files=[ "res://.import/barnacle.png-afd18112068c57f0db9f47cefec12021.stex" ]
-dest_md5="d91dce8c10cc49dfd75e534e67a21cb2"
 
 [params]
 

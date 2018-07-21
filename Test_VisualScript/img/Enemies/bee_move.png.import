@@ -7,10 +7,7 @@ path="res://.import/bee_move.png-854bb9c65f6e71cbfc7b2009a062e526.stex"
 [deps]
 
 source_file="res://img/Enemies/bee_move.png"
-source_md5="9a8b7ebb891c0ffc61f252f6f5a83363"
-
 dest_files=[ "res://.import/bee_move.png-854bb9c65f6e71cbfc7b2009a062e526.stex" ]
-dest_md5="7495d5f29bbe19718ee5be54e5922675"
 
 [params]
 

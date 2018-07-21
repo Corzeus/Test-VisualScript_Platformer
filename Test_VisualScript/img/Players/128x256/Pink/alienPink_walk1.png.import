@@ -7,10 +7,7 @@ path="res://.import/alienPink_walk1.png-51821013ce22664b08ee002b9c8e9540.stex"
 [deps]
 
 source_file="res://img/Players/128x256/Pink/alienPink_walk1.png"
-source_md5="e0eca693139d989290111d724915b131"
-
 dest_files=[ "res://.import/alienPink_walk1.png-51821013ce22664b08ee002b9c8e9540.stex" ]
-dest_md5="ffaa4f95ad0e588cab238b2606b1bb04"
 
 [params]
 

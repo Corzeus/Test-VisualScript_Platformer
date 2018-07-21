@@ -7,10 +7,7 @@ path="res://.import/cactus.png-b7a065cb728f7e340d41584f8fe1c5e8.stex"
 [deps]
 
 source_file="res://img/Tiles/cactus.png"
-source_md5="d445e0ac2bbdb27f72612a3a729322a5"
-
 dest_files=[ "res://.import/cactus.png-b7a065cb728f7e340d41584f8fe1c5e8.stex" ]
-dest_md5="22bf1eb81a05ff386ac6f13220dfdca3"
 
 [params]
 

@@ -7,10 +7,7 @@ path="res://.import/alienBiege_duck.png-d58683e9bbc19e5782ca21f9cf483d9d.stex"
 [deps]
 
 source_file="res://img/Players/Variable sizes/Beige/alienBiege_duck.png"
-source_md5="96fa7671615aa70f97fd1cc233ec5512"
-
 dest_files=[ "res://.import/alienBiege_duck.png-d58683e9bbc19e5782ca21f9cf483d9d.stex" ]
-dest_md5="842f675fde3cca187415dbcc27283b84"
 
 [params]
 

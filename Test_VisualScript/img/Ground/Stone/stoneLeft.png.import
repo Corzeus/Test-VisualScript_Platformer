@@ -7,10 +7,7 @@ path="res://.import/stoneLeft.png-7f3e6c79a9cd8a9557456e547515c24a.stex"
 [deps]
 
 source_file="res://img/Ground/Stone/stoneLeft.png"
-source_md5="96bf6cfbe193e1bcdd51bb48b9df7ebc"
-
 dest_files=[ "res://.import/stoneLeft.png-7f3e6c79a9cd8a9557456e547515c24a.stex" ]
-dest_md5="d3b9ceaa69c6c97369508429966c9cbb"
 
 [params]
 

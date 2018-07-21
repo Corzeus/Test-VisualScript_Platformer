@@ -7,10 +7,7 @@ path="res://.import/bridgeB.png-04cc3aa79b68051aeb9159724da2f222.stex"
 [deps]
 
 source_file="res://img/Tiles/bridgeB.png"
-source_md5="fea6b964e2dc7cacdfd8957d3ad7d384"
-
 dest_files=[ "res://.import/bridgeB.png-04cc3aa79b68051aeb9159724da2f222.stex" ]
-dest_md5="352d9fe804c667d82ffdc0a5ec8b7c7b"
 
 [params]
 

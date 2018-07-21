@@ -7,10 +7,7 @@ path="res://.import/colored_grass.png-2711dd9077944332f014f1d5aad1f292.stex"
 [deps]
 
 source_file="res://img/Backgrounds/colored_grass.png"
-source_md5="7bd17e389c561c89adbee9dcb8cdd132"
-
 dest_files=[ "res://.import/colored_grass.png-2711dd9077944332f014f1d5aad1f292.stex" ]
-dest_md5="f947638c0c19ed30a0fb8a9e3d4e226f"
 
 [params]
 

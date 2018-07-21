@@ -7,10 +7,7 @@ path="res://.import/signExit.png-5742952e438e9ae10b6130864fc5a5ee.stex"
 [deps]
 
 source_file="res://img/Tiles/signExit.png"
-source_md5="9659cb9e47a4a681e61ae3f8b2562ad4"
-
 dest_files=[ "res://.import/signExit.png-5742952e438e9ae10b6130864fc5a5ee.stex" ]
-dest_md5="ea1f73b7d731051487e8ffbadf206b43"
 
 [params]
 

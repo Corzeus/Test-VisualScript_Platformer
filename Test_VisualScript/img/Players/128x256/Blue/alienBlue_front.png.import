@@ -7,10 +7,7 @@ path="res://.import/alienBlue_front.png-cffbef3833bab04a8a67bd609e7dd30c.stex"
 [deps]
 
 source_file="res://img/Players/128x256/Blue/alienBlue_front.png"
-source_md5="2531c5d6ee48f2738d74191e506e509e"
-
 dest_files=[ "res://.import/alienBlue_front.png-cffbef3833bab04a8a67bd609e7dd30c.stex" ]
-dest_md5="97ed546356bbc526049fe0952c7ac89f"
 
 [params]
 
