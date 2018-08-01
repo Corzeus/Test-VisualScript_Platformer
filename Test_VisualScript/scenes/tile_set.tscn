@@ -1,53 +1,75 @@
-[gd_scene load_steps=51 format=2]
+[gd_scene load_steps=94 format=2]
 
 [ext_resource path="res://img/Ground/Grass/grassCenter.png" type="Texture" id=1]
-[ext_resource path="res://img/Ground/Grass/grass.png" type="Texture" id=2]
-[ext_resource path="res://img/Ground/Grass/grassCenter_round.png" type="Texture" id=3]
-[ext_resource path="res://img/Ground/Grass/grassCliffAlt_left.png" type="Texture" id=4]
-[ext_resource path="res://img/Ground/Grass/grassCliffAlt_right.png" type="Texture" id=5]
-[ext_resource path="res://img/Ground/Grass/grassCliff_left.png" type="Texture" id=6]
-[ext_resource path="res://img/Ground/Grass/grassCliff_right.png" type="Texture" id=7]
-[ext_resource path="res://img/Ground/Grass/grassCorner_left.png" type="Texture" id=8]
-[ext_resource path="res://img/Ground/Grass/grassCorner_right.png" type="Texture" id=9]
-[ext_resource path="res://img/Ground/Grass/grassMid.png" type="Texture" id=10]
-[ext_resource path="res://img/Ground/Grass/grassLeft.png" type="Texture" id=11]
-[ext_resource path="res://img/Ground/Grass/grassRight.png" type="Texture" id=12]
-[ext_resource path="res://img/Ground/Grass/grassHalf.png" type="Texture" id=13]
-[ext_resource path="res://img/Ground/Grass/grassHalf_left.png" type="Texture" id=14]
-[ext_resource path="res://img/Ground/Grass/grassHalf_mid.png" type="Texture" id=15]
-[ext_resource path="res://img/Ground/Grass/grassHalf_right.png" type="Texture" id=16]
-[ext_resource path="res://img/Ground/Grass/grassHill_left.png" type="Texture" id=17]
-[ext_resource path="res://img/Ground/Grass/grassHill_right.png" type="Texture" id=18]
-[ext_resource path="res://img/Tiles/boxCoin.png" type="Texture" id=19]
-[ext_resource path="res://img/Tiles/boxCoin_boxed.png" type="Texture" id=20]
-[ext_resource path="res://img/Tiles/boxCrate_double.png" type="Texture" id=21]
-[ext_resource path="res://img/Tiles/boxCrate_single.png" type="Texture" id=22]
-[ext_resource path="res://img/Tiles/boxExplosive.png" type="Texture" id=23]
-[ext_resource path="res://img/Tiles/boxItem.png" type="Texture" id=24]
-[ext_resource path="res://img/Tiles/boxItem_boxed.png" type="Texture" id=25]
-[ext_resource path="res://img/Tiles/brickBrown.png" type="Texture" id=26]
-[ext_resource path="res://img/Tiles/brickGrey.png" type="Texture" id=27]
-[ext_resource path="res://img/Tiles/bridgeA.png" type="Texture" id=28]
-[ext_resource path="res://img/Tiles/bridgeB.png" type="Texture" id=29]
-[ext_resource path="res://img/Tiles/bush.png" type="Texture" id=30]
-[ext_resource path="res://img/Tiles/cactus.png" type="Texture" id=31]
-[ext_resource path="res://img/Tiles/fence.png" type="Texture" id=32]
-[ext_resource path="res://img/Tiles/fenceBroken.png" type="Texture" id=33]
-[ext_resource path="res://img/Tiles/ladderMid.png" type="Texture" id=34]
-[ext_resource path="res://img/Tiles/ladderTop.png" type="Texture" id=35]
-[ext_resource path="res://img/Tiles/mushroomBrown.png" type="Texture" id=36]
-[ext_resource path="res://img/Tiles/mushroomRed.png" type="Texture" id=37]
-[ext_resource path="res://img/Tiles/plantPurple.png" type="Texture" id=38]
-[ext_resource path="res://img/Tiles/rock.png" type="Texture" id=39]
-[ext_resource path="res://img/Tiles/sign.png" type="Texture" id=40]
-[ext_resource path="res://img/Tiles/signExit.png" type="Texture" id=41]
-[ext_resource path="res://scripts/EXIT SIGN.vs" type="Script" id=42]
-[ext_resource path="res://img/Tiles/signLeft.png" type="Texture" id=43]
-[ext_resource path="res://img/Tiles/signRight.png" type="Texture" id=44]
-[ext_resource path="res://img/Tiles/torch1.png" type="Texture" id=45]
-[ext_resource path="res://img/Tiles/torch2.png" type="Texture" id=46]
-[ext_resource path="res://img/Tiles/waterTop_low.png" type="Texture" id=47]
-[ext_resource path="res://img/Tiles/waterTop_high.png" type="Texture" id=48]
+[ext_resource path="res://img/Ground/Dirt/dirtCenter.png" type="Texture" id=2]
+[ext_resource path="res://img/Ground/Grass/grass.png" type="Texture" id=3]
+[ext_resource path="res://img/Ground/Grass/grassCenter_round.png" type="Texture" id=4]
+[ext_resource path="res://img/Ground/Grass/grassCliffAlt_left.png" type="Texture" id=5]
+[ext_resource path="res://img/Ground/Grass/grassCliffAlt_right.png" type="Texture" id=6]
+[ext_resource path="res://img/Ground/Grass/grassCliff_left.png" type="Texture" id=7]
+[ext_resource path="res://img/Ground/Grass/grassCliff_right.png" type="Texture" id=8]
+[ext_resource path="res://img/Ground/Grass/grassCorner_left.png" type="Texture" id=9]
+[ext_resource path="res://img/Ground/Grass/grassCorner_right.png" type="Texture" id=10]
+[ext_resource path="res://img/Ground/Grass/grassMid.png" type="Texture" id=11]
+[ext_resource path="res://img/Ground/Grass/grassLeft.png" type="Texture" id=12]
+[ext_resource path="res://img/Ground/Grass/grassRight.png" type="Texture" id=13]
+[ext_resource path="res://img/Ground/Grass/grassHalf.png" type="Texture" id=14]
+[ext_resource path="res://img/Ground/Grass/grassHalf_left.png" type="Texture" id=15]
+[ext_resource path="res://img/Ground/Grass/grassHalf_mid.png" type="Texture" id=16]
+[ext_resource path="res://img/Ground/Grass/grassHalf_right.png" type="Texture" id=17]
+[ext_resource path="res://img/Ground/Grass/grassHill_left.png" type="Texture" id=18]
+[ext_resource path="res://img/Ground/Grass/grassHill_right.png" type="Texture" id=19]
+[ext_resource path="res://img/Tiles/boxCoin.png" type="Texture" id=20]
+[ext_resource path="res://img/Tiles/boxCoin_boxed.png" type="Texture" id=21]
+[ext_resource path="res://img/Tiles/boxCrate_double.png" type="Texture" id=22]
+[ext_resource path="res://img/Tiles/boxCrate_single.png" type="Texture" id=23]
+[ext_resource path="res://img/Tiles/boxExplosive.png" type="Texture" id=24]
+[ext_resource path="res://img/Tiles/boxItem.png" type="Texture" id=25]
+[ext_resource path="res://img/Tiles/boxItem_boxed.png" type="Texture" id=26]
+[ext_resource path="res://img/Tiles/brickBrown.png" type="Texture" id=27]
+[ext_resource path="res://img/Tiles/brickGrey.png" type="Texture" id=28]
+[ext_resource path="res://img/Tiles/bridgeA.png" type="Texture" id=29]
+[ext_resource path="res://img/Tiles/bridgeB.png" type="Texture" id=30]
+[ext_resource path="res://img/Tiles/bush.png" type="Texture" id=31]
+[ext_resource path="res://img/Tiles/cactus.png" type="Texture" id=32]
+[ext_resource path="res://img/Tiles/fence.png" type="Texture" id=33]
+[ext_resource path="res://img/Tiles/fenceBroken.png" type="Texture" id=34]
+[ext_resource path="res://img/Tiles/ladderMid.png" type="Texture" id=35]
+[ext_resource path="res://img/Tiles/ladderTop.png" type="Texture" id=36]
+[ext_resource path="res://img/Tiles/mushroomBrown.png" type="Texture" id=37]
+[ext_resource path="res://img/Tiles/mushroomRed.png" type="Texture" id=38]
+[ext_resource path="res://img/Tiles/plantPurple.png" type="Texture" id=39]
+[ext_resource path="res://img/Tiles/rock.png" type="Texture" id=40]
+[ext_resource path="res://img/Tiles/sign.png" type="Texture" id=41]
+[ext_resource path="res://img/Tiles/signExit.png" type="Texture" id=42]
+[ext_resource path="res://scripts/EXIT SIGN.vs" type="Script" id=43]
+[ext_resource path="res://img/Tiles/signLeft.png" type="Texture" id=44]
+[ext_resource path="res://img/Tiles/signRight.png" type="Texture" id=45]
+[ext_resource path="res://img/Tiles/torch1.png" type="Texture" id=46]
+[ext_resource path="res://img/Tiles/torch2.png" type="Texture" id=47]
+[ext_resource path="res://img/Ground/Dirt/dirtCliffAlt_right.png" type="Texture" id=48]
+[ext_resource path="res://img/Tiles/waterTop_low.png" type="Texture" id=49]
+[ext_resource path="res://img/Tiles/waterTop_high.png" type="Texture" id=50]
+[ext_resource path="res://img/Ground/Dirt/dirtCliffAlt_left.png" type="Texture" id=51]
+[ext_resource path="res://img/Items/flagBlue1.png" type="Texture" id=52]
+[ext_resource path="res://img/Ground/Dirt/dirt.png" type="Texture" id=53]
+[ext_resource path="res://img/Items/flagGreen1.png" type="Texture" id=54]
+[ext_resource path="res://img/Ground/Dirt/dirtCliff_left.png" type="Texture" id=55]
+[ext_resource path="res://img/Ground/Dirt/dirtCliff_right.png" type="Texture" id=56]
+[ext_resource path="res://img/Ground/Dirt/dirtCorner_left.png" type="Texture" id=57]
+[ext_resource path="res://img/Ground/Dirt/dirtCorner_right.png" type="Texture" id=58]
+[ext_resource path="res://img/Ground/Dirt/dirtHalf.png" type="Texture" id=59]
+[ext_resource path="res://img/Ground/Dirt/dirtHalf_left.png" type="Texture" id=60]
+[ext_resource path="res://img/Ground/Dirt/dirtHalf_mid.png" type="Texture" id=61]
+[ext_resource path="res://img/Ground/Dirt/dirtHalf_right.png" type="Texture" id=62]
+[ext_resource path="res://img/Ground/Dirt/dirtHill_left.png" type="Texture" id=63]
+[ext_resource path="res://img/Ground/Dirt/dirtHill_right.png" type="Texture" id=64]
+[ext_resource path="res://img/Ground/Dirt/dirtLeft.png" type="Texture" id=65]
+[ext_resource path="res://img/Ground/Dirt/dirtMid.png" type="Texture" id=66]
+[ext_resource path="res://img/Ground/Dirt/dirtRight.png" type="Texture" id=67]
+[ext_resource path="res://img/Items/flagRed1.png" type="Texture" id=68]
+[ext_resource path="res://img/Ground/Dirt/dirtCenter_rounded.png" type="Texture" id=69]
+[ext_resource path="res://img/Items/flagYellow1.png" type="Texture" id=70]
 
 [sub_resource type="Animation" id=1]
 
@@ -65,7 +87,7 @@ tracks/0/keys = {
 "times": PoolRealArray( 0, 0.2, 0.4, 0.6, 0.8, 0.9 ),
 "transitions": PoolRealArray( 1, 1, 1, 1, 1, 1 ),
 "update": 1,
-"values": [ ExtResource( 45 ), ExtResource( 46 ), ExtResource( 45 ), ExtResource( 46 ), ExtResource( 45 ), ExtResource( 46 ) ]
+"values": [ ExtResource( 46 ), ExtResource( 47 ), ExtResource( 46 ), ExtResource( 47 ), ExtResource( 46 ), ExtResource( 47 ) ]
 }
 
 [sub_resource type="Animation" id=2]
@@ -81,18 +103,418 @@ tracks/0/loop_wrap = true
 tracks/0/imported = false
 tracks/0/enabled = true
 tracks/0/keys = {
+"times": PoolRealArray( 0, 0.2, 0.4, 0.6, 0.8, 0.9 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1 ),
+"update": 1,
+"values": [ ExtResource( 46 ), ExtResource( 47 ), ExtResource( 46 ), ExtResource( 47 ), ExtResource( 46 ), ExtResource( 47 ) ]
+}
+
+[sub_resource type="Animation" id=3]
+
+length = 1.0
+loop = true
+step = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
 "times": PoolRealArray( 0, 0.5 ),
 "transitions": PoolRealArray( 1, 1 ),
 "update": 1,
-"values": [ ExtResource( 48 ), ExtResource( 47 ) ]
+"values": [ ExtResource( 50 ), ExtResource( 49 ) ]
+}
+
+[sub_resource type="Animation" id=4]
+
+resource_name = "normal"
+length = 1.0
+loop = true
+step = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ ExtResource( 50 ), ExtResource( 49 ) ]
+}
+
+[sub_resource type="Animation" id=5]
+
+resource_name = "normal"
+length = 1.0
+loop = true
+step = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ ExtResource( 50 ), ExtResource( 49 ) ]
+}
+
+[sub_resource type="Animation" id=6]
+
+resource_name = "normal"
+length = 1.0
+loop = true
+step = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ ExtResource( 50 ), ExtResource( 49 ) ]
+}
+
+[sub_resource type="Animation" id=7]
+
+resource_name = "normal"
+length = 1.0
+loop = true
+step = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ ExtResource( 50 ), ExtResource( 49 ) ]
+}
+
+[sub_resource type="Animation" id=8]
+
+resource_name = "normal"
+length = 1.0
+loop = true
+step = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ ExtResource( 50 ), ExtResource( 49 ) ]
+}
+
+[sub_resource type="Animation" id=9]
+
+resource_name = "normal"
+length = 1.0
+loop = true
+step = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ ExtResource( 50 ), ExtResource( 49 ) ]
+}
+
+[sub_resource type="Animation" id=10]
+
+resource_name = "normal"
+length = 1.0
+loop = true
+step = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ ExtResource( 50 ), ExtResource( 49 ) ]
+}
+
+[sub_resource type="Animation" id=11]
+
+resource_name = "normal"
+length = 1.0
+loop = true
+step = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ ExtResource( 50 ), ExtResource( 49 ) ]
+}
+
+[sub_resource type="Animation" id=12]
+
+resource_name = "normal"
+length = 1.0
+loop = true
+step = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ ExtResource( 50 ), ExtResource( 49 ) ]
+}
+
+[sub_resource type="Animation" id=13]
+
+resource_name = "normal"
+length = 1.0
+loop = true
+step = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ ExtResource( 50 ), ExtResource( 49 ) ]
+}
+
+[sub_resource type="Animation" id=14]
+
+resource_name = "normal"
+length = 1.0
+loop = true
+step = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ ExtResource( 50 ), ExtResource( 49 ) ]
+}
+
+[sub_resource type="Animation" id=15]
+
+resource_name = "normal"
+length = 1.0
+loop = true
+step = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ ExtResource( 50 ), ExtResource( 49 ) ]
+}
+
+[sub_resource type="Animation" id=16]
+
+resource_name = "normal"
+length = 1.0
+loop = true
+step = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ ExtResource( 50 ), ExtResource( 49 ) ]
+}
+
+[sub_resource type="Animation" id=17]
+
+resource_name = "normal"
+length = 1.0
+loop = true
+step = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ ExtResource( 50 ), ExtResource( 49 ) ]
+}
+
+[sub_resource type="Animation" id=18]
+
+resource_name = "normal"
+length = 1.0
+loop = true
+step = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ ExtResource( 50 ), ExtResource( 49 ) ]
+}
+
+[sub_resource type="Animation" id=19]
+
+resource_name = "normal"
+length = 1.0
+loop = true
+step = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ ExtResource( 50 ), ExtResource( 49 ) ]
+}
+
+[sub_resource type="Animation" id=20]
+
+resource_name = "normal"
+length = 1.0
+loop = true
+step = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ ExtResource( 50 ), ExtResource( 49 ) ]
+}
+
+[sub_resource type="Animation" id=21]
+
+resource_name = "normal"
+length = 1.0
+loop = true
+step = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ ExtResource( 50 ), ExtResource( 49 ) ]
+}
+
+[sub_resource type="Animation" id=22]
+
+resource_name = "normal"
+length = 1.0
+loop = true
+step = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ ExtResource( 50 ), ExtResource( 49 ) ]
+}
+
+[sub_resource type="Animation" id=23]
+
+resource_name = "normal"
+length = 1.0
+loop = true
+step = 0.1
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ ExtResource( 50 ), ExtResource( 49 ) ]
 }
 
 [node name="tile_set" type="Node2D"]
 
 [node name="0" type="Sprite" parent="." index="0"]
 
-position = Vector2( 65, 65 )
+editor/display_folded = true
+position = Vector2( 64, 64 )
 texture = ExtResource( 1 )
+_sections_unfolded = [ "Transform" ]
 __meta__ = {
 "_edit_group_": true
 }
@@ -123,11 +545,48 @@ angular_damp = -1.0
 build_mode = 0
 polygon = PoolVector2Array( -64, -64, 64, -64, 64, 63, -64, 63 )
 
-[node name="1" type="Sprite" parent="." index="1"]
+[node name="50" type="Sprite" parent="." index="1"]
 
 editor/display_folded = true
-position = Vector2( 323, 65 )
+position = Vector2( 1088, 832 )
 texture = ExtResource( 2 )
+_sections_unfolded = [ "Transform" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="RigidBody2D" type="RigidBody2D" parent="50" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+mode = 0
+mass = 1.0
+friction = 1.0
+bounce = 0.0
+gravity_scale = 1.0
+custom_integrator = false
+continuous_cd = 0
+contacts_reported = 0
+contact_monitor = false
+sleeping = false
+can_sleep = true
+linear_velocity = Vector2( 0, 0 )
+linear_damp = -1.0
+angular_velocity = 0.0
+angular_damp = -1.0
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="50/RigidBody2D" index="0"]
+
+build_mode = 0
+polygon = PoolVector2Array( -64, -64, 64, -64, 64, 63, -64, 63 )
+
+[node name="1" type="Sprite" parent="." index="2"]
+
+editor/display_folded = true
+position = Vector2( 320, 64 )
+texture = ExtResource( 3 )
+_sections_unfolded = [ "Transform" ]
 __meta__ = {
 "_edit_group_": true
 }
@@ -158,11 +617,12 @@ angular_damp = -1.0
 build_mode = 0
 polygon = PoolVector2Array( -64, -64, 64, -64, 64, 63, -64, 63 )
 
-[node name="2" type="Sprite" parent="." index="2"]
+[node name="2" type="Sprite" parent="." index="3"]
 
 editor/display_folded = true
-position = Vector2( 582, 65 )
-texture = ExtResource( 3 )
+position = Vector2( 576, 65 )
+texture = ExtResource( 4 )
+_sections_unfolded = [ "Transform" ]
 __meta__ = {
 "_edit_group_": true
 }
@@ -193,11 +653,12 @@ angular_damp = -1.0
 build_mode = 0
 polygon = PoolVector2Array( -64, -64, 64, -64, 64, 63, -64, 63 )
 
-[node name="3" type="Sprite" parent="." index="3"]
+[node name="3" type="Sprite" parent="." index="4"]
 
 editor/display_folded = true
-position = Vector2( 839, 65 )
-texture = ExtResource( 4 )
+position = Vector2( 832, 65 )
+texture = ExtResource( 5 )
+_sections_unfolded = [ "Transform", "Z Index" ]
 __meta__ = {
 "_edit_group_": true
 }
@@ -228,11 +689,12 @@ angular_damp = -1.0
 build_mode = 0
 polygon = PoolVector2Array( -64, -64, 64, -64, 64, 63, -64, -20 )
 
-[node name="4" type="Sprite" parent="." index="4"]
+[node name="4" type="Sprite" parent="." index="5"]
 
 editor/display_folded = true
-position = Vector2( 1096, 65 )
-texture = ExtResource( 5 )
+position = Vector2( 1088, 65 )
+texture = ExtResource( 6 )
+_sections_unfolded = [ "Transform" ]
 __meta__ = {
 "_edit_group_": true
 }
@@ -263,11 +725,12 @@ angular_damp = -1.0
 build_mode = 0
 polygon = PoolVector2Array( -64, -64, 64, -64, 64, -21, -64, 64 )
 
-[node name="5" type="Sprite" parent="." index="5"]
+[node name="5" type="Sprite" parent="." index="6"]
 
 editor/display_folded = true
-position = Vector2( 65, 324 )
-texture = ExtResource( 6 )
+position = Vector2( 64, 320 )
+texture = ExtResource( 7 )
+_sections_unfolded = [ "Transform" ]
 __meta__ = {
 "_edit_group_": true
 }
@@ -298,11 +761,12 @@ angular_damp = -1.0
 build_mode = 0
 polygon = PoolVector2Array( -64, -64, 64, -64, 64, 65, 22, 59, -13, 49, -44, 27, -57, 10, -64, -12 )
 
-[node name="6" type="Sprite" parent="." index="6"]
+[node name="6" type="Sprite" parent="." index="7"]
 
 editor/display_folded = true
-position = Vector2( 324, 323 )
-texture = ExtResource( 7 )
+position = Vector2( 320, 320 )
+texture = ExtResource( 8 )
+_sections_unfolded = [ "Transform" ]
 __meta__ = {
 "_edit_group_": true
 }
@@ -333,11 +797,12 @@ angular_damp = -1.0
 build_mode = 0
 polygon = PoolVector2Array( -64, -64, 63, -64, 63, -7, 41, 30, 12, 48, -22, 58, -50, 63, -64, 64 )
 
-[node name="7" type="Sprite" parent="." index="7"]
+[node name="7" type="Sprite" parent="." index="8"]
 
 editor/display_folded = true
-position = Vector2( 579, 324 )
-texture = ExtResource( 8 )
+position = Vector2( 576, 320 )
+texture = ExtResource( 9 )
+_sections_unfolded = [ "Transform" ]
 __meta__ = {
 "_edit_group_": true
 }
@@ -369,11 +834,12 @@ angular_damp = -1.0
 build_mode = 0
 polygon = PoolVector2Array( -64, -64, 64, -64, 64, 63, -64, 63 )
 
-[node name="8" type="Sprite" parent="." index="8"]
+[node name="8" type="Sprite" parent="." index="9"]
 
 editor/display_folded = true
-position = Vector2( 840, 324 )
-texture = ExtResource( 9 )
+position = Vector2( 832, 320 )
+texture = ExtResource( 10 )
+_sections_unfolded = [ "Transform" ]
 __meta__ = {
 "_edit_group_": true
 }
@@ -405,11 +871,12 @@ angular_damp = -1.0
 build_mode = 0
 polygon = PoolVector2Array( -64, -64, 64, -64, 64, 63, -64, 63 )
 
-[node name="9" type="Sprite" parent="." index="9"]
+[node name="9" type="Sprite" parent="." index="10"]
 
 editor/display_folded = true
-position = Vector2( 1097, 323 )
-texture = ExtResource( 10 )
+position = Vector2( 1088, 320 )
+texture = ExtResource( 11 )
+_sections_unfolded = [ "Transform" ]
 __meta__ = {
 "_edit_group_": true
 }
@@ -441,11 +908,11 @@ angular_damp = -1.0
 build_mode = 0
 polygon = PoolVector2Array( -64, -64, 64, -64, 64, 63, -64, 63 )
 
-[node name="10" type="Sprite" parent="." index="10"]
+[node name="10" type="Sprite" parent="." index="11"]
 
 editor/display_folded = true
-position = Vector2( 67, 580 )
-texture = ExtResource( 11 )
+position = Vector2( 64, 576 )
+texture = ExtResource( 12 )
 __meta__ = {
 "_edit_group_": true
 }
@@ -477,11 +944,12 @@ angular_damp = -1.0
 build_mode = 0
 polygon = PoolVector2Array( -64, -64, 64, -64, 64, 63, -64, 63 )
 
-[node name="11" type="Sprite" parent="." index="11"]
+[node name="11" type="Sprite" parent="." index="12"]
 
 editor/display_folded = true
-position = Vector2( 324, 580 )
-texture = ExtResource( 12 )
+position = Vector2( 320, 576 )
+texture = ExtResource( 13 )
+_sections_unfolded = [ "Transform" ]
 __meta__ = {
 "_edit_group_": true
 }
@@ -513,11 +981,11 @@ angular_damp = -1.0
 build_mode = 0
 polygon = PoolVector2Array( -64, -64, 64, -64, 64, 63, -64, 63 )
 
-[node name="12" type="Sprite" parent="." index="12"]
+[node name="12" type="Sprite" parent="." index="13"]
 
 editor/display_folded = true
-position = Vector2( 582, 582 )
-texture = ExtResource( 13 )
+position = Vector2( 576, 576 )
+texture = ExtResource( 14 )
 __meta__ = {
 "_edit_group_": true
 }
@@ -548,11 +1016,12 @@ angular_damp = -1.0
 build_mode = 0
 polygon = PoolVector2Array( -64, -64, 64, -64, 64, 10, -64, 10 )
 
-[node name="13" type="Sprite" parent="." index="13"]
+[node name="13" type="Sprite" parent="." index="14"]
 
 editor/display_folded = true
-position = Vector2( 839, 581 )
-texture = ExtResource( 14 )
+position = Vector2( 832, 576 )
+texture = ExtResource( 15 )
+_sections_unfolded = [ "Transform" ]
 __meta__ = {
 "_edit_group_": true
 }
@@ -583,11 +1052,12 @@ angular_damp = -1.0
 build_mode = 0
 polygon = PoolVector2Array( -64, -64, 64, -64, 64, 10, -64, 10 )
 
-[node name="14" type="Sprite" parent="." index="14"]
+[node name="14" type="Sprite" parent="." index="15"]
 
 editor/display_folded = true
-position = Vector2( 1098, 582 )
-texture = ExtResource( 15 )
+position = Vector2( 1088, 576 )
+texture = ExtResource( 16 )
+_sections_unfolded = [ "Transform" ]
 __meta__ = {
 "_edit_group_": true
 }
@@ -618,11 +1088,12 @@ angular_damp = -1.0
 build_mode = 0
 polygon = PoolVector2Array( -64, -64, 64, -64, 64, 10, -64, 10 )
 
-[node name="15" type="Sprite" parent="." index="15"]
+[node name="15" type="Sprite" parent="." index="16"]
 
 editor/display_folded = true
-position = Vector2( 65, 840 )
-texture = ExtResource( 16 )
+position = Vector2( 64, 832 )
+texture = ExtResource( 17 )
+_sections_unfolded = [ "Transform" ]
 __meta__ = {
 "_edit_group_": true
 }
@@ -653,11 +1124,12 @@ angular_damp = -1.0
 build_mode = 0
 polygon = PoolVector2Array( -64, -64, 64, -64, 64, 10, -64, 10 )
 
-[node name="16" type="Sprite" parent="." index="16"]
+[node name="16" type="Sprite" parent="." index="17"]
 
 editor/display_folded = true
-position = Vector2( 321, 840 )
-texture = ExtResource( 17 )
+position = Vector2( 320, 832 )
+texture = ExtResource( 18 )
+_sections_unfolded = [ "Transform" ]
 __meta__ = {
 "_edit_group_": true
 }
@@ -688,11 +1160,12 @@ angular_damp = -1.0
 build_mode = 0
 polygon = PoolVector2Array( -64, -64, 66, 64, -64, 64 )
 
-[node name="17" type="Sprite" parent="." index="17"]
+[node name="17" type="Sprite" parent="." index="18"]
 
 editor/display_folded = true
-position = Vector2( 582, 837 )
-texture = ExtResource( 18 )
+position = Vector2( 576, 832 )
+texture = ExtResource( 19 )
+_sections_unfolded = [ "Transform" ]
 __meta__ = {
 "_edit_group_": true
 }
@@ -723,13 +1196,14 @@ angular_damp = -1.0
 build_mode = 0
 polygon = PoolVector2Array( 64, -63, 66, 64, -64, 64 )
 
-[node name="18" type="Sprite" parent="." index="18" groups=[
+[node name="18" type="Sprite" parent="." index="19" groups=[
 "Box_coins",
 ]]
 
 editor/display_folded = true
-position = Vector2( 67, 1096 )
-texture = ExtResource( 19 )
+position = Vector2( 64, 1088 )
+texture = ExtResource( 20 )
+_sections_unfolded = [ "Transform" ]
 __meta__ = {
 "_edit_group_": true
 }
@@ -760,13 +1234,14 @@ angular_damp = -1.0
 build_mode = 0
 polygon = PoolVector2Array( -64, -64, 64, -64, 64, 63, -64, 63 )
 
-[node name="19" type="Sprite" parent="." index="19" groups=[
+[node name="19" type="Sprite" parent="." index="20" groups=[
 "Box_coins",
 ]]
 
 editor/display_folded = true
-position = Vector2( 320, 1099 )
-texture = ExtResource( 20 )
+position = Vector2( 576, 1088 )
+texture = ExtResource( 21 )
+_sections_unfolded = [ "Transform" ]
 __meta__ = {
 "_edit_group_": true
 }
@@ -797,11 +1272,12 @@ angular_damp = -1.0
 build_mode = 0
 polygon = PoolVector2Array( -64, -64, 64, -64, 64, 63, -64, 63 )
 
-[node name="20" type="Sprite" parent="." index="20"]
+[node name="20" type="Sprite" parent="." index="21"]
 
 editor/display_folded = true
-position = Vector2( 581, 1099 )
-texture = ExtResource( 21 )
+position = Vector2( 320, 1088 )
+texture = ExtResource( 22 )
+_sections_unfolded = [ "Transform" ]
 __meta__ = {
 "_edit_group_": true
 }
@@ -832,11 +1308,12 @@ angular_damp = -1.0
 build_mode = 0
 polygon = PoolVector2Array( -64, -64, 64, -64, 64, 63, -64, 63 )
 
-[node name="21" type="Sprite" parent="." index="21"]
+[node name="21" type="Sprite" parent="." index="22"]
 
 editor/display_folded = true
-position = Vector2( 837, 1099 )
-texture = ExtResource( 22 )
+position = Vector2( 832, 1088 )
+texture = ExtResource( 23 )
+_sections_unfolded = [ "Transform" ]
 __meta__ = {
 "_edit_group_": true
 }
@@ -867,13 +1344,14 @@ angular_damp = -1.0
 build_mode = 0
 polygon = PoolVector2Array( -64, -64, 64, -64, 64, 63, -64, 63 )
 
-[node name="22" type="Sprite" parent="." index="22" groups=[
+[node name="22" type="Sprite" parent="." index="23" groups=[
 "Box_explosive",
 ]]
 
 editor/display_folded = true
-position = Vector2( 1096, 1096 )
-texture = ExtResource( 23 )
+position = Vector2( 1088, 1088 )
+texture = ExtResource( 24 )
+_sections_unfolded = [ "Transform" ]
 __meta__ = {
 "_edit_group_": true
 }
@@ -904,13 +1382,13 @@ angular_damp = -1.0
 build_mode = 0
 polygon = PoolVector2Array( -64, -64, 64, -64, 64, 63, -64, 63 )
 
-[node name="23" type="Sprite" parent="." index="23" groups=[
+[node name="23" type="Sprite" parent="." index="24" groups=[
 "Box_item",
 ]]
 
 editor/display_folded = true
-position = Vector2( 63, 1354 )
-texture = ExtResource( 24 )
+position = Vector2( 64, 1344 )
+texture = ExtResource( 25 )
 __meta__ = {
 "_edit_group_": true
 }
@@ -941,12 +1419,13 @@ angular_damp = -1.0
 build_mode = 0
 polygon = PoolVector2Array( -64, -64, 64, -64, 64, 63, -64, 63 )
 
-[node name="24" type="Sprite" parent="." index="24" groups=[
+[node name="24" type="Sprite" parent="." index="25" groups=[
 "Box_item",
 ]]
 
-position = Vector2( 323, 1356 )
-texture = ExtResource( 25 )
+editor/display_folded = true
+position = Vector2( 320, 1344 )
+texture = ExtResource( 26 )
 __meta__ = {
 "_edit_group_": true
 }
@@ -977,11 +1456,11 @@ angular_damp = -1.0
 build_mode = 0
 polygon = PoolVector2Array( -64, -64, 64, -64, 64, 63, -64, 63 )
 
-[node name="25" type="Sprite" parent="." index="25"]
+[node name="25" type="Sprite" parent="." index="26"]
 
 editor/display_folded = true
-position = Vector2( 579, 1356 )
-texture = ExtResource( 26 )
+position = Vector2( 576, 1344 )
+texture = ExtResource( 27 )
 __meta__ = {
 "_edit_group_": true
 }
@@ -1012,11 +1491,11 @@ angular_damp = -1.0
 build_mode = 0
 polygon = PoolVector2Array( -64, -64, 64, -64, 64, 63, -64, 63 )
 
-[node name="26" type="Sprite" parent="." index="26"]
+[node name="26" type="Sprite" parent="." index="27"]
 
 editor/display_folded = true
-position = Vector2( 840, 1354 )
-texture = ExtResource( 27 )
+position = Vector2( 832, 1344 )
+texture = ExtResource( 28 )
 __meta__ = {
 "_edit_group_": true
 }
@@ -1047,11 +1526,11 @@ angular_damp = -1.0
 build_mode = 0
 polygon = PoolVector2Array( -64, -64, 64, -64, 64, 63, -64, 63 )
 
-[node name="27" type="Sprite" parent="." index="27"]
+[node name="27" type="Sprite" parent="." index="28"]
 
 editor/display_folded = true
-position = Vector2( 1097, 1356 )
-texture = ExtResource( 28 )
+position = Vector2( 1088, 1344 )
+texture = ExtResource( 29 )
 __meta__ = {
 "_edit_group_": true
 }
@@ -1082,11 +1561,11 @@ angular_damp = -1.0
 build_mode = 0
 polygon = PoolVector2Array( -64, -64, 64, -64, 64, -16, -64, -17 )
 
-[node name="28" type="Sprite" parent="." index="28"]
+[node name="28" type="Sprite" parent="." index="29"]
 
 editor/display_folded = true
-position = Vector2( 64, 1614 )
-texture = ExtResource( 29 )
+position = Vector2( 64, 1600 )
+texture = ExtResource( 30 )
 __meta__ = {
 "_edit_group_": true
 }
@@ -1117,106 +1596,108 @@ angular_damp = -1.0
 build_mode = 0
 polygon = PoolVector2Array( -64, -64, 64, -64, 64, -16, -64, -17 )
 
-[node name="29" type="Sprite" parent="." index="29"]
+[node name="29" type="Sprite" parent="." index="30"]
 
-position = Vector2( 322, 1613 )
-texture = ExtResource( 30 )
-__meta__ = {
-"_edit_group_": true
-}
-
-[node name="30" type="Sprite" parent="." index="30"]
-
-position = Vector2( 580, 1615 )
+position = Vector2( 320, 1600 )
 texture = ExtResource( 31 )
 __meta__ = {
 "_edit_group_": true
 }
 
-[node name="31" type="Sprite" parent="." index="31"]
+[node name="30" type="Sprite" parent="." index="31"]
 
-position = Vector2( 838, 1615 )
+position = Vector2( 576, 1600 )
 texture = ExtResource( 32 )
 __meta__ = {
 "_edit_group_": true
 }
 
-[node name="32" type="Sprite" parent="." index="32"]
+[node name="31" type="Sprite" parent="." index="32"]
 
-position = Vector2( 1098, 1615 )
+position = Vector2( 832, 1600 )
 texture = ExtResource( 33 )
 __meta__ = {
 "_edit_group_": true
 }
 
-[node name="33" type="Sprite" parent="." index="33"]
+[node name="32" type="Sprite" parent="." index="33"]
 
-position = Vector2( 65, 1871 )
+position = Vector2( 1088, 1600 )
 texture = ExtResource( 34 )
 __meta__ = {
 "_edit_group_": true
 }
 
-[node name="34" type="Sprite" parent="." index="34"]
+[node name="33" type="Sprite" parent="." index="34"]
 
-position = Vector2( 325, 1873 )
+position = Vector2( 64, 1856 )
 texture = ExtResource( 35 )
 __meta__ = {
 "_edit_group_": true
 }
 
-[node name="35" type="Sprite" parent="." index="35"]
+[node name="34" type="Sprite" parent="." index="35"]
 
-position = Vector2( 579, 1871 )
+position = Vector2( 320, 1856 )
 texture = ExtResource( 36 )
 __meta__ = {
 "_edit_group_": true
 }
 
-[node name="36" type="Sprite" parent="." index="36"]
+[node name="35" type="Sprite" parent="." index="36"]
 
-position = Vector2( 839, 1872 )
+position = Vector2( 576, 1856 )
 texture = ExtResource( 37 )
 __meta__ = {
 "_edit_group_": true
 }
 
-[node name="37" type="Sprite" parent="." index="37"]
+[node name="36" type="Sprite" parent="." index="37"]
 
-position = Vector2( 1097, 1871 )
+position = Vector2( 832, 1856 )
 texture = ExtResource( 38 )
 __meta__ = {
 "_edit_group_": true
 }
 
-[node name="38" type="Sprite" parent="." index="38"]
+[node name="37" type="Sprite" parent="." index="38"]
 
-position = Vector2( 65, 2128 )
+position = Vector2( 1088, 1856 )
 texture = ExtResource( 39 )
 __meta__ = {
 "_edit_group_": true
 }
 
-[node name="39" type="Sprite" parent="." index="39"]
+[node name="38" type="Sprite" parent="." index="39"]
 
-position = Vector2( 323, 2129 )
+position = Vector2( 64, 2112 )
 texture = ExtResource( 40 )
 __meta__ = {
 "_edit_group_": true
 }
 
-[node name="40" type="Sprite" parent="." index="40"]
+[node name="39" type="Sprite" parent="." index="40"]
 
-position = Vector2( 580, 2128 )
+position = Vector2( 320, 2112 )
 texture = ExtResource( 41 )
 __meta__ = {
 "_edit_group_": true
 }
 
-[node name="41" type="Sprite" parent="." index="41"]
+[node name="40" type="Sprite" parent="." index="41"]
 
-position = Vector2( 580, 2129 )
-texture = ExtResource( 41 )
+position = Vector2( 580, 2128 )
+texture = ExtResource( 42 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="41" type="Sprite" parent="." index="42"]
+
+editor/display_folded = true
+position = Vector2( 576, 2112 )
+texture = ExtResource( 42 )
+_sections_unfolded = [ "Transform" ]
 __meta__ = {
 "_edit_group_": true
 }
@@ -1230,7 +1711,7 @@ linear_damp = 0.1
 angular_damp = 1.0
 audio_bus_override = false
 audio_bus_name = "Master"
-script = ExtResource( 42 )
+script = ExtResource( 43 )
 _sections_unfolded = [ "Collision", "Pickable", "Transform" ]
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="41/Area2D" index="0"]
@@ -1238,27 +1719,29 @@ _sections_unfolded = [ "Collision", "Pickable", "Transform" ]
 build_mode = 0
 polygon = PoolVector2Array( -64, -64, 64, -64, 64, 63, -64, 63 )
 
-[node name="42" type="Sprite" parent="." index="42"]
+[node name="42" type="Sprite" parent="." index="43"]
 
-position = Vector2( 838, 2129 )
-texture = ExtResource( 43 )
-__meta__ = {
-"_edit_group_": true
-}
-
-[node name="43" type="Sprite" parent="." index="43"]
-
-position = Vector2( 1096, 2129 )
+position = Vector2( 832, 2112 )
 texture = ExtResource( 44 )
+_sections_unfolded = [ "Transform" ]
 __meta__ = {
 "_edit_group_": true
 }
 
-[node name="44" type="Sprite" parent="." index="44"]
+[node name="43" type="Sprite" parent="." index="44"]
+
+position = Vector2( 1088, 2112 )
+texture = ExtResource( 45 )
+_sections_unfolded = [ "Transform" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="44" type="Sprite" parent="." index="45"]
 
 editor/display_folded = true
-position = Vector2( 65, 2386 )
-texture = ExtResource( 45 )
+position = Vector2( 64, 2368 )
+texture = ExtResource( 46 )
 __meta__ = {
 "_edit_group_": true
 }
@@ -1273,10 +1756,30 @@ playback_speed = 1.0
 anims/normal = SubResource( 1 )
 blend_times = [  ]
 
-[node name="45" type="Sprite" parent="." index="45"]
+[node name="51" type="Sprite" parent="." index="46"]
 
-position = Vector2( 322, 2387 )
-texture = ExtResource( 47 )
+editor/display_folded = true
+position = Vector2( 832, 2624 )
+texture = ExtResource( 48 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="51" index="0"]
+
+root_node = NodePath("..")
+autoplay = ""
+playback_process_mode = 1
+playback_default_blend_time = 0.0
+playback_speed = 1.0
+anims/normal = SubResource( 2 )
+blend_times = [  ]
+
+[node name="45" type="Sprite" parent="." index="47"]
+
+editor/display_folded = true
+position = Vector2( 320, 2368 )
+texture = ExtResource( 49 )
 __meta__ = {
 "_edit_group_": true
 }
@@ -1288,7 +1791,406 @@ autoplay = ""
 playback_process_mode = 1
 playback_default_blend_time = 0.0
 playback_speed = 1.0
-anims/normal = SubResource( 2 )
+anims/normal = SubResource( 3 )
+blend_times = [  ]
+
+[node name="55" type="Sprite" parent="." index="48"]
+
+editor/display_folded = true
+position = Vector2( 576, 2624 )
+texture = ExtResource( 51 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="55" index="0"]
+
+root_node = NodePath("..")
+autoplay = ""
+playback_process_mode = 1
+playback_default_blend_time = 0.0
+playback_speed = 1.0
+anims/normal = SubResource( 4 )
+blend_times = [  ]
+
+[node name="46" type="Sprite" parent="." index="49"]
+
+editor/display_folded = true
+position = Vector2( 576, 2368 )
+texture = ExtResource( 52 )
+_sections_unfolded = [ "Transform", "Z Index" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="46" index="0"]
+
+root_node = NodePath("..")
+autoplay = ""
+playback_process_mode = 1
+playback_default_blend_time = 0.0
+playback_speed = 1.0
+anims/normal = SubResource( 5 )
+blend_times = [  ]
+
+[node name="53" type="Sprite" parent="." index="50"]
+
+editor/display_folded = true
+position = Vector2( 64, 2624 )
+texture = ExtResource( 53 )
+_sections_unfolded = [ "Transform", "Z Index" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="53" index="0"]
+
+root_node = NodePath("..")
+autoplay = ""
+playback_process_mode = 1
+playback_default_blend_time = 0.0
+playback_speed = 1.0
+anims/normal = SubResource( 6 )
+blend_times = [  ]
+
+[node name="47" type="Sprite" parent="." index="51"]
+
+editor/display_folded = true
+position = Vector2( 832, 2368 )
+texture = ExtResource( 54 )
+_sections_unfolded = [ "Transform" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="47" index="0"]
+
+root_node = NodePath("..")
+autoplay = ""
+playback_process_mode = 1
+playback_default_blend_time = 0.0
+playback_speed = 1.0
+anims/normal = SubResource( 7 )
+blend_times = [  ]
+
+[node name="52" type="Sprite" parent="." index="52"]
+
+editor/display_folded = true
+position = Vector2( 1088, 2624 )
+texture = ExtResource( 55 )
+_sections_unfolded = [ "Transform" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="52" index="0"]
+
+root_node = NodePath("..")
+autoplay = ""
+playback_process_mode = 1
+playback_default_blend_time = 0.0
+playback_speed = 1.0
+anims/normal = SubResource( 8 )
+blend_times = [  ]
+
+[node name="56" type="Sprite" parent="." index="53"]
+
+editor/display_folded = true
+position = Vector2( 64, 2880 )
+texture = ExtResource( 56 )
+_sections_unfolded = [ "Transform" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="56" index="0"]
+
+root_node = NodePath("..")
+autoplay = ""
+playback_process_mode = 1
+playback_default_blend_time = 0.0
+playback_speed = 1.0
+anims/normal = SubResource( 9 )
+blend_times = [  ]
+
+[node name="57" type="Sprite" parent="." index="54"]
+
+editor/display_folded = true
+position = Vector2( 320, 2880 )
+texture = ExtResource( 57 )
+_sections_unfolded = [ "Transform" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="57" index="0"]
+
+root_node = NodePath("..")
+autoplay = ""
+playback_process_mode = 1
+playback_default_blend_time = 0.0
+playback_speed = 1.0
+anims/normal = SubResource( 10 )
+blend_times = [  ]
+
+[node name="58" type="Sprite" parent="." index="55"]
+
+editor/display_folded = true
+position = Vector2( 576, 2880 )
+texture = ExtResource( 58 )
+_sections_unfolded = [ "Transform" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="58" index="0"]
+
+root_node = NodePath("..")
+autoplay = ""
+playback_process_mode = 1
+playback_default_blend_time = 0.0
+playback_speed = 1.0
+anims/normal = SubResource( 11 )
+blend_times = [  ]
+
+[node name="59" type="Sprite" parent="." index="56"]
+
+editor/display_folded = true
+position = Vector2( 832, 2880 )
+texture = ExtResource( 59 )
+_sections_unfolded = [ "Transform" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="59" index="0"]
+
+root_node = NodePath("..")
+autoplay = ""
+playback_process_mode = 1
+playback_default_blend_time = 0.0
+playback_speed = 1.0
+anims/normal = SubResource( 12 )
+blend_times = [  ]
+
+[node name="60" type="Sprite" parent="." index="57"]
+
+editor/display_folded = true
+position = Vector2( 1088, 2880 )
+texture = ExtResource( 60 )
+_sections_unfolded = [ "Transform" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="60" index="0"]
+
+root_node = NodePath("..")
+autoplay = ""
+playback_process_mode = 1
+playback_default_blend_time = 0.0
+playback_speed = 1.0
+anims/normal = SubResource( 13 )
+blend_times = [  ]
+
+[node name="61" type="Sprite" parent="." index="58"]
+
+editor/display_folded = true
+position = Vector2( 1088, 3136 )
+texture = ExtResource( 61 )
+_sections_unfolded = [ "Transform" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="61" index="0"]
+
+root_node = NodePath("..")
+autoplay = ""
+playback_process_mode = 1
+playback_default_blend_time = 0.0
+playback_speed = 1.0
+anims/normal = SubResource( 14 )
+blend_times = [  ]
+
+[node name="62" type="Sprite" parent="." index="59"]
+
+editor/display_folded = true
+position = Vector2( 832, 3136 )
+texture = ExtResource( 62 )
+_sections_unfolded = [ "Transform" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="62" index="0"]
+
+root_node = NodePath("..")
+autoplay = ""
+playback_process_mode = 1
+playback_default_blend_time = 0.0
+playback_speed = 1.0
+anims/normal = SubResource( 15 )
+blend_times = [  ]
+
+[node name="63" type="Sprite" parent="." index="60"]
+
+editor/display_folded = true
+position = Vector2( 576, 3136 )
+texture = ExtResource( 63 )
+_sections_unfolded = [ "Transform" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="63" index="0"]
+
+root_node = NodePath("..")
+autoplay = ""
+playback_process_mode = 1
+playback_default_blend_time = 0.0
+playback_speed = 1.0
+anims/normal = SubResource( 16 )
+blend_times = [  ]
+
+[node name="64" type="Sprite" parent="." index="61"]
+
+editor/display_folded = true
+position = Vector2( 320, 3136 )
+texture = ExtResource( 64 )
+_sections_unfolded = [ "Transform" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="64" index="0"]
+
+root_node = NodePath("..")
+autoplay = ""
+playback_process_mode = 1
+playback_default_blend_time = 0.0
+playback_speed = 1.0
+anims/normal = SubResource( 17 )
+blend_times = [  ]
+
+[node name="65" type="Sprite" parent="." index="62"]
+
+editor/display_folded = true
+position = Vector2( 64, 3136 )
+texture = ExtResource( 65 )
+_sections_unfolded = [ "Transform" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="65" index="0"]
+
+root_node = NodePath("..")
+autoplay = ""
+playback_process_mode = 1
+playback_default_blend_time = 0.0
+playback_speed = 1.0
+anims/normal = SubResource( 18 )
+blend_times = [  ]
+
+[node name="66" type="Sprite" parent="." index="63"]
+
+editor/display_folded = true
+position = Vector2( 64, 3392 )
+texture = ExtResource( 66 )
+_sections_unfolded = [ "Transform" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="66" index="0"]
+
+root_node = NodePath("..")
+autoplay = ""
+playback_process_mode = 1
+playback_default_blend_time = 0.0
+playback_speed = 1.0
+anims/normal = SubResource( 19 )
+blend_times = [  ]
+
+[node name="67" type="Sprite" parent="." index="64"]
+
+editor/display_folded = true
+position = Vector2( 320, 3392 )
+texture = ExtResource( 67 )
+_sections_unfolded = [ "Transform" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="67" index="0"]
+
+root_node = NodePath("..")
+autoplay = ""
+playback_process_mode = 1
+playback_default_blend_time = 0.0
+playback_speed = 1.0
+anims/normal = SubResource( 20 )
+blend_times = [  ]
+
+[node name="48" type="Sprite" parent="." index="65"]
+
+editor/display_folded = true
+position = Vector2( 1088, 2368 )
+texture = ExtResource( 68 )
+_sections_unfolded = [ "Transform" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="48" index="0"]
+
+root_node = NodePath("..")
+autoplay = ""
+playback_process_mode = 1
+playback_default_blend_time = 0.0
+playback_speed = 1.0
+anims/normal = SubResource( 21 )
+blend_times = [  ]
+
+[node name="54" type="Sprite" parent="." index="66"]
+
+editor/display_folded = true
+position = Vector2( 320, 2624 )
+texture = ExtResource( 69 )
+_sections_unfolded = [ "Transform" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="54" index="0"]
+
+root_node = NodePath("..")
+autoplay = ""
+playback_process_mode = 1
+playback_default_blend_time = 0.0
+playback_speed = 1.0
+anims/normal = SubResource( 22 )
+blend_times = [  ]
+
+[node name="49" type="Sprite" parent="." index="67"]
+
+editor/display_folded = true
+position = Vector2( 832, 832 )
+texture = ExtResource( 70 )
+_sections_unfolded = [ "Transform" ]
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="49" index="0"]
+
+root_node = NodePath("..")
+autoplay = ""
+playback_process_mode = 1
+playback_default_blend_time = 0.0
+playback_speed = 1.0
+anims/normal = SubResource( 23 )
 blend_times = [  ]
 
 
