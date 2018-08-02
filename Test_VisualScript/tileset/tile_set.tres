@@ -1,4 +1,4 @@
-[gd_resource type="TileSet" load_steps=77 format=2]
+[gd_resource type="TileSet" load_steps=79 format=2]
 
 [ext_resource path="res://img/Ground/Grass/grassCenter.png" type="Texture" id=1]
 [ext_resource path="res://img/Ground/Grass/grass.png" type="Texture" id=2]
@@ -35,18 +35,19 @@
 [ext_resource path="res://img/Tiles/rock.png" type="Texture" id=33]
 [ext_resource path="res://img/Tiles/sign.png" type="Texture" id=34]
 [ext_resource path="res://img/Ground/Grass/grassCliffAlt_right.png" type="Texture" id=35]
-[ext_resource path="res://img/Tiles/signExit.png" type="Texture" id=36]
-[ext_resource path="res://img/Tiles/signLeft.png" type="Texture" id=37]
-[ext_resource path="res://img/Tiles/signRight.png" type="Texture" id=38]
-[ext_resource path="res://img/Tiles/torch1.png" type="Texture" id=39]
-[ext_resource path="res://img/Tiles/waterTop_high.png" type="Texture" id=40]
-[ext_resource path="res://img/Tiles/weight.png" type="Texture" id=41]
-[ext_resource path="res://img/Tiles/window.png" type="Texture" id=42]
-[ext_resource path="res://img/Ground/Grass/grassCliff_left.png" type="Texture" id=43]
-[ext_resource path="res://img/Ground/Grass/grassCliff_right.png" type="Texture" id=44]
-[ext_resource path="res://img/Ground/Grass/grassCorner_left.png" type="Texture" id=45]
-[ext_resource path="res://img/Ground/Grass/grassCorner_right.png" type="Texture" id=46]
-[ext_resource path="res://img/Ground/Grass/grassMid.png" type="Texture" id=47]
+[ext_resource path="res://scripts/EXIT.vs" type="Script" id=36]
+[ext_resource path="res://img/Tiles/signExit.png" type="Texture" id=37]
+[ext_resource path="res://img/Tiles/signLeft.png" type="Texture" id=38]
+[ext_resource path="res://img/Tiles/signRight.png" type="Texture" id=39]
+[ext_resource path="res://img/Tiles/torch1.png" type="Texture" id=40]
+[ext_resource path="res://img/Tiles/waterTop_high.png" type="Texture" id=41]
+[ext_resource path="res://img/Tiles/weight.png" type="Texture" id=42]
+[ext_resource path="res://img/Tiles/window.png" type="Texture" id=43]
+[ext_resource path="res://img/Ground/Grass/grassCliff_left.png" type="Texture" id=44]
+[ext_resource path="res://img/Ground/Grass/grassCliff_right.png" type="Texture" id=45]
+[ext_resource path="res://img/Ground/Grass/grassCorner_left.png" type="Texture" id=46]
+[ext_resource path="res://img/Ground/Grass/grassCorner_right.png" type="Texture" id=47]
+[ext_resource path="res://img/Ground/Grass/grassMid.png" type="Texture" id=48]
 
 [sub_resource type="ConvexPolygonShape2D" id=1]
 
@@ -168,20 +169,21 @@ points = PoolVector2Array( -64, -64, 64, -64, 64, 63, -64, -20 )
 custom_solver_bias = 0.0
 points = PoolVector2Array( -64, -64, 64, -64, 64, -21, -64, 64 )
 
-[sub_resource type="ConvexPolygonShape2D" id=25]
+[sub_resource type="RectangleShape2D" id=25]
 
 custom_solver_bias = 0.0
-points = PoolVector2Array( -64, -64, 64, -64, 64, 65, 22, 59, -13, 49, -44, 27, -57, 10, -64, -12 )
+extents = Vector2( 10, 10 )
+script = ExtResource( 36 )
 
 [sub_resource type="ConvexPolygonShape2D" id=26]
 
 custom_solver_bias = 0.0
-points = PoolVector2Array( -64, -64, 63, -64, 63, -7, 41, 30, 12, 48, -22, 58, -50, 63, -64, 64 )
+points = PoolVector2Array( -64, -64, 64, -64, 64, 65, 22, 59, -13, 49, -44, 27, -57, 10, -64, -12 )
 
 [sub_resource type="ConvexPolygonShape2D" id=27]
 
 custom_solver_bias = 0.0
-points = PoolVector2Array( -64, -64, 64, -64, 64, 63, -64, 63 )
+points = PoolVector2Array( -64, -64, 63, -64, 63, -7, 41, 30, 12, 48, -22, 58, -50, 63, -64, 64 )
 
 [sub_resource type="ConvexPolygonShape2D" id=28]
 
@@ -189,6 +191,11 @@ custom_solver_bias = 0.0
 points = PoolVector2Array( -64, -64, 64, -64, 64, 63, -64, 63 )
 
 [sub_resource type="ConvexPolygonShape2D" id=29]
+
+custom_solver_bias = 0.0
+points = PoolVector2Array( -64, -64, 64, -64, 64, 63, -64, 63 )
+
+[sub_resource type="ConvexPolygonShape2D" id=30]
 
 custom_solver_bias = 0.0
 points = PoolVector2Array( -64, -64, 64, -64, 64, 63, -64, 63 )
@@ -266,7 +273,7 @@ points = PoolVector2Array( -64, -64, 64, -64, 64, 63, -64, 63 )
 "shape_transform": Transform2D( 1, 0, 0, 1, 64, 64 )
 } ]
 5/name = "5"
-5/texture = ExtResource( 43 )
+5/texture = ExtResource( 44 )
 5/tex_offset = Vector2( 0, 0 )
 5/modulate = Color( 1, 1, 1, 1 )
 5/region = Rect2( 0, 0, 128, 128 )
@@ -276,11 +283,11 @@ points = PoolVector2Array( -64, -64, 64, -64, 64, 63, -64, 63 )
 5/shapes = [ {
 "autotile_coord": Vector2( 0, 0 ),
 "one_way": false,
-"shape": SubResource( 25 ),
+"shape": SubResource( 26 ),
 "shape_transform": Transform2D( 1, 0, 0, 1, 64, 64 )
 } ]
 6/name = "6"
-6/texture = ExtResource( 44 )
+6/texture = ExtResource( 45 )
 6/tex_offset = Vector2( 0, 0 )
 6/modulate = Color( 1, 1, 1, 1 )
 6/region = Rect2( 0, 0, 128, 128 )
@@ -290,11 +297,11 @@ points = PoolVector2Array( -64, -64, 64, -64, 64, 63, -64, 63 )
 6/shapes = [ {
 "autotile_coord": Vector2( 0, 0 ),
 "one_way": false,
-"shape": SubResource( 26 ),
+"shape": SubResource( 27 ),
 "shape_transform": Transform2D( 1, 0, 0, 1, 64, 64 )
 } ]
 7/name = "7"
-7/texture = ExtResource( 45 )
+7/texture = ExtResource( 46 )
 7/tex_offset = Vector2( 0, 0 )
 7/modulate = Color( 1, 1, 1, 1 )
 7/region = Rect2( 0, 0, 128, 128 )
@@ -304,11 +311,11 @@ points = PoolVector2Array( -64, -64, 64, -64, 64, 63, -64, 63 )
 7/shapes = [ {
 "autotile_coord": Vector2( 0, 0 ),
 "one_way": false,
-"shape": SubResource( 27 ),
+"shape": SubResource( 28 ),
 "shape_transform": Transform2D( 1, 0, 0, 1, 64, 64 )
 } ]
 8/name = "8"
-8/texture = ExtResource( 46 )
+8/texture = ExtResource( 47 )
 8/tex_offset = Vector2( 0, 0 )
 8/modulate = Color( 1, 1, 1, 1 )
 8/region = Rect2( 0, 0, 128, 128 )
@@ -318,11 +325,11 @@ points = PoolVector2Array( -64, -64, 64, -64, 64, 63, -64, 63 )
 8/shapes = [ {
 "autotile_coord": Vector2( 0, 0 ),
 "one_way": false,
-"shape": SubResource( 28 ),
+"shape": SubResource( 29 ),
 "shape_transform": Transform2D( 1, 0, 0, 1, 64, 64 )
 } ]
 9/name = "9"
-9/texture = ExtResource( 47 )
+9/texture = ExtResource( 48 )
 9/tex_offset = Vector2( 0, 0 )
 9/modulate = Color( 1, 1, 1, 1 )
 9/region = Rect2( 0, 0, 128, 128 )
@@ -332,7 +339,7 @@ points = PoolVector2Array( -64, -64, 64, -64, 64, 63, -64, 63 )
 9/shapes = [ {
 "autotile_coord": Vector2( 0, 0 ),
 "one_way": false,
-"shape": SubResource( 29 ),
+"shape": SubResource( 30 ),
 "shape_transform": Transform2D( 1, 0, 0, 1, 64, 64 )
 } ]
 10/name = "10"
@@ -701,16 +708,21 @@ points = PoolVector2Array( -64, -64, 64, -64, 64, 63, -64, 63 )
 39/navigation_offset = Vector2( 64, 64 )
 39/shapes = [  ]
 40/name = "40"
-40/texture = ExtResource( 36 )
+40/texture = ExtResource( 37 )
 40/tex_offset = Vector2( 0, 0 )
 40/modulate = Color( 1, 1, 1, 1 )
 40/region = Rect2( 0, 0, 128, 128 )
 40/is_autotile = false
 40/occluder_offset = Vector2( 64, 64 )
 40/navigation_offset = Vector2( 64, 64 )
-40/shapes = [  ]
+40/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": true,
+"shape": SubResource( 25 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 41/name = "41"
-41/texture = ExtResource( 36 )
+41/texture = ExtResource( 37 )
 41/tex_offset = Vector2( 0, 0 )
 41/modulate = Color( 1, 1, 1, 1 )
 41/region = Rect2( 0, 0, 128, 128 )
@@ -719,7 +731,7 @@ points = PoolVector2Array( -64, -64, 64, -64, 64, 63, -64, 63 )
 41/navigation_offset = Vector2( 64, 64 )
 41/shapes = [  ]
 42/name = "42"
-42/texture = ExtResource( 37 )
+42/texture = ExtResource( 38 )
 42/tex_offset = Vector2( 0, 0 )
 42/modulate = Color( 1, 1, 1, 1 )
 42/region = Rect2( 0, 0, 128, 128 )
@@ -728,7 +740,7 @@ points = PoolVector2Array( -64, -64, 64, -64, 64, 63, -64, 63 )
 42/navigation_offset = Vector2( 64, 64 )
 42/shapes = [  ]
 43/name = "43"
-43/texture = ExtResource( 38 )
+43/texture = ExtResource( 39 )
 43/tex_offset = Vector2( 0, 0 )
 43/modulate = Color( 1, 1, 1, 1 )
 43/region = Rect2( 0, 0, 128, 128 )
@@ -737,7 +749,7 @@ points = PoolVector2Array( -64, -64, 64, -64, 64, 63, -64, 63 )
 43/navigation_offset = Vector2( 64, 64 )
 43/shapes = [  ]
 44/name = "44"
-44/texture = ExtResource( 39 )
+44/texture = ExtResource( 40 )
 44/tex_offset = Vector2( 0, 0 )
 44/modulate = Color( 1, 1, 1, 1 )
 44/region = Rect2( 0, 0, 128, 128 )
@@ -746,7 +758,7 @@ points = PoolVector2Array( -64, -64, 64, -64, 64, 63, -64, 63 )
 44/navigation_offset = Vector2( 64, 64 )
 44/shapes = [  ]
 45/name = "45"
-45/texture = ExtResource( 40 )
+45/texture = ExtResource( 41 )
 45/tex_offset = Vector2( 0, 0 )
 45/modulate = Color( 1, 1, 1, 1 )
 45/region = Rect2( 0, 0, 128, 128 )
@@ -755,7 +767,7 @@ points = PoolVector2Array( -64, -64, 64, -64, 64, 63, -64, 63 )
 45/navigation_offset = Vector2( 64, 64 )
 45/shapes = [  ]
 46/name = "46"
-46/texture = ExtResource( 41 )
+46/texture = ExtResource( 42 )
 46/tex_offset = Vector2( 0, 0 )
 46/modulate = Color( 1, 1, 1, 1 )
 46/region = Rect2( 0, 0, 128, 128 )
@@ -764,7 +776,7 @@ points = PoolVector2Array( -64, -64, 64, -64, 64, 63, -64, 63 )
 46/navigation_offset = Vector2( 64, 64 )
 46/shapes = [  ]
 47/name = "47"
-47/texture = ExtResource( 42 )
+47/texture = ExtResource( 43 )
 47/tex_offset = Vector2( 0, 0 )
 47/modulate = Color( 1, 1, 1, 1 )
 47/region = Rect2( 0, 0, 128, 128 )
@@ -772,5 +784,5 @@ points = PoolVector2Array( -64, -64, 64, -64, 64, 63, -64, 63 )
 47/occluder_offset = Vector2( 64, 64 )
 47/navigation_offset = Vector2( 64, 64 )
 47/shapes = [  ]
-_sections_unfolded = [ "0", "42", "43", "44", "45", "46", "47", "Resource" ]
+_sections_unfolded = [ "0", "40", "45", "46", "47", "Resource" ]
 
