@@ -4,12 +4,12 @@
 [ext_resource path="res://img/Players/Variable sizes/Green/alienGreen_stand.png" type="Texture" id=2]
 [ext_resource path="res://img/Players/Variable sizes/Green/alienGreen_walk1.png" type="Texture" id=3]
 [ext_resource path="res://img/Players/Variable sizes/Green/alienGreen_walk2.png" type="Texture" id=4]
-[ext_resource path="res://img/Players/Variable sizes/Green/alienGreen_climb1.png" type="Texture" id=5]
-[ext_resource path="res://img/Players/Variable sizes/Green/alienGreen_climb2.png" type="Texture" id=6]
-[ext_resource path="res://img/Players/Variable sizes/Green/alienGreen_hit.png" type="Texture" id=7]
-[ext_resource path="res://img/Players/Variable sizes/Green/alienGreen_duck.png" type="Texture" id=8]
-[ext_resource path="res://img/Players/Variable sizes/Green/alienGreen_swim1.png" type="Texture" id=9]
-[ext_resource path="res://img/Players/Variable sizes/Green/alienGreen_swim2.png" type="Texture" id=10]
+[ext_resource path="res://img/Players/Variable sizes/Green/alienGreen_hit.png" type="Texture" id=5]
+[ext_resource path="res://img/Players/Variable sizes/Green/alienGreen_swim1.png" type="Texture" id=6]
+[ext_resource path="res://img/Players/Variable sizes/Green/alienGreen_swim2.png" type="Texture" id=7]
+[ext_resource path="res://img/Players/Variable sizes/Green/alienGreen_climb1.png" type="Texture" id=8]
+[ext_resource path="res://img/Players/Variable sizes/Green/alienGreen_climb2.png" type="Texture" id=9]
+[ext_resource path="res://img/Players/Variable sizes/Green/alienGreen_duck.png" type="Texture" id=10]
 [ext_resource path="res://img/Players/Variable sizes/Green/alienGreen_jump.png" type="Texture" id=11]
 
 [sub_resource type="SpriteFrames" id=1]
@@ -25,24 +25,24 @@ animations = [ {
 "name": "walk",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 5 ), ExtResource( 6 ) ],
-"loop": true,
-"name": "climb",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 7 ) ],
+"frames": [ ExtResource( 5 ) ],
 "loop": true,
 "name": "hit",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 8 ) ],
-"loop": true,
-"name": "duck",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 9 ), ExtResource( 10 ) ],
+"frames": [ ExtResource( 6 ), ExtResource( 7 ) ],
 "loop": true,
 "name": "swim",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 8 ), ExtResource( 9 ) ],
+"loop": true,
+"name": "climb",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 10 ) ],
+"loop": true,
+"name": "duck",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 11 ) ],
@@ -58,7 +58,7 @@ custom_solver_bias = 0.0
 radius = 61.8838
 height = 55.3629
 
-[node name="Player" type="KinematicBody2D"]
+[node name="Player" type="KinematicBody2D" index="0"]
 
 input_pickable = false
 collision_layer = 1
