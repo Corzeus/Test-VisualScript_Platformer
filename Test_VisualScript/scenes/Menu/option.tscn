@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=2]
+[gd_scene load_steps=18 format=2]
 
 [ext_resource path="res://scenes/Menu/center_play.vs" type="Script" id=1]
 [ext_resource path="res://scenes/Menu/MENUButton.gd" type="Script" id=2]
@@ -55,18 +55,19 @@ data = {
 "variables": [  ]
 }
 
-[sub_resource type="VisualScriptFunction" id=4]
+[sub_resource type="VisualScriptFunction" id=9]
 
+resource_name = "_process"
 _default_input_values = [  ]
 argument_count = 1
-argument_1/type = 1
-argument_1/name = "button_pressed"
+argument_1/type = 3
+argument_1/name = "delta"
 sequenced/sequenced = true
 stack/size = 256
 stack/stackless = false
 rpc/mode = 0
 
-[sub_resource type="VisualScriptFunctionCall" id=5]
+[sub_resource type="VisualScriptFunctionCall" id=10]
 
 _default_input_values = [ "Null", null ]
 call_mode = 4
@@ -105,23 +106,93 @@ function = "set_setting"
 validate = true
 rpc_call_mode = 0
 
-[sub_resource type="VisualScriptConstant" id=6]
+[sub_resource type="VisualScriptConstant" id=11]
 
 _default_input_values = [  ]
 type = 4
 value = "window/size/fullscreen"
 
-[sub_resource type="VisualScript" id=7]
+[sub_resource type="VisualScriptFunctionCall" id=12]
+
+_default_input_values = [ "Null", null ]
+call_mode = 4
+base_type = "ProjectSettings"
+singleton = "ProjectSettings"
+argument_cache = {
+"args": [ {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "name",
+"type": 4,
+"usage": 7
+} ],
+"default_args": [  ],
+"flags": 9,
+"id": 0,
+"name": "",
+"return": {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "",
+"type": 0,
+"usage": 524295
+}
+}
+function = "get_setting"
+validate = true
+rpc_call_mode = 0
+
+[sub_resource type="VisualScriptCondition" id=13]
+
+_default_input_values = [ false ]
+
+[sub_resource type="VisualScriptOperator" id=14]
+
+_default_input_values = [ null, null ]
+operator = 0
+type = 0
+
+[sub_resource type="VisualScriptPropertyGet" id=15]
+
+_default_input_values = [  ]
+set_mode = 0
+base_type = "CheckButton"
+type_cache = 1
+property = "pressed"
+
+[sub_resource type="VisualScriptConstant" id=16]
+
+_default_input_values = [  ]
+type = 4
+value = "window/size/fullscreen"
+
+[sub_resource type="VisualScriptPropertyGet" id=17]
+
+_default_input_values = [  ]
+set_mode = 0
+base_type = "CheckButton"
+type_cache = 1
+property = "pressed"
+
+[sub_resource type="VisualScriptOperator" id=18]
+
+_default_input_values = [ null, null ]
+operator = 23
+type = 0
+
+[sub_resource type="VisualScript" id=8]
 
 data = {
 "base_type": "CheckButton",
 "functions": [ {
-"data_connections": [ 2, 0, 1, 0, 0, 0, 1, 1 ],
+"data_connections": [ 9, 0, 2, 0, 3, 0, 4, 0, 12, 0, 5, 0, 7, 0, 6, 0, 6, 0, 12, 0, 11, 0, 2, 1, 4, 0, 6, 1 ],
 "function_id": 0,
-"name": "_toggled",
-"nodes": [ 0, Vector2( 0, 0 ), SubResource( 4 ), 1, Vector2( 220, 0 ), SubResource( 5 ), 2, Vector2( 0, 100 ), SubResource( 6 ) ],
-"scroll": Vector2( -136, -48.7089 ),
-"sequence_connections": [ 0, 0, 1 ]
+"name": "_process",
+"nodes": [ 0, Vector2( 0, 0 ), SubResource( 9 ), 2, Vector2( 300, 0 ), SubResource( 10 ), 3, Vector2( -620, 200 ), SubResource( 11 ), 4, Vector2( -400, 200 ), SubResource( 12 ), 5, Vector2( 140, 0 ), SubResource( 13 ), 6, Vector2( -140, 100 ), SubResource( 14 ), 7, Vector2( -280, 100 ), SubResource( 15 ), 9, Vector2( 80, 200 ), SubResource( 16 ), 11, Vector2( 160, 300 ), SubResource( 17 ), 12, Vector2( 0, 100 ), SubResource( 18 ) ],
+"scroll": Vector2( -253.838, -81.3449 ),
+"sequence_connections": [ 5, 0, 2, 0, 0, 5 ]
 } ],
 "signals": [  ],
 "variables": [  ]
@@ -188,7 +259,7 @@ group = null
 text = "Full_screen"
 flat = false
 align = 0
-script = SubResource( 7 )
+script = SubResource( 8 )
 
 [node name="Resizeable_2" type="Node2D" parent="." index="2"]
 
@@ -260,7 +331,7 @@ anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_right = 76.0
+margin_right = 169.0
 margin_bottom = 40.0
 rect_pivot_offset = Vector2( 0, 0 )
 rect_clip_content = false
@@ -304,5 +375,7 @@ editor_draw_drag_margin = false
 script = ExtResource( 3 )
 
 [connection signal="pressed" from="back node/Button" to="back node/Button" method="_on_Button_pressed"]
+
+[connection signal="toggled" from="full screen/Button" to="full screen/Button" method="_on_Button_toggled"]
 
 
