@@ -1,4 +1,4 @@
-[gd_scene load_steps=10 format=2]
+[gd_scene load_steps=13 format=2]
 
 [ext_resource path="res://scenes/Sprite/Player.tscn" type="PackedScene" id=1]
 [ext_resource path="res://scripts/Camera.vs" type="Script" id=2]
@@ -9,6 +9,72 @@
 [ext_resource path="res://icon.png" type="Texture" id=7]
 [ext_resource path="res://scripts/POS_MARKER.vs" type="Script" id=8]
 [ext_resource path="res://scripts/POS_EIXT.vs" type="Script" id=9]
+
+[sub_resource type="VisualScriptFunction" id=1]
+
+resource_name = "_process"
+_default_input_values = [  ]
+argument_count = 1
+argument_1/type = 3
+argument_1/name = "delta"
+sequenced/sequenced = true
+stack/size = 256
+stack/stackless = false
+rpc/mode = 0
+
+[sub_resource type="VisualScriptFunction" id=2]
+
+resource_name = "fonc1"
+_default_input_values = [  ]
+argument_count = 10
+argument_1/type = 1
+argument_1/name = "arg1"
+argument_2/type = 2
+argument_2/name = "arg2"
+argument_3/type = 3
+argument_3/name = "arg3"
+argument_4/type = 5
+argument_4/name = "arg4"
+argument_5/type = 0
+argument_5/name = "arg5"
+argument_6/type = 0
+argument_6/name = "arg6"
+argument_7/type = 0
+argument_7/name = "arg7"
+argument_8/type = 0
+argument_8/name = "arg8"
+argument_9/type = 0
+argument_9/name = "arg9"
+argument_10/type = 0
+argument_10/name = "arg10"
+sequenced/sequenced = true
+stack/size = 256
+stack/stackless = false
+rpc/mode = 0
+_sections_unfolded = [ "argument_1", "argument_2", "argument_3", "argument_4", "argument_5" ]
+
+[sub_resource type="VisualScript" id=3]
+
+data = {
+"base_type": "Sprite",
+"functions": [ {
+"data_connections": [  ],
+"function_id": 0,
+"name": "_process",
+"nodes": [ 0, Vector2( 0, 0 ), SubResource( 1 ) ],
+"scroll": Vector2( -50, -100 ),
+"sequence_connections": [  ]
+}, {
+"data_connections": [  ],
+"function_id": 1,
+"name": "fonc1",
+"nodes": [ 1, Vector2( 0, 0 ), SubResource( 2 ) ],
+"scroll": Vector2( -337, -100 ),
+"sequence_connections": [  ]
+} ],
+"signals": [  ],
+"variables": [  ]
+}
 
 [node name="level1" type="Node2D" index="0"]
 
@@ -78,6 +144,7 @@ _sections_unfolded = [ "Cell", "Collision", "Material", "Occluder", "Pause", "Tr
 
 [node name="DEBUG_ATH" type="Node2D" parent="." index="2"]
 
+editor/display_folded = true
 position = Vector2( 500, 0 )
 z_index = 1
 script = ExtResource( 6 )
@@ -133,5 +200,9 @@ lines_skipped = 0
 max_lines_visible = -1
 script = ExtResource( 9 )
 _sections_unfolded = [ "Rect" ]
+
+[node name="Sprite" type="Sprite" parent="." index="3"]
+
+script = SubResource( 3 )
 
 
