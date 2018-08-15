@@ -86,9 +86,11 @@ tracks/0/keys = {
 "values": [ ExtResource( 47 ), ExtResource( 46 ) ]
 }
 
-[node name="tile_set" type="Node2D"]
+[node name="tile_set" type="Node2D" index="0"]
 
-[node name="0" type="Sprite" parent="." index="0"]
+[node name="0" type="Sprite" parent="." index="0" groups=[
+"ground",
+]]
 
 editor/display_folded = true
 position = Vector2( 65, 65 )
@@ -124,7 +126,9 @@ angular_damp = -1.0
 build_mode = 0
 polygon = PoolVector2Array( -64, -64, 64, -64, 64, 63, -64, 63 )
 
-[node name="1" type="Sprite" parent="." index="1"]
+[node name="1" type="Sprite" parent="." index="1" groups=[
+"ground",
+]]
 
 editor/display_folded = true
 position = Vector2( 323, 65 )
@@ -159,7 +163,9 @@ angular_damp = -1.0
 build_mode = 0
 polygon = PoolVector2Array( -64, -64, 64, -64, 64, 63, -64, 63 )
 
-[node name="2" type="Sprite" parent="." index="2"]
+[node name="2" type="Sprite" parent="." index="2" groups=[
+"ground",
+]]
 
 editor/display_folded = true
 position = Vector2( 582, 65 )
@@ -194,7 +200,9 @@ angular_damp = -1.0
 build_mode = 0
 polygon = PoolVector2Array( -64, -64, 64, -64, 64, 63, -64, 63 )
 
-[node name="3" type="Sprite" parent="." index="3"]
+[node name="3" type="Sprite" parent="." index="3" groups=[
+"ground",
+]]
 
 editor/display_folded = true
 position = Vector2( 839, 65 )
@@ -229,7 +237,9 @@ angular_damp = -1.0
 build_mode = 0
 polygon = PoolVector2Array( -64, -64, 64, -64, 64, 63, -64, -20 )
 
-[node name="4" type="Sprite" parent="." index="4"]
+[node name="4" type="Sprite" parent="." index="4" groups=[
+"ground",
+]]
 
 editor/display_folded = true
 position = Vector2( 1096, 65 )
@@ -264,7 +274,9 @@ angular_damp = -1.0
 build_mode = 0
 polygon = PoolVector2Array( -64, -64, 64, -64, 64, -21, -64, 64 )
 
-[node name="5" type="Sprite" parent="." index="5"]
+[node name="5" type="Sprite" parent="." index="5" groups=[
+"ground",
+]]
 
 editor/display_folded = true
 position = Vector2( 65, 324 )
@@ -299,7 +311,9 @@ angular_damp = -1.0
 build_mode = 0
 polygon = PoolVector2Array( -64, -64, 64, -64, 64, 65, 22, 59, -13, 49, -44, 27, -57, 10, -64, -12 )
 
-[node name="6" type="Sprite" parent="." index="6"]
+[node name="6" type="Sprite" parent="." index="6" groups=[
+"ground",
+]]
 
 editor/display_folded = true
 position = Vector2( 324, 323 )
@@ -334,7 +348,9 @@ angular_damp = -1.0
 build_mode = 0
 polygon = PoolVector2Array( -64, -64, 63, -64, 63, -7, 41, 30, 12, 48, -22, 58, -50, 63, -64, 64 )
 
-[node name="7" type="Sprite" parent="." index="7"]
+[node name="7" type="Sprite" parent="." index="7" groups=[
+"ground",
+]]
 
 editor/display_folded = true
 position = Vector2( 579, 324 )
@@ -370,7 +386,9 @@ angular_damp = -1.0
 build_mode = 0
 polygon = PoolVector2Array( -64, -64, 64, -64, 64, 63, -64, 63 )
 
-[node name="8" type="Sprite" parent="." index="8"]
+[node name="8" type="Sprite" parent="." index="8" groups=[
+"ground",
+]]
 
 editor/display_folded = true
 position = Vector2( 840, 324 )
@@ -406,7 +424,9 @@ angular_damp = -1.0
 build_mode = 0
 polygon = PoolVector2Array( -64, -64, 64, -64, 64, 63, -64, 63 )
 
-[node name="9" type="Sprite" parent="." index="9"]
+[node name="9" type="Sprite" parent="." index="9" groups=[
+"ground",
+]]
 
 editor/display_folded = true
 position = Vector2( 1097, 323 )
@@ -442,7 +462,9 @@ angular_damp = -1.0
 build_mode = 0
 polygon = PoolVector2Array( -64, -64, 64, -64, 64, 63, -64, 63 )
 
-[node name="10" type="Sprite" parent="." index="10"]
+[node name="10" type="Sprite" parent="." index="10" groups=[
+"ground",
+]]
 
 editor/display_folded = true
 position = Vector2( 67, 580 )
@@ -478,7 +500,9 @@ angular_damp = -1.0
 build_mode = 0
 polygon = PoolVector2Array( -64, -64, 64, -64, 64, 63, -64, 63 )
 
-[node name="11" type="Sprite" parent="." index="11"]
+[node name="11" type="Sprite" parent="." index="11" groups=[
+"ground",
+]]
 
 editor/display_folded = true
 position = Vector2( 324, 580 )
@@ -514,7 +538,9 @@ angular_damp = -1.0
 build_mode = 0
 polygon = PoolVector2Array( -64, -64, 64, -64, 64, 63, -64, 63 )
 
-[node name="12" type="Sprite" parent="." index="12"]
+[node name="12" type="Sprite" parent="." index="12" groups=[
+"ground",
+]]
 
 editor/display_folded = true
 position = Vector2( 582, 582 )
@@ -549,7 +575,9 @@ angular_damp = -1.0
 build_mode = 0
 polygon = PoolVector2Array( -64, -64, 64, -64, 64, 10, -64, 10 )
 
-[node name="13" type="Sprite" parent="." index="13"]
+[node name="13" type="Sprite" parent="." index="13" groups=[
+"ground",
+]]
 
 editor/display_folded = true
 position = Vector2( 839, 581 )
@@ -584,7 +612,9 @@ angular_damp = -1.0
 build_mode = 0
 polygon = PoolVector2Array( -64, -64, 64, -64, 64, 10, -64, 10 )
 
-[node name="14" type="Sprite" parent="." index="14"]
+[node name="14" type="Sprite" parent="." index="14" groups=[
+"ground",
+]]
 
 editor/display_folded = true
 position = Vector2( 1098, 582 )
@@ -619,7 +649,9 @@ angular_damp = -1.0
 build_mode = 0
 polygon = PoolVector2Array( -64, -64, 64, -64, 64, 10, -64, 10 )
 
-[node name="15" type="Sprite" parent="." index="15"]
+[node name="15" type="Sprite" parent="." index="15" groups=[
+"ground",
+]]
 
 editor/display_folded = true
 position = Vector2( 65, 840 )
@@ -654,7 +686,9 @@ angular_damp = -1.0
 build_mode = 0
 polygon = PoolVector2Array( -64, -64, 64, -64, 64, 10, -64, 10 )
 
-[node name="16" type="Sprite" parent="." index="16"]
+[node name="16" type="Sprite" parent="." index="16" groups=[
+"ground",
+]]
 
 editor/display_folded = true
 position = Vector2( 321, 840 )
@@ -689,7 +723,9 @@ angular_damp = -1.0
 build_mode = 0
 polygon = PoolVector2Array( -64, -64, 66, 64, -64, 64 )
 
-[node name="17" type="Sprite" parent="." index="17"]
+[node name="17" type="Sprite" parent="." index="17" groups=[
+"ground",
+]]
 
 editor/display_folded = true
 position = Vector2( 582, 837 )
@@ -725,6 +761,7 @@ build_mode = 0
 polygon = PoolVector2Array( 64, -63, 66, 64, -64, 64 )
 
 [node name="18" type="Sprite" parent="." index="18" groups=[
+"ground",
 "Box_coins",
 ]]
 
@@ -762,6 +799,7 @@ build_mode = 0
 polygon = PoolVector2Array( -64, -64, 64, -64, 64, 63, -64, 63 )
 
 [node name="19" type="Sprite" parent="." index="19" groups=[
+"ground",
 "Box_coins",
 ]]
 
@@ -798,7 +836,9 @@ angular_damp = -1.0
 build_mode = 0
 polygon = PoolVector2Array( -64, -64, 64, -64, 64, 63, -64, 63 )
 
-[node name="20" type="Sprite" parent="." index="20"]
+[node name="20" type="Sprite" parent="." index="20" groups=[
+"ground",
+]]
 
 editor/display_folded = true
 position = Vector2( 581, 1099 )
@@ -833,7 +873,9 @@ angular_damp = -1.0
 build_mode = 0
 polygon = PoolVector2Array( -64, -64, 64, -64, 64, 63, -64, 63 )
 
-[node name="21" type="Sprite" parent="." index="21"]
+[node name="21" type="Sprite" parent="." index="21" groups=[
+"ground",
+]]
 
 editor/display_folded = true
 position = Vector2( 837, 1099 )
@@ -869,6 +911,7 @@ build_mode = 0
 polygon = PoolVector2Array( -64, -64, 64, -64, 64, 63, -64, 63 )
 
 [node name="22" type="Sprite" parent="." index="22" groups=[
+"ground",
 "Box_explosive",
 ]]
 
@@ -906,6 +949,7 @@ build_mode = 0
 polygon = PoolVector2Array( -64, -64, 64, -64, 64, 63, -64, 63 )
 
 [node name="23" type="Sprite" parent="." index="23" groups=[
+"ground",
 "Box_item",
 ]]
 
@@ -943,6 +987,7 @@ build_mode = 0
 polygon = PoolVector2Array( -64, -64, 64, -64, 64, 63, -64, 63 )
 
 [node name="24" type="Sprite" parent="." index="24" groups=[
+"ground",
 "Box_item",
 ]]
 
@@ -979,7 +1024,9 @@ angular_damp = -1.0
 build_mode = 0
 polygon = PoolVector2Array( -64, -64, 64, -64, 64, 63, -64, 63 )
 
-[node name="25" type="Sprite" parent="." index="25"]
+[node name="25" type="Sprite" parent="." index="25" groups=[
+"ground",
+]]
 
 editor/display_folded = true
 position = Vector2( 579, 1356 )
@@ -1014,7 +1061,9 @@ angular_damp = -1.0
 build_mode = 0
 polygon = PoolVector2Array( -64, -64, 64, -64, 64, 63, -64, 63 )
 
-[node name="26" type="Sprite" parent="." index="26"]
+[node name="26" type="Sprite" parent="." index="26" groups=[
+"ground",
+]]
 
 editor/display_folded = true
 position = Vector2( 840, 1354 )
@@ -1049,7 +1098,9 @@ angular_damp = -1.0
 build_mode = 0
 polygon = PoolVector2Array( -64, -64, 64, -64, 64, 63, -64, 63 )
 
-[node name="27" type="Sprite" parent="." index="27"]
+[node name="27" type="Sprite" parent="." index="27" groups=[
+"ground",
+]]
 
 editor/display_folded = true
 position = Vector2( 1097, 1356 )
@@ -1084,7 +1135,9 @@ angular_damp = -1.0
 build_mode = 0
 polygon = PoolVector2Array( -64, -64, 64, -64, 64, -16, -64, -17 )
 
-[node name="28" type="Sprite" parent="." index="28"]
+[node name="28" type="Sprite" parent="." index="28" groups=[
+"ground",
+]]
 
 editor/display_folded = true
 position = Vector2( 64, 1614 )
