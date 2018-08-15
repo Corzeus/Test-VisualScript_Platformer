@@ -7,10 +7,7 @@ path="res://.import/hudHeart_empty.png-644f963d64032e308c9af26115ae5199.stex"
 [deps]
 
 source_file="res://img/HUD/hudHeart_empty.png"
-source_md5="08e8bc2149c1d54eb1cfff42a9e59d84"
-
 dest_files=[ "res://.import/hudHeart_empty.png-644f963d64032e308c9af26115ae5199.stex" ]
-dest_md5="08073051d200b5ffaa6f7d6f2d1a34b3"
 
 [params]
 

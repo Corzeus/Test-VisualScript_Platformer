@@ -7,10 +7,7 @@ path="res://.import/alienPink_duck.png-3f7968bca4a4566c45e839d283a7b416.stex"
 [deps]
 
 source_file="res://img/Players/Variable sizes/Pink/alienPink_duck.png"
-source_md5="de11ad6a1378524e120165df4e4d3e7d"
-
 dest_files=[ "res://.import/alienPink_duck.png-3f7968bca4a4566c45e839d283a7b416.stex" ]
-dest_md5="24bf4648ca2ee921bc129a2beb88a82f"
 
 [params]
 

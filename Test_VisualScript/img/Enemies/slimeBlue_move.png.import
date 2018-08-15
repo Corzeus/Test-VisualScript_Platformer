@@ -7,10 +7,7 @@ path="res://.import/slimeBlue_move.png-e933cde676d8af9febcbc8ce38c14e08.stex"
 [deps]
 
 source_file="res://img/Enemies/slimeBlue_move.png"
-source_md5="2e89a60f69f887413f495a1375fbf309"
-
 dest_files=[ "res://.import/slimeBlue_move.png-e933cde676d8af9febcbc8ce38c14e08.stex" ]
-dest_md5="6276eb361f4ae11c65c729fb4333afe1"
 
 [params]
 

@@ -7,10 +7,7 @@ path="res://.import/boxCrate_warning.png-311d32d0fcb37e1bea86fe3e6d90f87e.stex"
 [deps]
 
 source_file="res://img/Tiles/boxCrate_warning.png"
-source_md5="7b39f9a7552bece33fb1a0aa5849e62d"
-
 dest_files=[ "res://.import/boxCrate_warning.png-311d32d0fcb37e1bea86fe3e6d90f87e.stex" ]
-dest_md5="c782c36334504910a1d8e79968947e84"
 
 [params]
 

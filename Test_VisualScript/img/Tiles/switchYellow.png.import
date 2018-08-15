@@ -7,10 +7,7 @@ path="res://.import/switchYellow.png-d88cb13f043fdda0b1e5a9cf73ab921b.stex"
 [deps]
 
 source_file="res://img/Tiles/switchYellow.png"
-source_md5="6f2aed16a8bf245fa3c8fec7ad6d98d3"
-
 dest_files=[ "res://.import/switchYellow.png-d88cb13f043fdda0b1e5a9cf73ab921b.stex" ]
-dest_md5="932e2c47494db8612f1ba220f37ecb01"
 
 [params]
 

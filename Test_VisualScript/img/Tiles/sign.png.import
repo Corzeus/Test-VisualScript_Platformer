@@ -7,10 +7,7 @@ path="res://.import/sign.png-08c64c1913ee5c6c2cbc05bd853972ba.stex"
 [deps]
 
 source_file="res://img/Tiles/sign.png"
-source_md5="3076333f60f34a428a881bff44cdc907"
-
 dest_files=[ "res://.import/sign.png-08c64c1913ee5c6c2cbc05bd853972ba.stex" ]
-dest_md5="245917750fa3c34581271e7db8eada09"
 
 [params]
 

@@ -7,10 +7,7 @@ path="res://.import/planet.png-721b31dfd0df150948bba16e60cebc37.stex"
 [deps]
 
 source_file="res://img/Ground/Planet/planet.png"
-source_md5="7638c8602648f132c7156a4903983d64"
-
 dest_files=[ "res://.import/planet.png-721b31dfd0df150948bba16e60cebc37.stex" ]
-dest_md5="469bc372a22c6c7d4f7a35fa355cb724"
 
 [params]
 

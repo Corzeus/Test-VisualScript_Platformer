@@ -7,10 +7,7 @@ path="res://.import/bombWhite.png-4895a189a31dbf6317a94549c55fe63e.stex"
 [deps]
 
 source_file="res://img/Tiles/bombWhite.png"
-source_md5="7c620b1e974c6f0c0eddbe2ab85a23fd"
-
 dest_files=[ "res://.import/bombWhite.png-4895a189a31dbf6317a94549c55fe63e.stex" ]
-dest_md5="9250fe47e5cd408a9d3c02264f1ce253"
 
 [params]
 

@@ -7,10 +7,7 @@ path="res://.import/fly_move.png-b3a0ea269a9a6564d73c3d757138ce9e.stex"
 [deps]
 
 source_file="res://img/Enemies/fly_move.png"
-source_md5="707ebaec7b853752642d338b949c6c56"
-
 dest_files=[ "res://.import/fly_move.png-b3a0ea269a9a6564d73c3d757138ce9e.stex" ]
-dest_md5="f4dc34697d56db34822d9e50bf72bd89"
 
 [params]
 

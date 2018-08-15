@@ -7,10 +7,7 @@ path="res://.import/alienYellow_front.png-28fd186d7c5e3028576b5e707d0d9152.stex"
 [deps]
 
 source_file="res://img/Players/Variable sizes/Yellow/alienYellow_front.png"
-source_md5="6b7d62df97c591875a249989fa4c3644"
-
 dest_files=[ "res://.import/alienYellow_front.png-28fd186d7c5e3028576b5e707d0d9152.stex" ]
-dest_md5="e44c68ac31d341af1947df5822f87e2d"
 
 [params]
 

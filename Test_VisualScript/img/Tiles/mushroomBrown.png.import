@@ -7,10 +7,7 @@ path="res://.import/mushroomBrown.png-bf5acfd3424a247317e9021f085f9e70.stex"
 [deps]
 
 source_file="res://img/Tiles/mushroomBrown.png"
-source_md5="505c918af2bed880c0ea1a2d27ce42c7"
-
 dest_files=[ "res://.import/mushroomBrown.png-bf5acfd3424a247317e9021f085f9e70.stex" ]
-dest_md5="ba29a6ff46c7631fbd2758a1bfbdb401"
 
 [params]
 

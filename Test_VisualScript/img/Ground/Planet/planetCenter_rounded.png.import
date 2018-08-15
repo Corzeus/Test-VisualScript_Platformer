@@ -7,10 +7,7 @@ path="res://.import/planetCenter_rounded.png-d84fd6593cca6f5465fb86f9b126ddf4.st
 [deps]
 
 source_file="res://img/Ground/Planet/planetCenter_rounded.png"
-source_md5="0c1a095bc97a00cbd924802c7f7ccb90"
-
 dest_files=[ "res://.import/planetCenter_rounded.png-d84fd6593cca6f5465fb86f9b126ddf4.stex" ]
-dest_md5="930d5f7c03f063010168bf1140738a0b"
 
 [params]
 

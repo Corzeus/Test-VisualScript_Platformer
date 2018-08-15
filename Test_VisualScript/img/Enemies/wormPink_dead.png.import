@@ -7,10 +7,7 @@ path="res://.import/wormPink_dead.png-c8e06e4db05651751542da9967c7ed11.stex"
 [deps]
 
 source_file="res://img/Enemies/wormPink_dead.png"
-source_md5="844593c7b5950971de2b8b2c7abcdd84"
-
 dest_files=[ "res://.import/wormPink_dead.png-c8e06e4db05651751542da9967c7ed11.stex" ]
-dest_md5="51983373b37ba545446f20d1d3530366"
 
 [params]
 

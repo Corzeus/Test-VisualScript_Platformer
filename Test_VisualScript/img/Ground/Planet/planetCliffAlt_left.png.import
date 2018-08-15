@@ -7,10 +7,7 @@ path="res://.import/planetCliffAlt_left.png-bceef4ac68d35b5a6e1667c4eee888f2.ste
 [deps]
 
 source_file="res://img/Ground/Planet/planetCliffAlt_left.png"
-source_md5="6727198f31525b24e2262ce36d1a6173"
-
 dest_files=[ "res://.import/planetCliffAlt_left.png-bceef4ac68d35b5a6e1667c4eee888f2.stex" ]
-dest_md5="9f788858c8ff36e5c5840a21459880ce"
 
 [params]
 

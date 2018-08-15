@@ -7,10 +7,7 @@ path="res://.import/hudCoin.png-b1bd56a0b7011d18e113f442b4c20c58.stex"
 [deps]
 
 source_file="res://img/HUD/hudCoin.png"
-source_md5="c4150ade8038c642735860e7111a8ae3"
-
 dest_files=[ "res://.import/hudCoin.png-b1bd56a0b7011d18e113f442b4c20c58.stex" ]
-dest_md5="c130c7a6bbdea53a953d6c0eca2883b5"
 
 [params]
 

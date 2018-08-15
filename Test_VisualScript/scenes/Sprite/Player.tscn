@@ -1,0 +1,136 @@
+[gd_scene load_steps=14 format=2]
+
+[ext_resource path="res://scripts/Player.vs" type="Script" id=1]
+[ext_resource path="res://img/Players/Variable sizes/Green/alienGreen_stand.png" type="Texture" id=2]
+<<<<<<< HEAD:Test_VisualScript/scenes/Player.tscn
+[ext_resource path="res://img/Players/Variable sizes/Green/alienGreen_climb1.png" type="Texture" id=3]
+[ext_resource path="res://img/Players/Variable sizes/Green/alienGreen_climb2.png" type="Texture" id=4]
+[ext_resource path="res://img/Players/Variable sizes/Green/alienGreen_duck.png" type="Texture" id=5]
+[ext_resource path="res://img/Players/Variable sizes/Green/alienGreen_hit.png" type="Texture" id=6]
+[ext_resource path="res://img/Players/Variable sizes/Green/alienGreen_walk1.png" type="Texture" id=7]
+[ext_resource path="res://img/Players/Variable sizes/Green/alienGreen_walk2.png" type="Texture" id=8]
+[ext_resource path="res://img/Players/Variable sizes/Green/alienGreen_jump.png" type="Texture" id=9]
+[ext_resource path="res://img/Players/Variable sizes/Green/alienGreen_swim1.png" type="Texture" id=10]
+[ext_resource path="res://img/Players/Variable sizes/Green/alienGreen_swim2.png" type="Texture" id=11]
+=======
+[ext_resource path="res://img/Players/Variable sizes/Green/alienGreen_walk1.png" type="Texture" id=3]
+[ext_resource path="res://img/Players/Variable sizes/Green/alienGreen_walk2.png" type="Texture" id=4]
+[ext_resource path="res://img/Players/Variable sizes/Green/alienGreen_hit.png" type="Texture" id=5]
+[ext_resource path="res://img/Players/Variable sizes/Green/alienGreen_swim1.png" type="Texture" id=6]
+[ext_resource path="res://img/Players/Variable sizes/Green/alienGreen_swim2.png" type="Texture" id=7]
+[ext_resource path="res://img/Players/Variable sizes/Green/alienGreen_climb1.png" type="Texture" id=8]
+[ext_resource path="res://img/Players/Variable sizes/Green/alienGreen_climb2.png" type="Texture" id=9]
+[ext_resource path="res://img/Players/Variable sizes/Green/alienGreen_duck.png" type="Texture" id=10]
+[ext_resource path="res://img/Players/Variable sizes/Green/alienGreen_jump.png" type="Texture" id=11]
+>>>>>>> 1e985efacbdaaee6938499f6e7b22a46297eff42:Test_VisualScript/scenes/Sprite/Player.tscn
+
+[sub_resource type="SpriteFrames" id=1]
+
+animations = [ {
+"frames": [ ExtResource( 2 ) ],
+<<<<<<< HEAD:Test_VisualScript/scenes/Player.tscn
+"loop": true,
+"name": "idle",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 3 ), ExtResource( 4 ) ],
+=======
+>>>>>>> 1e985efacbdaaee6938499f6e7b22a46297eff42:Test_VisualScript/scenes/Sprite/Player.tscn
+"loop": true,
+"name": "idle",
+"speed": 5.0
+}, {
+<<<<<<< HEAD:Test_VisualScript/scenes/Player.tscn
+"frames": [ ExtResource( 5 ) ],
+"loop": true,
+"name": "duck",
+=======
+"frames": [ ExtResource( 3 ), ExtResource( 4 ) ],
+"loop": true,
+"name": "walk",
+>>>>>>> 1e985efacbdaaee6938499f6e7b22a46297eff42:Test_VisualScript/scenes/Sprite/Player.tscn
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 5 ) ],
+"loop": true,
+"name": "hit",
+"speed": 5.0
+}, {
+<<<<<<< HEAD:Test_VisualScript/scenes/Player.tscn
+"frames": [ ExtResource( 7 ), ExtResource( 8 ) ],
+"loop": true,
+"name": "walk",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 9 ) ],
+=======
+"frames": [ ExtResource( 6 ), ExtResource( 7 ) ],
+"loop": true,
+"name": "swim",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 8 ), ExtResource( 9 ) ],
+>>>>>>> 1e985efacbdaaee6938499f6e7b22a46297eff42:Test_VisualScript/scenes/Sprite/Player.tscn
+"loop": true,
+"name": "climb",
+"speed": 5.0
+}, {
+<<<<<<< HEAD:Test_VisualScript/scenes/Player.tscn
+"frames": [ ExtResource( 10 ), ExtResource( 11 ) ],
+"loop": true,
+"name": "swim",
+=======
+"frames": [ ExtResource( 10 ) ],
+"loop": true,
+"name": "duck",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 11 ) ],
+"loop": true,
+"name": "jump",
+>>>>>>> 1e985efacbdaaee6938499f6e7b22a46297eff42:Test_VisualScript/scenes/Sprite/Player.tscn
+"speed": 5.0
+} ]
+_sections_unfolded = [ "Resource" ]
+
+[sub_resource type="CapsuleShape2D" id=2]
+
+custom_solver_bias = 0.0
+<<<<<<< HEAD:Test_VisualScript/scenes/Player.tscn
+radius = 68.3823
+height = 54.3445
+=======
+radius = 61.8838
+height = 55.3629
+>>>>>>> 1e985efacbdaaee6938499f6e7b22a46297eff42:Test_VisualScript/scenes/Sprite/Player.tscn
+
+[node name="Player" type="KinematicBody2D" index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+collision/safe_margin = 0.001
+script = ExtResource( 1 )
+_sections_unfolded = [ "Collision", "Material", "Transform", "Visibility", "Z Index", "collision" ]
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="." index="0"]
+
+frames = SubResource( 1 )
+animation = "idle"
+_sections_unfolded = [ "Transform", "Z Index" ]
+
+[node name="Shape" type="CollisionShape2D" parent="." index="1"]
+
+position = Vector2( 1.40156, 1.98859 )
+shape = SubResource( 2 )
+_sections_unfolded = [ "Transform", "Visibility" ]
+
+[node name="RayCast2D" type="RayCast2D" parent="." index="2"]
+
+position = Vector2( 0, -5.70155 )
+enabled = false
+exclude_parent = true
+cast_to = Vector2( 0, 100 )
+collision_mask = 1
+
+

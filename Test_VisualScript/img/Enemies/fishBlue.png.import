@@ -7,10 +7,7 @@ path="res://.import/fishBlue.png-91c6fecaeafda86912d06e4f1cdd16ee.stex"
 [deps]
 
 source_file="res://img/Enemies/fishBlue.png"
-source_md5="bb4e372a55e3051baf2d84a1bf191c77"
-
 dest_files=[ "res://.import/fishBlue.png-91c6fecaeafda86912d06e4f1cdd16ee.stex" ]
-dest_md5="48ce0e005dfc023a737bc5800b67a3f0"
 
 [params]
 

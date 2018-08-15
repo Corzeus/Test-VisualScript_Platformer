@@ -7,10 +7,7 @@ path="res://.import/sandMid.png-59d8f1dc6741e3b4bafd65e8108e4b71.stex"
 [deps]
 
 source_file="res://img/Ground/Sand/sandMid.png"
-source_md5="e7167cfd155f3e4515148a8ed9eb68d8"
-
 dest_files=[ "res://.import/sandMid.png-59d8f1dc6741e3b4bafd65e8108e4b71.stex" ]
-dest_md5="b611e28870e53ebe0f5b9a510057a214"
 
 [params]
 

@@ -7,10 +7,7 @@ path="res://.import/signRight.png-4cb5b7f2d5833afb018e4670782f6d44.stex"
 [deps]
 
 source_file="res://img/Tiles/signRight.png"
-source_md5="fe9837ec5064b9329f37e25a3ffd06b3"
-
 dest_files=[ "res://.import/signRight.png-4cb5b7f2d5833afb018e4670782f6d44.stex" ]
-dest_md5="273173d5711119191b5d4c6241493d47"
 
 [params]
 

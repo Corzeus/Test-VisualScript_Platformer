@@ -7,10 +7,7 @@ path="res://.import/saw_dead.png-ac0d86f658ed63e7d19e0fe1f192d29d.stex"
 [deps]
 
 source_file="res://img/Enemies/saw_dead.png"
-source_md5="8d38b7442c1207e775a1de2fd3fd4aa2"
-
 dest_files=[ "res://.import/saw_dead.png-ac0d86f658ed63e7d19e0fe1f192d29d.stex" ]
-dest_md5="ccb6100ca3cd881c6a4e889da94eca41"
 
 [params]
 

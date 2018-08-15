@@ -7,10 +7,7 @@ path="res://.import/grassMid.png-3a43c1bf0d428a6619c1cb2bfcdd4b8d.stex"
 [deps]
 
 source_file="res://img/Ground/Grass/grassMid.png"
-source_md5="18534db3c583708ea25fc66f53548520"
-
 dest_files=[ "res://.import/grassMid.png-3a43c1bf0d428a6619c1cb2bfcdd4b8d.stex" ]
-dest_md5="858a8caa5b78285dc511f3cacda81ec4"
 
 [params]
 

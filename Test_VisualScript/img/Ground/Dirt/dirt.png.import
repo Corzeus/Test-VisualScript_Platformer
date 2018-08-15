@@ -7,10 +7,7 @@ path="res://.import/dirt.png-4cb2673681d7ee3737cf168cd2c59d13.stex"
 [deps]
 
 source_file="res://img/Ground/Dirt/dirt.png"
-source_md5="cb383de960bc3478f9928950c9bdf7f9"
-
 dest_files=[ "res://.import/dirt.png-4cb2673681d7ee3737cf168cd2c59d13.stex" ]
-dest_md5="43cecb9da6ba85d605a764c2c4d999fe"
 
 [params]
 

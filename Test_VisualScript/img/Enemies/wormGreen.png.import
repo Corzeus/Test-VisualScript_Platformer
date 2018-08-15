@@ -7,10 +7,7 @@ path="res://.import/wormGreen.png-802276f524099d5371a8119fef4eca79.stex"
 [deps]
 
 source_file="res://img/Enemies/wormGreen.png"
-source_md5="0027e30c9cb0699515026a9093ca6af2"
-
 dest_files=[ "res://.import/wormGreen.png-802276f524099d5371a8119fef4eca79.stex" ]
-dest_md5="bd3146c07654b0d88b43d6215228c582"
 
 [params]
 

@@ -7,10 +7,7 @@ path="res://.import/bush.png-2473a1b08efec81afca31f014ddf4783.stex"
 [deps]
 
 source_file="res://img/Tiles/bush.png"
-source_md5="f642c3305f977e9f4b569457f102f5b5"
-
 dest_files=[ "res://.import/bush.png-2473a1b08efec81afca31f014ddf4783.stex" ]
-dest_md5="e54f5ceda05e6cbb7370e15c796a40f9"
 
 [params]
 

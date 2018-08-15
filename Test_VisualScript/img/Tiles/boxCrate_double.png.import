@@ -7,10 +7,7 @@ path="res://.import/boxCrate_double.png-7d2c8d3ed932ee9fd40490b63b8fe418.stex"
 [deps]
 
 source_file="res://img/Tiles/boxCrate_double.png"
-source_md5="ad603f1df90c20c1c93c3fbaa27952bc"
-
 dest_files=[ "res://.import/boxCrate_double.png-7d2c8d3ed932ee9fd40490b63b8fe418.stex" ]
-dest_md5="e39572391c4649437a424442c89305e4"
 
 [params]
 

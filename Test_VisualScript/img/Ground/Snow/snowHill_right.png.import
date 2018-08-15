@@ -7,10 +7,7 @@ path="res://.import/snowHill_right.png-b1b4856606e94257af604600ba8b83aa.stex"
 [deps]
 
 source_file="res://img/Ground/Snow/snowHill_right.png"
-source_md5="b9f03842d6f8e5f4ca52d73849f815d4"
-
 dest_files=[ "res://.import/snowHill_right.png-b1b4856606e94257af604600ba8b83aa.stex" ]
-dest_md5="89509f497473c22730c8c0842829718a"
 
 [params]
 
