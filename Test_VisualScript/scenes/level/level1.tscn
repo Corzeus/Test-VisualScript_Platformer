@@ -10,6 +10,7 @@
 [ext_resource path="res://scripts/POS_MARKER.vs" type="Script" id=8]
 [ext_resource path="res://scripts/POS_EIXT.vs" type="Script" id=9]
 
+
 [sub_resource type="VisualScriptFunction" id=1]
 
 resource_name = "_process"
