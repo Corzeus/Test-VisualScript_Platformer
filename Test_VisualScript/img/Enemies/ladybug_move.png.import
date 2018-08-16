@@ -7,7 +7,10 @@ path="res://.import/ladybug_move.png-d5360025d67781303d624de7efc9e085.stex"
 [deps]
 
 source_file="res://img/Enemies/ladybug_move.png"
+source_md5="d227a48398a7ba57adc3cc8c3f01ade1"
+
 dest_files=[ "res://.import/ladybug_move.png-d5360025d67781303d624de7efc9e085.stex" ]
+dest_md5="91c6cbd219beb77740ad93fa30dfbe6a"
 
 [params]
 

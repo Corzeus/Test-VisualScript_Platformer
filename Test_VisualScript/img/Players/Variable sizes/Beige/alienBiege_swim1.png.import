@@ -7,7 +7,10 @@ path="res://.import/alienBiege_swim1.png-5001225eec7d8aa0d1874ad9b5de3186.stex"
 [deps]
 
 source_file="res://img/Players/Variable sizes/Beige/alienBiege_swim1.png"
+source_md5="3b5942377cdcf9531951932fd9b53809"
+
 dest_files=[ "res://.import/alienBiege_swim1.png-5001225eec7d8aa0d1874ad9b5de3186.stex" ]
+dest_md5="18021a79d79c1a309875e1a1489665c8"
 
 [params]
 

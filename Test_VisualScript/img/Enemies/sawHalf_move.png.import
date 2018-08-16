@@ -7,7 +7,10 @@ path="res://.import/sawHalf_move.png-662cb781fd353520cca4578464735f6a.stex"
 [deps]
 
 source_file="res://img/Enemies/sawHalf_move.png"
+source_md5="cd0afd0e3997d7d76880b57abdd6bc48"
+
 dest_files=[ "res://.import/sawHalf_move.png-662cb781fd353520cca4578464735f6a.stex" ]
+dest_md5="4c6ece26992fc309845eb674543a075a"
 
 [params]
 

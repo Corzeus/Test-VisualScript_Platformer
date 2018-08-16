@@ -7,7 +7,10 @@ path="res://.import/plantPurple.png-603a2a2faac1b50e235b53393c925d4b.stex"
 [deps]
 
 source_file="res://img/Tiles/plantPurple.png"
+source_md5="b6b131a25002d2df2a81a8f115658394"
+
 dest_files=[ "res://.import/plantPurple.png-603a2a2faac1b50e235b53393c925d4b.stex" ]
+dest_md5="75147754d915ce3b406dcd423e552c95"
 
 [params]
 

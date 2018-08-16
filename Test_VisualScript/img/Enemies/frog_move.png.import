@@ -7,7 +7,10 @@ path="res://.import/frog_move.png-03e512218d86b9d710b4e88ec396018f.stex"
 [deps]
 
 source_file="res://img/Enemies/frog_move.png"
+source_md5="f300fdf8e3e6d262f2aba213b8424860"
+
 dest_files=[ "res://.import/frog_move.png-03e512218d86b9d710b4e88ec396018f.stex" ]
+dest_md5="acf09998603f990c075627534d8c87d7"
 
 [params]
 

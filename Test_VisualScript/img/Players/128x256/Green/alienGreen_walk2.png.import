@@ -7,7 +7,10 @@ path="res://.import/alienGreen_walk2.png-0ad28639f10ab3a3c7e78731c5a4ed47.stex"
 [deps]
 
 source_file="res://img/Players/128x256/Green/alienGreen_walk2.png"
+source_md5="a2d2fe96b4a6f391e8482df154cde3ca"
+
 dest_files=[ "res://.import/alienGreen_walk2.png-0ad28639f10ab3a3c7e78731c5a4ed47.stex" ]
+dest_md5="2458c09f9e2cc7850ef1642da309663f"
 
 [params]
 

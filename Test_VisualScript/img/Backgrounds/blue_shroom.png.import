@@ -7,7 +7,10 @@ path="res://.import/blue_shroom.png-16aeaef9a1285079c4fe7406f341d81a.stex"
 [deps]
 
 source_file="res://img/Backgrounds/blue_shroom.png"
+source_md5="7c2ff6360f9ec5d209ab8e572bc7bf47"
+
 dest_files=[ "res://.import/blue_shroom.png-16aeaef9a1285079c4fe7406f341d81a.stex" ]
+dest_md5="10640121503bdc558caf4f0fe237af1f"
 
 [params]
 

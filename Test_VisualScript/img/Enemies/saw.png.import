@@ -7,7 +7,10 @@ path="res://.import/saw.png-c5fdd244f1af814c09a19e79e06c2d5b.stex"
 [deps]
 
 source_file="res://img/Enemies/saw.png"
+source_md5="9a345406976a8b00612182b92ec9ee0c"
+
 dest_files=[ "res://.import/saw.png-c5fdd244f1af814c09a19e79e06c2d5b.stex" ]
+dest_md5="c91d97aea22297e65027ec176963f934"
 
 [params]
 

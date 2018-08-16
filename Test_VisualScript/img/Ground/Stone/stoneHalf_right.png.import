@@ -7,7 +7,10 @@ path="res://.import/stoneHalf_right.png-717a70de2d6403dc1034c167da9952c8.stex"
 [deps]
 
 source_file="res://img/Ground/Stone/stoneHalf_right.png"
+source_md5="7c14f25fc15e33e6240c7874ba6febd5"
+
 dest_files=[ "res://.import/stoneHalf_right.png-717a70de2d6403dc1034c167da9952c8.stex" ]
+dest_md5="f191d125ad4f393b83bbe429d88f0383"
 
 [params]
 

@@ -7,7 +7,10 @@ path="res://.import/grass.png-4e8236ffd0889c7b25d3f2fc6b40fe08.stex"
 [deps]
 
 source_file="res://img/Tiles/grass.png"
+source_md5="500380baaa2ede2978cbf3f2e1b856f3"
+
 dest_files=[ "res://.import/grass.png-4e8236ffd0889c7b25d3f2fc6b40fe08.stex" ]
+dest_md5="fa3ae529259ab6d7b33c8df5bccceb2d"
 
 [params]
 

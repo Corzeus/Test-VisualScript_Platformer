@@ -7,7 +7,10 @@ path="res://.import/alienBiege_jump.png-d9a5f5b675f9a364bdd7533298ad32f2.stex"
 [deps]
 
 source_file="res://img/Players/Variable sizes/Beige/alienBiege_jump.png"
+source_md5="ac3359b2f2c4575624d88a9281aa6daf"
+
 dest_files=[ "res://.import/alienBiege_jump.png-d9a5f5b675f9a364bdd7533298ad32f2.stex" ]
+dest_md5="964aeec8cd4f8b46788df7b10d5db51a"
 
 [params]
 

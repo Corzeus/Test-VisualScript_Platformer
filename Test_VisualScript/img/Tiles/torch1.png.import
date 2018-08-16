@@ -7,7 +7,10 @@ path="res://.import/torch1.png-d491673e7fe562116c1e2a1745055390.stex"
 [deps]
 
 source_file="res://img/Tiles/torch1.png"
+source_md5="79ec652d2e8a96e611c580d70b99aa29"
+
 dest_files=[ "res://.import/torch1.png-d491673e7fe562116c1e2a1745055390.stex" ]
+dest_md5="6b4586c336bfe5229a59261426f2fbbe"
 
 [params]
 

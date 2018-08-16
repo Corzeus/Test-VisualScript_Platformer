@@ -7,7 +7,10 @@ path="res://.import/hud4.png-3083d072aea1a865963d6e02b89e885c.stex"
 [deps]
 
 source_file="res://img/HUD/hud4.png"
+source_md5="58cb80fc1cd1d6f5f1861b6027695781"
+
 dest_files=[ "res://.import/hud4.png-3083d072aea1a865963d6e02b89e885c.stex" ]
+dest_md5="a60a732f6a4a2f0e80453eaa0714e881"
 
 [params]
 

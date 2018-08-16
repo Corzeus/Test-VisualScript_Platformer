@@ -7,7 +7,10 @@ path="res://.import/snowCenter.png-64d88a4536363a1f736362a553b63457.stex"
 [deps]
 
 source_file="res://img/Ground/Snow/snowCenter.png"
+source_md5="4826111aa54459333ff1b323830358f3"
+
 dest_files=[ "res://.import/snowCenter.png-64d88a4536363a1f736362a553b63457.stex" ]
+dest_md5="2b2ddc71575fdd5ba7f873a3404298e4"
 
 [params]
 

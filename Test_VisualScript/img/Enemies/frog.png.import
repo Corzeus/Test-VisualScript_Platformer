@@ -7,7 +7,10 @@ path="res://.import/frog.png-237ab9811d3f400c5861efec1eddb1c5.stex"
 [deps]
 
 source_file="res://img/Enemies/frog.png"
+source_md5="f390b21de23722bbfd2d3c6a8854e60e"
+
 dest_files=[ "res://.import/frog.png-237ab9811d3f400c5861efec1eddb1c5.stex" ]
+dest_md5="f870c07f692c9002c3dda81abbae69ef"
 
 [params]
 

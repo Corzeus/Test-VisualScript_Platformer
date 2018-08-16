@@ -7,7 +7,10 @@ path="res://.import/fishBlue_fall.png-f4f3d59c327eb890d11a1101d31c7040.stex"
 [deps]
 
 source_file="res://img/Enemies/fishBlue_fall.png"
+source_md5="92bef729a5531cac0d52f6b4962df8aa"
+
 dest_files=[ "res://.import/fishBlue_fall.png-f4f3d59c327eb890d11a1101d31c7040.stex" ]
+dest_md5="2986ac4b94ab3cfb2b66d1a41e1fa93f"
 
 [params]
 

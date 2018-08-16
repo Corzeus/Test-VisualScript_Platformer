@@ -7,7 +7,10 @@ path="res://.import/alienBlue_stand.png-164cbad165b880312c770c61ac63c824.stex"
 [deps]
 
 source_file="res://img/Players/Variable sizes/Blue/alienBlue_stand.png"
+source_md5="cfe0f8452b6d7ed31ff03ba309c4dc4c"
+
 dest_files=[ "res://.import/alienBlue_stand.png-164cbad165b880312c770c61ac63c824.stex" ]
+dest_md5="42487d1ddf60e5bf74fd8720d697f40a"
 
 [params]
 

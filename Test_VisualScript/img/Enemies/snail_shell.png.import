@@ -7,7 +7,10 @@ path="res://.import/snail_shell.png-0315c8f89e9f1511e40a5b533d240210.stex"
 [deps]
 
 source_file="res://img/Enemies/snail_shell.png"
+source_md5="5312f1d3b299ee1f323e96acd6077a11"
+
 dest_files=[ "res://.import/snail_shell.png-0315c8f89e9f1511e40a5b533d240210.stex" ]
+dest_md5="d4eac37ac4497b02391a5600ba6403ce"
 
 [params]
 

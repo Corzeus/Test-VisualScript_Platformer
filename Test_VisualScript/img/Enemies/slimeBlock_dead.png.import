@@ -7,7 +7,10 @@ path="res://.import/slimeBlock_dead.png-e3df53c82d1f284d4051ded9d9d5413b.stex"
 [deps]
 
 source_file="res://img/Enemies/slimeBlock_dead.png"
+source_md5="1e7dba9d53d9045e5c648586d9fd710a"
+
 dest_files=[ "res://.import/slimeBlock_dead.png-e3df53c82d1f284d4051ded9d9d5413b.stex" ]
+dest_md5="8c8e71547ef27a59bdae7d69d0ae8ed3"
 
 [params]
 

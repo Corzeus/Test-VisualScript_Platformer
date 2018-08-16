@@ -7,7 +7,10 @@ path="res://.import/boxCoin_disabled.png-fa7a0d0fe5cb96c6d51e4a10db62d23c.stex"
 [deps]
 
 source_file="res://img/Tiles/boxCoin_disabled.png"
+source_md5="7ffff5e69270aad0a2e4c58b1cb9dd52"
+
 dest_files=[ "res://.import/boxCoin_disabled.png-fa7a0d0fe5cb96c6d51e4a10db62d23c.stex" ]
+dest_md5="47aa568f23175f2be803accdece572dd"
 
 [params]
 

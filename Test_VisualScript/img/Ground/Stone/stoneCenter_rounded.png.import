@@ -7,7 +7,10 @@ path="res://.import/stoneCenter_rounded.png-be8fc9763c19c4eca9feb7e1f0bf1811.ste
 [deps]
 
 source_file="res://img/Ground/Stone/stoneCenter_rounded.png"
+source_md5="41d9279a74f83e1462cd1b08adc3a87f"
+
 dest_files=[ "res://.import/stoneCenter_rounded.png-be8fc9763c19c4eca9feb7e1f0bf1811.stex" ]
+dest_md5="5afa25190415ca12c449ae3f7f6e87bd"
 
 [params]
 

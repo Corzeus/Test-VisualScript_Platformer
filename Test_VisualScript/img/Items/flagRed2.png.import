@@ -7,7 +7,10 @@ path="res://.import/flagRed2.png-bc437c11a6e39f47c7aeb663a7be48d2.stex"
 [deps]
 
 source_file="res://img/Items/flagRed2.png"
+source_md5="5bb2f0368596cdfa98f163de20edf246"
+
 dest_files=[ "res://.import/flagRed2.png-bc437c11a6e39f47c7aeb663a7be48d2.stex" ]
+dest_md5="b7ba84b524139f2175636a65f63d0a74"
 
 [params]
 

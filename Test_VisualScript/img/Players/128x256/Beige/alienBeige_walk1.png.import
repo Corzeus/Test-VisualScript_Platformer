@@ -7,7 +7,10 @@ path="res://.import/alienBeige_walk1.png-2e3ebf2fd34a13c6cc91741a17710734.stex"
 [deps]
 
 source_file="res://img/Players/128x256/Beige/alienBeige_walk1.png"
+source_md5="14cbb34eb3de1d315e7cfc1db11aa867"
+
 dest_files=[ "res://.import/alienBeige_walk1.png-2e3ebf2fd34a13c6cc91741a17710734.stex" ]
+dest_md5="e6926fd604654b40988db4c8dc0d1ae4"
 
 [params]
 

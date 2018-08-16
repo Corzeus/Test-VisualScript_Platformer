@@ -7,7 +7,10 @@ path="res://.import/bomb.png-a68796862d57a3393229c3458b1d7f53.stex"
 [deps]
 
 source_file="res://img/Tiles/bomb.png"
+source_md5="5e250a7f6507daf88d87f2c06cbeb3eb"
+
 dest_files=[ "res://.import/bomb.png-a68796862d57a3393229c3458b1d7f53.stex" ]
+dest_md5="87efc92498b6c8a2985b6a49ed9cbec4"
 
 [params]
 

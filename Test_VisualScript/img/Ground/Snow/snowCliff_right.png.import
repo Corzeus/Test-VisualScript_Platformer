@@ -7,7 +7,10 @@ path="res://.import/snowCliff_right.png-26b038ba2452c9964c8a233ce9bcf1d8.stex"
 [deps]
 
 source_file="res://img/Ground/Snow/snowCliff_right.png"
+source_md5="5d8e760c7699863fd5a8eb7fd5f86355"
+
 dest_files=[ "res://.import/snowCliff_right.png-26b038ba2452c9964c8a233ce9bcf1d8.stex" ]
+dest_md5="751145c874ccb8c432142209aa89bd3e"
 
 [params]
 

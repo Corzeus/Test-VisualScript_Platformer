@@ -7,7 +7,10 @@ path="res://.import/alienBlue_climb1.png-42dd6123573b1e0594c26b300dafd2e6.stex"
 [deps]
 
 source_file="res://img/Players/128x256/Blue/alienBlue_climb1.png"
+source_md5="5e586ee5b6e7422f27262c3ecb939e7f"
+
 dest_files=[ "res://.import/alienBlue_climb1.png-42dd6123573b1e0594c26b300dafd2e6.stex" ]
+dest_md5="06780d578bd1c9c33e1bca9a9b76617c"
 
 [params]
 

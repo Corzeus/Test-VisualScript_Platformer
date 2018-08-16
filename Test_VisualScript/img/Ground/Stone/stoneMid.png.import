@@ -7,7 +7,10 @@ path="res://.import/stoneMid.png-c5c16edea2f722e72d844cdc6a8e5be0.stex"
 [deps]
 
 source_file="res://img/Ground/Stone/stoneMid.png"
+source_md5="67931d24c184aa081d3babd278f08d72"
+
 dest_files=[ "res://.import/stoneMid.png-c5c16edea2f722e72d844cdc6a8e5be0.stex" ]
+dest_md5="9c29e5146c4c45367d014fd5c66b2276"
 
 [params]
 

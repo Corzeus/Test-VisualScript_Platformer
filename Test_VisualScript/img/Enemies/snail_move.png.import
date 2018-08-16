@@ -7,7 +7,10 @@ path="res://.import/snail_move.png-b676194e3cf728ef5556ba6fa18527d8.stex"
 [deps]
 
 source_file="res://img/Enemies/snail_move.png"
+source_md5="a6b39c5d4420d683d9df1527dcb19855"
+
 dest_files=[ "res://.import/snail_move.png-b676194e3cf728ef5556ba6fa18527d8.stex" ]
+dest_md5="6e8eb8aff06a3a298140b9e73f259cec"
 
 [params]
 

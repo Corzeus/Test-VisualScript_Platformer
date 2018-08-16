@@ -7,7 +7,10 @@ path="res://.import/sandHill_left.png-c34486f52422676c6766d65755a5081d.stex"
 [deps]
 
 source_file="res://img/Ground/Sand/sandHill_left.png"
+source_md5="c533e9f4b09f195c635a0f0d74a7b5c9"
+
 dest_files=[ "res://.import/sandHill_left.png-c34486f52422676c6766d65755a5081d.stex" ]
+dest_md5="819f0a8de7ccfb7320886ae94567b05f"
 
 [params]
 

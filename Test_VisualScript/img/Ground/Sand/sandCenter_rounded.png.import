@@ -7,7 +7,10 @@ path="res://.import/sandCenter_rounded.png-c6be433e630b72f598afdfc7c3c1d3a2.stex
 [deps]
 
 source_file="res://img/Ground/Sand/sandCenter_rounded.png"
+source_md5="4fc619c5321e644b4fd7389d80bcfaf5"
+
 dest_files=[ "res://.import/sandCenter_rounded.png-c6be433e630b72f598afdfc7c3c1d3a2.stex" ]
+dest_md5="58b058e131829233c72690ae8d78bdf1"
 
 [params]
 

@@ -7,7 +7,10 @@ path="res://.import/lockYellow.png-b2475a4eb4eb6cbdfc45fa176f37bd76.stex"
 [deps]
 
 source_file="res://img/Tiles/lockYellow.png"
+source_md5="2459341ed8e332a3f0031e801088ee70"
+
 dest_files=[ "res://.import/lockYellow.png-b2475a4eb4eb6cbdfc45fa176f37bd76.stex" ]
+dest_md5="073785395652297bdadefcc78496496c"
 
 [params]
 
