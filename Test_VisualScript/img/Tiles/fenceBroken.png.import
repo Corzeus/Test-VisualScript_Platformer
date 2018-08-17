@@ -7,7 +7,10 @@ path="res://.import/fenceBroken.png-d7e67fe15324f1982a6ce7df112b8ac2.stex"
 [deps]
 
 source_file="res://img/Tiles/fenceBroken.png"
+source_md5="5fb4238e571d88741da91143754ac725"
+
 dest_files=[ "res://.import/fenceBroken.png-d7e67fe15324f1982a6ce7df112b8ac2.stex" ]
+dest_md5="2b268389a4328440aff40648c8ea6598"
 
 [params]
 

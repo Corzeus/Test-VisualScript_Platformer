@@ -7,7 +7,10 @@ path="res://.import/brickBrown.png-1e45ed28591cbe43260989f6b8459c5b.stex"
 [deps]
 
 source_file="res://img/Particles/brickBrown.png"
+source_md5="f118a71e3a7a7bce9b63948bc9d5e471"
+
 dest_files=[ "res://.import/brickBrown.png-1e45ed28591cbe43260989f6b8459c5b.stex" ]
+dest_md5="ab6a98da877e40c28f7d1a07926052b7"
 
 [params]
 

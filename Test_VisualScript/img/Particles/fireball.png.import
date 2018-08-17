@@ -7,7 +7,10 @@ path="res://.import/fireball.png-82b85e2b686659bdf2c8df3ab17f60d3.stex"
 [deps]
 
 source_file="res://img/Particles/fireball.png"
+source_md5="d8bc39ee1022747c19c410192f8910cf"
+
 dest_files=[ "res://.import/fireball.png-82b85e2b686659bdf2c8df3ab17f60d3.stex" ]
+dest_md5="498b6ff3b36bf553fb10fa02176bd96a"
 
 [params]
 

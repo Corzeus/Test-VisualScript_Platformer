@@ -7,7 +7,10 @@ path="res://.import/hudPlayer_blue.png-9a72aa56dcfa9d6eea834ae118423e05.stex"
 [deps]
 
 source_file="res://img/HUD/hudPlayer_blue.png"
+source_md5="abf6041f7b09613a74a150347d76817a"
+
 dest_files=[ "res://.import/hudPlayer_blue.png-9a72aa56dcfa9d6eea834ae118423e05.stex" ]
+dest_md5="915180a9f14a4e0a399a8f8e7a7c3b25"
 
 [params]
 

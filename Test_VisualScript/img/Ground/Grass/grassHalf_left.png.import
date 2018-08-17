@@ -7,7 +7,10 @@ path="res://.import/grassHalf_left.png-4d7cad719f66cbfa3ed244dd81c61762.stex"
 [deps]
 
 source_file="res://img/Ground/Grass/grassHalf_left.png"
+source_md5="ace1d73e920b4029b9af176ae627c1a7"
+
 dest_files=[ "res://.import/grassHalf_left.png-4d7cad719f66cbfa3ed244dd81c61762.stex" ]
+dest_md5="6cd84b05fc9177068a86449589cd4c89"
 
 [params]
 

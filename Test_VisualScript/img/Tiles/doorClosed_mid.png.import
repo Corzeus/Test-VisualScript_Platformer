@@ -7,7 +7,10 @@ path="res://.import/doorClosed_mid.png-45832bd1521eab37724354f85058e05e.stex"
 [deps]
 
 source_file="res://img/Tiles/doorClosed_mid.png"
+source_md5="c4ea08a1ff6361ff73d93f9a6534638c"
+
 dest_files=[ "res://.import/doorClosed_mid.png-45832bd1521eab37724354f85058e05e.stex" ]
+dest_md5="c024e7b3b044d3f700152d7aeb154e58"
 
 [params]
 

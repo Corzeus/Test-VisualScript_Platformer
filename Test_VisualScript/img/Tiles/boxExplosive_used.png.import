@@ -7,7 +7,10 @@ path="res://.import/boxExplosive_used.png-adcc6c12691b20c221f6d5a581273421.stex"
 [deps]
 
 source_file="res://img/Tiles/boxExplosive_used.png"
+source_md5="cd9504ee79a7c2177f82dc224abccaae"
+
 dest_files=[ "res://.import/boxExplosive_used.png-adcc6c12691b20c221f6d5a581273421.stex" ]
+dest_md5="0eed22035ef676c101778c98a7981d8f"
 
 [params]
 

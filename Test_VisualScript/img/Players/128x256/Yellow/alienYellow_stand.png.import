@@ -7,7 +7,10 @@ path="res://.import/alienYellow_stand.png-dd73740f8608c03b9c86d82a7934b78f.stex"
 [deps]
 
 source_file="res://img/Players/128x256/Yellow/alienYellow_stand.png"
+source_md5="7964e13c92156900da8045ab4d294bd1"
+
 dest_files=[ "res://.import/alienYellow_stand.png-dd73740f8608c03b9c86d82a7934b78f.stex" ]
+dest_md5="a8798195f433a3096a28b6db405e679d"
 
 [params]
 

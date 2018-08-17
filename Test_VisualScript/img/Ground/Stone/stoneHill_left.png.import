@@ -7,7 +7,10 @@ path="res://.import/stoneHill_left.png-7caa35ea5018c89ee3475b2e364b14af.stex"
 [deps]
 
 source_file="res://img/Ground/Stone/stoneHill_left.png"
+source_md5="2ed1ac89437b7659cdc4b82442d1388e"
+
 dest_files=[ "res://.import/stoneHill_left.png-7caa35ea5018c89ee3475b2e364b14af.stex" ]
+dest_md5="c934ad692047b403adc091fe8d7969a0"
 
 [params]
 

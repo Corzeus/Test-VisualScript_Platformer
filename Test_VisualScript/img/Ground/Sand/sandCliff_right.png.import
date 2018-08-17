@@ -7,7 +7,10 @@ path="res://.import/sandCliff_right.png-36a11f624a6620c7dc30960e1ee45d08.stex"
 [deps]
 
 source_file="res://img/Ground/Sand/sandCliff_right.png"
+source_md5="ba12faea159c05d7595abec9cdedae94"
+
 dest_files=[ "res://.import/sandCliff_right.png-36a11f624a6620c7dc30960e1ee45d08.stex" ]
+dest_md5="751ad22b3c6c30226460fd371b9495eb"
 
 [params]
 

@@ -7,7 +7,10 @@ path="res://.import/dirtCorner_right.png-828fd79a9e84a29aaff68a2a7371e4cb.stex"
 [deps]
 
 source_file="res://img/Ground/Dirt/dirtCorner_right.png"
+source_md5="0f0c341630acab01f850edf21d1a9c6e"
+
 dest_files=[ "res://.import/dirtCorner_right.png-828fd79a9e84a29aaff68a2a7371e4cb.stex" ]
+dest_md5="0fdc4775be8340e75ca1642d9e12b44f"
 
 [params]
 

@@ -7,7 +7,10 @@ path="res://.import/hudKey_yellow_empty.png-5b78b8b8948c49af0d2210d2c7861514.ste
 [deps]
 
 source_file="res://img/HUD/hudKey_yellow_empty.png"
+source_md5="4c99a15874be40a6792b016c056e7461"
+
 dest_files=[ "res://.import/hudKey_yellow_empty.png-5b78b8b8948c49af0d2210d2c7861514.stex" ]
+dest_md5="39c15b1a410af1c0a7dad9dab3462dfa"
 
 [params]
 

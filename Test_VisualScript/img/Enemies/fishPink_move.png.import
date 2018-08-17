@@ -7,7 +7,10 @@ path="res://.import/fishPink_move.png-27fe500c39d42e89c45d7ef355c47a2b.stex"
 [deps]
 
 source_file="res://img/Enemies/fishPink_move.png"
+source_md5="c9bf6c0b808f21946bb640f8cf14275e"
+
 dest_files=[ "res://.import/fishPink_move.png-27fe500c39d42e89c45d7ef355c47a2b.stex" ]
+dest_md5="bb2f5f5f0c0c48955ff2862c0b59db40"
 
 [params]
 

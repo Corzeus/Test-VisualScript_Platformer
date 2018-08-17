@@ -7,7 +7,10 @@ path="res://.import/leverRight.png-efe0136464240a74911671ff97755020.stex"
 [deps]
 
 source_file="res://img/Tiles/leverRight.png"
+source_md5="84e8a5d1f88b05d96b6072b24363e9ec"
+
 dest_files=[ "res://.import/leverRight.png-efe0136464240a74911671ff97755020.stex" ]
+dest_md5="9ddc4064940ace7524733cbc8b21eab8"
 
 [params]
 

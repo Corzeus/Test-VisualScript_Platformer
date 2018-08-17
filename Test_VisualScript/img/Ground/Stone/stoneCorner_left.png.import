@@ -7,7 +7,10 @@ path="res://.import/stoneCorner_left.png-03a0dc04188ef2179f160e3d5431766b.stex"
 [deps]
 
 source_file="res://img/Ground/Stone/stoneCorner_left.png"
+source_md5="5314df12cedabcfa5ad9fa66afcaa4e8"
+
 dest_files=[ "res://.import/stoneCorner_left.png-03a0dc04188ef2179f160e3d5431766b.stex" ]
+dest_md5="9be7783ca95f6654a19c4d89b38a5faf"
 
 [params]
 

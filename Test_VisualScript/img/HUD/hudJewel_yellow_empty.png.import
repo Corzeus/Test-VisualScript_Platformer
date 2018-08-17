@@ -7,7 +7,10 @@ path="res://.import/hudJewel_yellow_empty.png-5ff1e8f26b2c529a84e0acfd1dd6f887.s
 [deps]
 
 source_file="res://img/HUD/hudJewel_yellow_empty.png"
+source_md5="1a3e0f271aa62288deba00b4ea678eef"
+
 dest_files=[ "res://.import/hudJewel_yellow_empty.png-5ff1e8f26b2c529a84e0acfd1dd6f887.stex" ]
+dest_md5="3848b66976a906020b99fd94fcc0a9dc"
 
 [params]
 

@@ -7,7 +7,10 @@ path="res://.import/snowCenter_rounded.png-6f5c4861c0fb2f10fb2dd8962f64feac.stex
 [deps]
 
 source_file="res://img/Ground/Snow/snowCenter_rounded.png"
+source_md5="bb21913f75afc7f6d676292f597885bf"
+
 dest_files=[ "res://.import/snowCenter_rounded.png-6f5c4861c0fb2f10fb2dd8962f64feac.stex" ]
+dest_md5="79465514937cb4f08b8589c7f9fcf245"
 
 [params]
 

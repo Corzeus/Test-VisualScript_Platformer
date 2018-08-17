@@ -7,7 +7,10 @@ path="res://.import/brickGrey.png-41b24798cb72163edde85828a1068e16.stex"
 [deps]
 
 source_file="res://img/Tiles/brickGrey.png"
+source_md5="74086ce6d23c1b31d091554325fc3894"
+
 dest_files=[ "res://.import/brickGrey.png-41b24798cb72163edde85828a1068e16.stex" ]
+dest_md5="4bd0c7b2a17295f74b3027ef2735fdf7"
 
 [params]
 

@@ -7,7 +7,10 @@ path="res://.import/mouse_move.png-4a1ed115aa5445e06502e1f49718ca4c.stex"
 [deps]
 
 source_file="res://img/Enemies/mouse_move.png"
+source_md5="974edeb9a5d37f4c6345bd3925c3f684"
+
 dest_files=[ "res://.import/mouse_move.png-4a1ed115aa5445e06502e1f49718ca4c.stex" ]
+dest_md5="248c7086d745d91000376092676d08ac"
 
 [params]
 

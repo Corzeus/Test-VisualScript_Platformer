@@ -7,7 +7,10 @@ path="res://.import/planetHalf_right.png-4a70a543567997f6f74f58cd6c6bc097.stex"
 [deps]
 
 source_file="res://img/Ground/Planet/planetHalf_right.png"
+source_md5="5633c4fb4857e11e226eeff74a8844e8"
+
 dest_files=[ "res://.import/planetHalf_right.png-4a70a543567997f6f74f58cd6c6bc097.stex" ]
+dest_md5="23db8f6f421003aebe6d056689c71ba0"
 
 [params]
 

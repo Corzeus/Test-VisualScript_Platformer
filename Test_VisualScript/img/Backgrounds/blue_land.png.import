@@ -7,7 +7,10 @@ path="res://.import/blue_land.png-90afa0809e7a263403116dae5d95652f.stex"
 [deps]
 
 source_file="res://img/Backgrounds/blue_land.png"
+source_md5="2eae063a51b576cf791fcf694634661e"
+
 dest_files=[ "res://.import/blue_land.png-90afa0809e7a263403116dae5d95652f.stex" ]
+dest_md5="05350418ee16995f8b5b6d9a4926bb8d"
 
 [params]
 

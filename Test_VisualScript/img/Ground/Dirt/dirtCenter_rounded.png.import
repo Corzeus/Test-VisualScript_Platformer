@@ -7,7 +7,10 @@ path="res://.import/dirtCenter_rounded.png-898e8fa5160fbf4e11326e3758cda495.stex
 [deps]
 
 source_file="res://img/Ground/Dirt/dirtCenter_rounded.png"
+source_md5="e2b2a3ac871f0d57102434ccbae09f4d"
+
 dest_files=[ "res://.import/dirtCenter_rounded.png-898e8fa5160fbf4e11326e3758cda495.stex" ]
+dest_md5="fea235b6b3ff8d378fa11205ad245bce"
 
 [params]
 
