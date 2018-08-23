@@ -113,7 +113,7 @@ editor_draw_drag_margin = false
 script = ExtResource( 2 )
 _sections_unfolded = [ "Drag Margin", "Editor", "Limit", "Material", "Offset", "Pause", "Smoothing", "Transform", "Visibility", "Z Index" ]
 
-[node name="Sprite" type="Sprite" parent="Player" index="3"]
+[node name="Sprite" type="Sprite" parent="Player/Camera2D" index="0"]
 
 scale = Vector2( 1.5, 1.5 )
 z_index = -1
