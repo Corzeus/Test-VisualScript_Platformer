@@ -123,7 +123,7 @@ data = {
 "variables": [  ]
 }
 
-[node name="Node2D" type="Node2D" index="0"]
+[node name="Node2D" type="Node2D"]
 
 script = SubResource( 3 )
 _sections_unfolded = [ "Material", "Transform", "Visibility", "Z Index" ]
@@ -169,6 +169,7 @@ anchor_bottom = 1.0
 margin_right = -4.0
 margin_bottom = -44.0
 rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
 focus_neighbour_top = NodePath("../../Node2DEXIT/Button")
 focus_neighbour_bottom = NodePath("../../Node2DOPTION/Button")
 focus_next = NodePath("../../Node2DOPTION/Button")
@@ -202,6 +203,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 margin_bottom = -44.0
 rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
 focus_neighbour_top = NodePath("../../Node2DPLAY/Button")
 focus_neighbour_bottom = NodePath("../../Node2DEXIT/Button")
 focus_next = NodePath("../../Node2DEXIT/Button")
@@ -234,6 +236,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 margin_bottom = -44.0
 rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
 focus_neighbour_top = NodePath("../../Node2DOPTION/Button")
 focus_neighbour_bottom = NodePath("../../Node2DPLAY/Button")
 focus_next = NodePath("../../Node2DPLAY/Button")
