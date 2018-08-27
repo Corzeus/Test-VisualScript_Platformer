@@ -24,7 +24,6 @@ settings/fps/force_fps=60
 
 window/size/width=1366
 window/size/height=768
-window/size/resizable=false
 mouse_cursor/custom_image="res://img/Items/star.png"
 
 [input]

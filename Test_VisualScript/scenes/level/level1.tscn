@@ -1,14 +1,16 @@
-[gd_scene load_steps=13 format=2]
+[gd_scene load_steps=30 format=2]
 
 [ext_resource path="res://scenes/Sprite/Player.tscn" type="PackedScene" id=1]
-[ext_resource path="res://scripts/Camera.vs" type="Script" id=2]
+[ext_resource path="res://scenes/level/Camera.vs" type="Script" id=2]
 [ext_resource path="res://img/Backgrounds/colored_grass.png" type="Texture" id=3]
-[ext_resource path="res://tileset/tile_set.tres" type="TileSet" id=4]
-[ext_resource path="res://scripts/procedural_tile_map.vs" type="Script" id=5]
-[ext_resource path="res://scripts/DEBUG_ATH.vs" type="Script" id=6]
+[ext_resource path="res://scenes/level/tile_set.tres" type="TileSet" id=4]
+[ext_resource path="res://scenes/level/procedural_tile_map.vs" type="Script" id=5]
+[ext_resource path="res://scenes/level/DEBUG_ATH.vs" type="Script" id=6]
 [ext_resource path="res://icon.png" type="Texture" id=7]
-[ext_resource path="res://scripts/POS_MARKER.vs" type="Script" id=8]
-[ext_resource path="res://scripts/POS_EIXT.vs" type="Script" id=9]
+[ext_resource path="res://scenes/level/POS_MARKER.vs" type="Script" id=8]
+[ext_resource path="res://scenes/level/POS_EIXT.vs" type="Script" id=9]
+[ext_resource path="res://scenes/Inv_Test/Inventaire.tscn" type="PackedScene" id=10]
+[ext_resource path="res://scenes/level/Env_from_default.tres" type="Environment" id=11]
 
 [sub_resource type="VisualScriptFunction" id=1]
 
@@ -76,8 +78,163 @@ data = {
 "variables": [  ]
 }
 
+[sub_resource type="VisualScriptFunction" id=4]
+
+resource_name = "_process"
+_default_input_values = [  ]
+argument_count = 1
+argument_1/type = 3
+argument_1/name = "delta"
+sequenced/sequenced = true
+stack/size = 256
+stack/stackless = false
+rpc/mode = 0
+
+[sub_resource type="VisualScriptInputAction" id=5]
+
+_default_input_values = [  ]
+action = "SWITCH"
+mode = 0
+
+[sub_resource type="VisualScriptPropertySet" id=6]
+
+_default_input_values = [ false ]
+set_mode = 0
+base_type = "Node2D"
+type_cache = {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "visible",
+"type": 1,
+"usage": 1031
+}
+property = "visible"
+assign_op = 0
+
+[sub_resource type="VisualScriptPropertyGet" id=7]
+
+_default_input_values = [  ]
+set_mode = 1
+base_type = "KinematicBody2D"
+type_cache = 5
+node_path = NodePath("../Player")
+property = "position"
+index = ""
+
+[sub_resource type="VisualScriptPropertySet" id=8]
+
+_default_input_values = [ Vector2( 0, 0 ) ]
+set_mode = 0
+base_type = "Node2D"
+type_cache = {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "position",
+"type": 5,
+"usage": 519
+}
+property = "position"
+index = ""
+assign_op = 0
+
+[sub_resource type="VisualScriptPropertySet" id=9]
+
+_default_input_values = [ 1 ]
+set_mode = 1
+base_type = "KinematicBody2D"
+type_cache = {
+"class_name": "",
+"hint": 3,
+"hint_string": "Inherit,Stop,Process",
+"name": "pause_mode",
+"type": 2,
+"usage": 519
+}
+node_path = NodePath("../Player")
+property = "pause_mode"
+assign_op = 0
+
+[sub_resource type="VisualScriptConstant" id=10]
+
+_default_input_values = [  ]
+type = 2
+value = 2
+
+[sub_resource type="VisualScriptCondition" id=11]
+
+_default_input_values = [ false ]
+
+[sub_resource type="VisualScriptOperator" id=12]
+
+_default_input_values = [ false, false ]
+operator = 22
+type = 0
+
+[sub_resource type="VisualScriptPropertyGet" id=13]
+
+_default_input_values = [  ]
+set_mode = 1
+base_type = "KinematicBody2D"
+type_cache = 2
+node_path = NodePath("../Player")
+property = "pause_mode"
+
+[sub_resource type="VisualScriptOperator" id=14]
+
+_default_input_values = [ 0, 0 ]
+operator = 0
+type = 2
+
+[sub_resource type="VisualScriptConstant" id=15]
+
+_default_input_values = [  ]
+type = 2
+value = 2
+
+[sub_resource type="VisualScriptPropertySet" id=16]
+
+_default_input_values = [ 1 ]
+set_mode = 1
+base_type = "KinematicBody2D"
+type_cache = {
+"class_name": "",
+"hint": 3,
+"hint_string": "Inherit,Stop,Process",
+"name": "pause_mode",
+"type": 2,
+"usage": 519
+}
+node_path = NodePath("../Player")
+property = "pause_mode"
+assign_op = 0
+
+[sub_resource type="VisualScriptConstant" id=17]
+
+_default_input_values = [  ]
+type = 2
+value = 1
+
+[sub_resource type="VisualScript" id=18]
+
+data = {
+"base_type": "Node2D",
+"functions": [ {
+"data_connections": [ 2, 0, 3, 0, 4, 0, 5, 0, 7, 0, 6, 0, 10, 0, 9, 0, 2, 0, 10, 0, 11, 0, 12, 0, 18, 0, 16, 0, 12, 0, 10, 1, 14, 0, 12, 1 ],
+"function_id": 0,
+"name": "_process",
+"nodes": [ 0, Vector2( 0, 0 ), SubResource( 4 ), 2, Vector2( 120, 100 ), SubResource( 5 ), 3, Vector2( 280, 0 ), SubResource( 6 ), 4, Vector2( -60, 100 ), SubResource( 7 ), 5, Vector2( 140, 0 ), SubResource( 8 ), 6, Vector2( 580, 0 ), SubResource( 9 ), 7, Vector2( 460, -100 ), SubResource( 10 ), 9, Vector2( 420, 0 ), SubResource( 11 ), 10, Vector2( 280, 100 ), SubResource( 12 ), 11, Vector2( -80, 200 ), SubResource( 13 ), 12, Vector2( 140, 200 ), SubResource( 14 ), 14, Vector2( 0, 300 ), SubResource( 15 ), 16, Vector2( 580, 100 ), SubResource( 16 ), 18, Vector2( 440, 180 ), SubResource( 17 ) ],
+"scroll": Vector2( 305, -155.923 ),
+"sequence_connections": [ 5, 0, 3, 0, 0, 5, 9, 0, 6, 3, 0, 9, 9, 1, 16 ]
+} ],
+"signals": [  ],
+"variables": [  ]
+}
+
 [node name="level1" type="Node2D" index="0"]
 
+pause_mode = 2
 _sections_unfolded = [ "Material", "Pause", "Transform", "Visibility", "Z Index" ]
 
 [node name="Player" parent="." index="0" instance=ExtResource( 1 )]
@@ -144,7 +301,7 @@ _sections_unfolded = [ "Cell", "Collision", "Material", "Occluder", "Pause", "Tr
 
 [node name="DEBUG_ATH" type="Node2D" parent="." index="2"]
 
-editor/display_folded = true
+pause_mode = 2
 position = Vector2( 500, 0 )
 z_index = 1
 script = ExtResource( 6 )
@@ -205,4 +362,22 @@ _sections_unfolded = [ "Rect" ]
 
 script = SubResource( 3 )
 
+[node name="INVENTORY_SHOWER" type="Node2D" parent="." index="4"]
 
+pause_mode = 2
+script = SubResource( 18 )
+_sections_unfolded = [ "Pause" ]
+
+[node name="Node2D" parent="INVENTORY_SHOWER" index="0" instance=ExtResource( 10 )]
+
+[node name="TL" parent="INVENTORY_SHOWER/Node2D/Curseur" index="0"]
+
+texture_mode = 674725856
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." index="5"]
+
+environment = ExtResource( 11 )
+
+
+[editable path="Player"]
+[editable path="INVENTORY_SHOWER/Node2D"]

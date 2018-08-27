@@ -1,0 +1,52 @@
+[gd_resource type="SpriteFrames" load_steps=10 format=2]
+
+[ext_resource path="res://img/Players/Variable sizes/Green/alienGreen_walk1.png" type="Texture" id=1]
+[ext_resource path="res://img/Players/Variable sizes/Green/alienGreen_walk2.png" type="Texture" id=2]
+[ext_resource path="res://img/Players/Variable sizes/Green/alienGreen_hit.png" type="Texture" id=3]
+[ext_resource path="res://img/Players/Variable sizes/Green/alienGreen_duck.png" type="Texture" id=4]
+[ext_resource path="res://img/Players/Variable sizes/Green/alienGreen_swim1.png" type="Texture" id=5]
+[ext_resource path="res://img/Players/Variable sizes/Green/alienGreen_swim2.png" type="Texture" id=6]
+[ext_resource path="res://img/Players/Variable sizes/Green/alienGreen_climb1.png" type="Texture" id=7]
+[ext_resource path="res://img/Players/Variable sizes/Green/alienGreen_climb2.png" type="Texture" id=8]
+[ext_resource path="res://img/Players/Variable sizes/Green/alienGreen_jump.png" type="Texture" id=9]
+
+[resource]
+
+animations = [ {
+"frames": [ ExtResource( 1 ), ExtResource( 2 ) ],
+"loop": true,
+"name": "idle",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 3 ) ],
+"loop": true,
+"name": "hit",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 4 ) ],
+"loop": true,
+"name": "duck",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 5 ), ExtResource( 6 ) ],
+"loop": true,
+"name": "swim",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 7 ), ExtResource( 8 ) ],
+"loop": true,
+"name": "climb",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 9 ) ],
+"loop": true,
+"name": "jump",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 6 ), ExtResource( 7 ) ],
+"loop": true,
+"name": "walk",
+"speed": 5.0
+} ]
+_sections_unfolded = [ "Resource" ]
+
