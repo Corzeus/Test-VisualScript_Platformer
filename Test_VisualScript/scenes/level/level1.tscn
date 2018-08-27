@@ -241,6 +241,7 @@ _sections_unfolded = [ "Material", "Pause", "Transform", "Visibility", "Z Index"
 
 position = Vector2( 500, 0 )
 z_index = 1
+script = null
 _sections_unfolded = [ "Collision", "Material", "Pause", "Pickable", "Transform", "Visibility", "Z Index", "collision" ]
 
 [node name="Camera2D" type="Camera2D" parent="Player" index="2"]
@@ -365,6 +366,7 @@ script = SubResource( 3 )
 [node name="INVENTORY_SHOWER" type="Node2D" parent="." index="4"]
 
 pause_mode = 2
+visible = false
 script = SubResource( 18 )
 _sections_unfolded = [ "Pause" ]
 
