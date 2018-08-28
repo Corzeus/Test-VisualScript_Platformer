@@ -69,7 +69,7 @@ SWITCH=[ Object(InputEventJoypadButton,"resource_local_to_scene":false,"resource
 
 [locale]
 
-locale_filter=[ 0, [ "en", "es", "fr", "ja" ] ]
+locale_filter=[ 2, [ "en", "es", "fr", "ja" ] ]
 
 [node]
 
