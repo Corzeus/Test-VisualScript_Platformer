@@ -7,7 +7,10 @@ path="res://.import/HALF_WonG.png-cebd413e78c8531939e4f69ae667b673.stex"
 [deps]
 
 source_file="res://scenes/HEXA_GEN/SQUARE/HALF_WonG.png"
+source_md5="390622adae09bc270a64a581c95bdf22"
+
 dest_files=[ "res://.import/HALF_WonG.png-cebd413e78c8531939e4f69ae667b673.stex" ]
+dest_md5="291c3833937cecfb10e202b7c13a1855"
 
 [params]
 

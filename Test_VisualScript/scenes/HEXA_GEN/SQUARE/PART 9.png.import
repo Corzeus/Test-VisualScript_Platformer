@@ -7,7 +7,10 @@ path="res://.import/PART 9.png-57e432d2a9a28ebaf66847d8ee839cab.stex"
 [deps]
 
 source_file="res://scenes/HEXA_GEN/SQUARE/PART 9.png"
+source_md5="4acc52545d16fbf3b92115229c773d2b"
+
 dest_files=[ "res://.import/PART 9.png-57e432d2a9a28ebaf66847d8ee839cab.stex" ]
+dest_md5="ac7f6d082da00e7b5ae6add50e06a1d3"
 
 [params]
 

@@ -84,4 +84,3 @@ quality/intended_usage/framebuffer_allocation=0
 threads/thread_model=2
 quality/shading/force_vertex_shading=true
 quality/subsurface_scattering/quality=2
-environment/default_environment="res://default_env.tres"
