@@ -7,7 +7,10 @@ path="res://.import/FULL_WATER.png-62288ae7adcde9454f8c4f7bf8575049.stex"
 [deps]
 
 source_file="res://scenes/HEXA_GEN/SQUARE/FULL_WATER.png"
+source_md5="920e772f8a8ee59327426fd68d322cb2"
+
 dest_files=[ "res://.import/FULL_WATER.png-62288ae7adcde9454f8c4f7bf8575049.stex" ]
+dest_md5="94c2d4f81b1d6f327ffff77d4f129daa"
 
 [params]
 

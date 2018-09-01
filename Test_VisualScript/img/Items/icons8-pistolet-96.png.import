@@ -7,7 +7,10 @@ path="res://.import/icons8-pistolet-96.png-cbbf207d9ef4198d1d8c87aa0309cfda.stex
 [deps]
 
 source_file="res://img/Items/icons8-pistolet-96.png"
+source_md5="b0ccff5bcebe6438727bf24a114e8792"
+
 dest_files=[ "res://.import/icons8-pistolet-96.png-cbbf207d9ef4198d1d8c87aa0309cfda.stex" ]
+dest_md5="d4cc17bd4d12a3e89ecb1117c9e1aa9c"
 
 [params]
 

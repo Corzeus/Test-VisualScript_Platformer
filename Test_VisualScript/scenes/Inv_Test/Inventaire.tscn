@@ -1,255 +1,27 @@
-[gd_scene load_steps=126 format=2]
+[gd_scene load_steps=182 format=2]
 
 [ext_resource path="res://scenes/Inv_Test/CURSOR.vs" type="Script" id=1]
-[ext_resource path="res://img/Tiles/boxCrate.png" type="Texture" id=2]
-[ext_resource path="res://img/Items/icons8-fusil-d'assaut-96.png" type="Texture" id=3]
-[ext_resource path="res://img/Items/icons8-fusil-de-sniper-96.png" type="Texture" id=4]
-[ext_resource path="res://img/Items/coinGold.png" type="Texture" id=5]
-[ext_resource path="res://img/Items/keyBlue.png" type="Texture" id=6]
-[ext_resource path="res://img/Items/keyGreen.png" type="Texture" id=7]
-[ext_resource path="res://img/Items/keyRed.png" type="Texture" id=8]
-[ext_resource path="res://img/Items/keyYellow.png" type="Texture" id=9]
-[ext_resource path="res://img/Items/star.png" type="Texture" id=10]
-[ext_resource path="res://img/Tiles/bomb.png" type="Texture" id=11]
-[ext_resource path="res://img/Items/icons8-mitraillette-96.png" type="Texture" id=12]
-[ext_resource path="res://img/Items/icons8-pistolet-96.png" type="Texture" id=13]
-[ext_resource path="res://img/Items/gemBlue.png" type="Texture" id=14]
-[ext_resource path="res://img/Items/gemGreen.png" type="Texture" id=15]
-[ext_resource path="res://img/Items/gemRed.png" type="Texture" id=16]
-[ext_resource path="res://img/Items/gemYellow.png" type="Texture" id=17]
-[ext_resource path="res://img/Items/coinBronze.png" type="Texture" id=18]
-[ext_resource path="res://img/Items/coinSilver.png" type="Texture" id=19]
+[ext_resource path="res://img/Items/icons8-fusil-d'assaut-96.png" type="Texture" id=2]
+[ext_resource path="res://img/Items/icons8-fusil-de-sniper-96.png" type="Texture" id=3]
+[ext_resource path="res://img/Items/coinGold.png" type="Texture" id=4]
+[ext_resource path="res://img/Items/keyBlue.png" type="Texture" id=5]
+[ext_resource path="res://img/Items/keyGreen.png" type="Texture" id=6]
+[ext_resource path="res://img/Items/keyRed.png" type="Texture" id=7]
+[ext_resource path="res://img/Items/keyYellow.png" type="Texture" id=8]
+[ext_resource path="res://img/Items/star.png" type="Texture" id=9]
+[ext_resource path="res://img/Tiles/bomb.png" type="Texture" id=10]
+[ext_resource path="res://img/Items/icons8-mitraillette-96.png" type="Texture" id=11]
+[ext_resource path="res://img/Items/icons8-pistolet-96.png" type="Texture" id=12]
+[ext_resource path="res://img/Items/gemBlue.png" type="Texture" id=13]
+[ext_resource path="res://img/Items/gemGreen.png" type="Texture" id=14]
+[ext_resource path="res://img/Items/gemRed.png" type="Texture" id=15]
+[ext_resource path="res://img/Items/gemYellow.png" type="Texture" id=16]
+[ext_resource path="res://img/Items/coinBronze.png" type="Texture" id=17]
+[ext_resource path="res://img/Items/coinSilver.png" type="Texture" id=18]
+[ext_resource path="res://img/Tiles/boxCrate.png" type="Texture" id=19]
 [ext_resource path="res://scenes/level/default_env.tres" type="Environment" id=20]
 
 [sub_resource type="VisualScriptFunction" id=1]
-
-resource_name = "_input"
-_default_input_values = [  ]
-argument_count = 1
-argument_1/type = 17
-argument_1/name = "event"
-sequenced/sequenced = true
-stack/size = 256
-stack/stackless = false
-rpc/mode = 0
-
-[sub_resource type="VisualScriptCondition" id=2]
-
-_default_input_values = [ false ]
-_sections_unfolded = [ "Resource" ]
-
-[sub_resource type="VisualScriptCondition" id=3]
-
-_default_input_values = [ false ]
-
-[sub_resource type="VisualScriptCondition" id=4]
-
-_default_input_values = [ false ]
-
-[sub_resource type="VisualScriptCondition" id=5]
-
-_default_input_values = [ false ]
-
-[sub_resource type="VisualScriptInputAction" id=6]
-
-_default_input_values = [  ]
-action = "ui_up"
-mode = 0
-
-[sub_resource type="VisualScriptInputAction" id=7]
-
-_default_input_values = [  ]
-action = "ui_down"
-mode = 0
-
-[sub_resource type="VisualScriptInputAction" id=8]
-
-_default_input_values = [  ]
-action = "ui_right"
-mode = 0
-
-[sub_resource type="VisualScriptInputAction" id=9]
-
-_default_input_values = [  ]
-action = "ui_left"
-mode = 0
-
-[sub_resource type="VisualScriptPropertySet" id=10]
-
-_default_input_values = [ Vector2( 0, 0 ) ]
-set_mode = 0
-base_type = "Node2D"
-type_cache = {
-"class_name": "",
-"hint": 0,
-"hint_string": "",
-"name": "GO_TO",
-"type": 5,
-"usage": 8199
-}
-property = "GO_TO"
-index = ""
-assign_op = 0
-
-[sub_resource type="VisualScriptConstant" id=11]
-
-_default_input_values = [  ]
-type = 5
-value = Vector2( 0, 0 )
-
-[sub_resource type="VisualScriptPropertySet" id=12]
-
-_default_input_values = [ Vector2( 0, 0 ) ]
-set_mode = 0
-base_type = "Node2D"
-type_cache = {
-"class_name": "",
-"hint": 0,
-"hint_string": "",
-"name": "GO_TO",
-"type": 5,
-"usage": 8199
-}
-property = "GO_TO"
-index = ""
-assign_op = 1
-
-[sub_resource type="VisualScriptOperator" id=13]
-
-_default_input_values = [ Vector2( 0, 0 ) ]
-operator = 10
-type = 5
-
-[sub_resource type="VisualScriptConstant" id=14]
-
-_default_input_values = [  ]
-type = 5
-value = Vector2( 0, 1 )
-
-[sub_resource type="VisualScriptConstant" id=15]
-
-_default_input_values = [  ]
-type = 5
-value = Vector2( 1, 0 )
-
-[sub_resource type="VisualScriptPropertySet" id=16]
-
-_default_input_values = [ Vector2( 0, 0 ) ]
-set_mode = 0
-base_type = "Node2D"
-type_cache = {
-"class_name": "",
-"hint": 0,
-"hint_string": "",
-"name": "GO_TO",
-"type": 5,
-"usage": 8199
-}
-property = "GO_TO"
-index = ""
-assign_op = 1
-
-[sub_resource type="VisualScriptConstant" id=17]
-
-_default_input_values = [  ]
-type = 5
-value = Vector2( 0, 1 )
-
-[sub_resource type="VisualScriptOperator" id=18]
-
-_default_input_values = [ Vector2( 0, 0 ) ]
-operator = 10
-type = 5
-
-[sub_resource type="VisualScriptPropertySet" id=19]
-
-_default_input_values = [ Vector2( 0, 0 ) ]
-set_mode = 0
-base_type = "Node2D"
-type_cache = {
-"class_name": "",
-"hint": 0,
-"hint_string": "",
-"name": "GO_TO",
-"type": 5,
-"usage": 8199
-}
-property = "GO_TO"
-index = ""
-assign_op = 1
-
-[sub_resource type="VisualScriptPropertySet" id=20]
-
-_default_input_values = [ false ]
-set_mode = 0
-base_type = "Node2D"
-type_cache = {
-"class_name": "",
-"hint": 0,
-"hint_string": "",
-"name": "GO_TO",
-"type": 5,
-"usage": 8199
-}
-property = "GO_TO"
-index = ""
-assign_op = 1
-
-[sub_resource type="VisualScriptInputAction" id=21]
-
-_default_input_values = [  ]
-action = "K_P"
-mode = 0
-
-[sub_resource type="VisualScriptCondition" id=22]
-
-_default_input_values = [ false ]
-
-[sub_resource type="VisualScriptPropertySet" id=23]
-
-_default_input_values = [ false ]
-set_mode = 0
-base_type = "Node2D"
-type_cache = {
-"class_name": "",
-"hint": 0,
-"hint_string": "",
-"name": "CLIGNOTE",
-"type": 1,
-"usage": 8199
-}
-property = "CLIGNOTE"
-assign_op = 1
-
-[sub_resource type="VisualScriptConstant" id=24]
-
-_default_input_values = [  ]
-type = 1
-value = true
-
-[sub_resource type="VisualScriptPropertySet" id=25]
-
-_default_input_values = [ false ]
-set_mode = 0
-base_type = "Node2D"
-type_cache = {
-"class_name": "",
-"hint": 0,
-"hint_string": "",
-"name": "CLIGNOTE",
-"type": 1,
-"usage": 8199
-}
-property = "CLIGNOTE"
-assign_op = 1
-
-[sub_resource type="VisualScriptConstant" id=26]
-
-_default_input_values = [  ]
-type = 1
-value = false
-
-[sub_resource type="VisualScriptFunction" id=27]
 
 _default_input_values = [  ]
 argument_count = 1
@@ -260,7 +32,7 @@ stack/size = 256
 stack/stackless = false
 rpc/mode = 0
 
-[sub_resource type="VisualScriptFunctionCall" id=28]
+[sub_resource type="VisualScriptFunctionCall" id=2]
 
 _default_input_values = [  ]
 call_mode = 0
@@ -284,7 +56,7 @@ function = "go_to"
 validate = true
 rpc_call_mode = 0
 
-[sub_resource type="VisualScriptFunctionCall" id=29]
+[sub_resource type="VisualScriptFunctionCall" id=3]
 
 _default_input_values = [  ]
 call_mode = 0
@@ -308,16 +80,16 @@ function = "SET_gen"
 validate = true
 rpc_call_mode = 0
 
-[sub_resource type="VisualScriptCondition" id=30]
+[sub_resource type="VisualScriptCondition" id=4]
 
 _default_input_values = [ false ]
 
-[sub_resource type="VisualScriptVariableGet" id=31]
+[sub_resource type="VisualScriptVariableGet" id=5]
 
 _default_input_values = [  ]
 var_name = "CLIGNOTE"
 
-[sub_resource type="VisualScriptFunctionCall" id=32]
+[sub_resource type="VisualScriptFunctionCall" id=6]
 
 _default_input_values = [  ]
 call_mode = 0
@@ -341,272 +113,105 @@ function = "clignote"
 validate = true
 rpc_call_mode = 0
 
-[sub_resource type="VisualScriptFunction" id=33]
-
-resource_name = "new_function"
-_default_input_values = [  ]
-argument_count = 0
-sequenced/sequenced = true
-stack/size = 256
-stack/stackless = false
-rpc/mode = 0
-
-[sub_resource type="VisualScriptFunction" id=34]
-
-resource_name = "SET_gen"
-_default_input_values = [  ]
-argument_count = 0
-sequenced/sequenced = true
-stack/size = 256
-stack/stackless = false
-rpc/mode = 0
-
-[sub_resource type="VisualScriptFunction" id=35]
-
-_default_input_values = [  ]
-argument_count = 0
-sequenced/sequenced = true
-stack/size = 256
-stack/stackless = false
-rpc/mode = 0
-_sections_unfolded = [ "argument_1" ]
-
-[sub_resource type="VisualScriptCondition" id=36]
-
-_default_input_values = [ false ]
-
-[sub_resource type="VisualScriptOperator" id=37]
-
-_default_input_values = [ 0.0, 0.0 ]
-operator = 4
-type = 3
-
-[sub_resource type="VisualScriptOperator" id=38]
-
-_default_input_values = [ 0.0, 0.0 ]
-operator = 5
-type = 3
-
-[sub_resource type="VisualScriptConstant" id=39]
-
-_default_input_values = [  ]
-type = 3
-value = 0.0
-
-[sub_resource type="VisualScriptOperator" id=40]
-
-_default_input_values = [ null, null ]
-operator = 20
-type = 0
-
-[sub_resource type="VisualScriptDeconstruct" id=41]
+[sub_resource type="VisualScriptPropertySet" id=7]
 
 _default_input_values = [ Vector2( 0, 0 ) ]
-type = 5
-elem_cache = [ "x", 3, "y", 3 ]
+set_mode = 0
+base_type = "Node2D"
+type_cache = {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "position",
+"type": 5,
+"usage": 519
+}
+property = "position"
+index = ""
+assign_op = 0
 
-[sub_resource type="VisualScriptOperator" id=42]
+[sub_resource type="VisualScriptOperator" id=8]
+
+_default_input_values = [ Vector2( 0, 0 ), Vector2( 0, 0 ) ]
+operator = 8
+type = 0
+
+[sub_resource type="VisualScriptVariableGet" id=9]
+
+_default_input_values = [  ]
+var_name = "POS"
+
+[sub_resource type="VisualScriptConstant" id=10]
+
+_default_input_values = [  ]
+type = 2
+value = 128
+
+[sub_resource type="VisualScriptOperator" id=110]
 
 _default_input_values = [ Vector2( 0, 0 ), Vector2( 0, 0 ) ]
 operator = 6
 type = 5
 
-[sub_resource type="VisualScriptVariableGet" id=43]
+[sub_resource type="VisualScriptConstant" id=111]
 
 _default_input_values = [  ]
-var_name = "GO_TO"
-
-[sub_resource type="VisualScriptConstant" id=44]
-
-_default_input_values = [  ]
-type = 3
-value = 6.0
-
-[sub_resource type="VisualScriptVariableGet" id=45]
-
-_default_input_values = [  ]
-var_name = "POS"
-
-[sub_resource type="VisualScriptDeconstruct" id=46]
-
-_default_input_values = [ Vector2( 0, 0 ) ]
 type = 5
-elem_cache = [ "x", 3, "y", 3 ]
+value = Vector2( 64, 64 )
 
-[sub_resource type="VisualScriptVariableGet" id=47]
-
-_default_input_values = [  ]
-var_name = "GO_TO"
-
-[sub_resource type="VisualScriptVariableSet" id=48]
-
-_default_input_values = [ Vector2( 0, 0 ) ]
-var_name = "POS"
-
-[sub_resource type="VisualScriptConstructor" id=49]
-
-_default_input_values = [ null, null ]
-type = 5
-constructor = {
-"args": [ {
-"class_name": "",
-"hint": 0,
-"hint_string": "",
-"name": "x",
-"type": 3,
-"usage": 7
-}, {
-"class_name": "",
-"hint": 0,
-"hint_string": "",
-"name": "y",
-"type": 3,
-"usage": 7
-} ],
-"default_args": [  ],
-"flags": 1,
-"id": 0,
-"name": "Vector2",
-"return": {
-"class_name": "",
-"hint": 0,
-"hint_string": "",
-"name": "",
-"type": 5,
-"usage": 7
-}
-}
-
-[sub_resource type="VisualScriptOperator" id=50]
-
-_default_input_values = [ 0.0, 0.0 ]
-operator = 6
-type = 3
-
-[sub_resource type="VisualScriptVariableGet" id=51]
+[sub_resource type="VisualScriptFunction" id=11]
 
 _default_input_values = [  ]
-var_name = "POS"
+argument_count = 1
+argument_1/type = 17
+argument_1/name = "event"
+sequenced/sequenced = true
+stack/size = 256
+stack/stackless = false
+rpc/mode = 0
 
-[sub_resource type="VisualScriptDeconstruct" id=52]
+[sub_resource type="VisualScriptCondition" id=12]
 
-_default_input_values = [ Vector2( 0, 0 ) ]
-type = 5
-elem_cache = [ "x", 3, "y", 3 ]
+_default_input_values = [ false ]
+_sections_unfolded = [ "Resource" ]
 
-[sub_resource type="VisualScriptCondition" id=53]
+[sub_resource type="VisualScriptCondition" id=13]
 
 _default_input_values = [ false ]
 
-[sub_resource type="VisualScriptOperator" id=54]
+[sub_resource type="VisualScriptCondition" id=14]
 
-_default_input_values = [ 0.0, 0.0 ]
-operator = 4
-type = 3
+_default_input_values = [ false ]
 
-[sub_resource type="VisualScriptOperator" id=55]
+[sub_resource type="VisualScriptCondition" id=15]
 
-_default_input_values = [ 0.0, 0.0 ]
-operator = 5
-type = 3
+_default_input_values = [ false ]
 
-[sub_resource type="VisualScriptConstant" id=56]
+[sub_resource type="VisualScriptInputAction" id=16]
 
 _default_input_values = [  ]
-type = 3
-value = 0.0
+action = "ui_up"
+mode = 0
 
-[sub_resource type="VisualScriptOperator" id=57]
-
-_default_input_values = [ null, null ]
-operator = 20
-type = 0
-
-[sub_resource type="VisualScriptDeconstruct" id=58]
-
-_default_input_values = [ Vector2( 0, 0 ) ]
-type = 5
-elem_cache = [ "x", 3, "y", 3 ]
-
-[sub_resource type="VisualScriptOperator" id=59]
-
-_default_input_values = [ Vector2( 0, 0 ), Vector2( 0, 0 ) ]
-operator = 6
-type = 5
-
-[sub_resource type="VisualScriptVariableGet" id=60]
+[sub_resource type="VisualScriptInputAction" id=17]
 
 _default_input_values = [  ]
-var_name = "GO_TO"
+action = "ui_down"
+mode = 0
 
-[sub_resource type="VisualScriptConstant" id=61]
-
-_default_input_values = [  ]
-type = 3
-value = 6.0
-
-[sub_resource type="VisualScriptVariableGet" id=62]
+[sub_resource type="VisualScriptInputAction" id=18]
 
 _default_input_values = [  ]
-var_name = "POS"
+action = "ui_right"
+mode = 0
 
-[sub_resource type="VisualScriptVariableSet" id=63]
-
-_default_input_values = [ Vector2( 0, 0 ) ]
-var_name = "POS"
-
-[sub_resource type="VisualScriptConstructor" id=64]
-
-_default_input_values = [ null, null ]
-type = 5
-constructor = {
-"args": [ {
-"class_name": "",
-"hint": 0,
-"hint_string": "",
-"name": "x",
-"type": 3,
-"usage": 7
-}, {
-"class_name": "",
-"hint": 0,
-"hint_string": "",
-"name": "y",
-"type": 3,
-"usage": 7
-} ],
-"default_args": [  ],
-"flags": 1,
-"id": 0,
-"name": "Vector2",
-"return": {
-"class_name": "",
-"hint": 0,
-"hint_string": "",
-"name": "",
-"type": 5,
-"usage": 7
-}
-}
-
-[sub_resource type="VisualScriptDeconstruct" id=65]
-
-_default_input_values = [ Vector2( 0, 0 ) ]
-type = 5
-elem_cache = [ "x", 3, "y", 3 ]
-
-[sub_resource type="VisualScriptVariableGet" id=66]
+[sub_resource type="VisualScriptInputAction" id=19]
 
 _default_input_values = [  ]
-var_name = "POS"
+action = "ui_left"
+mode = 0
 
-[sub_resource type="VisualScriptOperator" id=67]
-
-_default_input_values = [ 0.0, 0.0 ]
-operator = 6
-type = 3
-
-[sub_resource type="VisualScriptPropertySet" id=68]
+[sub_resource type="VisualScriptPropertySet" id=20]
 
 _default_input_values = [ Vector2( 0, 0 ) ]
 set_mode = 0
@@ -623,15 +228,200 @@ property = "GO_TO"
 index = ""
 assign_op = 0
 
-[sub_resource type="VisualScriptConstant" id=69]
+[sub_resource type="VisualScriptConstant" id=21]
 
 _default_input_values = [  ]
 type = 5
 value = Vector2( 0, 0 )
 
-[sub_resource type="VisualScriptFunction" id=70]
+[sub_resource type="VisualScriptPropertySet" id=22]
 
-resource_name = "clignote"
+_default_input_values = [ Vector2( 0, 0 ) ]
+set_mode = 0
+base_type = "Node2D"
+type_cache = {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "GO_TO",
+"type": 5,
+"usage": 8199
+}
+property = "GO_TO"
+index = ""
+assign_op = 1
+
+[sub_resource type="VisualScriptOperator" id=23]
+
+_default_input_values = [ Vector2( 0, 0 ) ]
+operator = 10
+type = 5
+
+[sub_resource type="VisualScriptConstant" id=24]
+
+_default_input_values = [  ]
+type = 5
+value = Vector2( 0, 1 )
+
+[sub_resource type="VisualScriptConstant" id=25]
+
+_default_input_values = [  ]
+type = 5
+value = Vector2( 1, 0 )
+
+[sub_resource type="VisualScriptPropertySet" id=26]
+
+_default_input_values = [ Vector2( 0, 0 ) ]
+set_mode = 0
+base_type = "Node2D"
+type_cache = {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "GO_TO",
+"type": 5,
+"usage": 8199
+}
+property = "GO_TO"
+index = ""
+assign_op = 1
+
+[sub_resource type="VisualScriptConstant" id=27]
+
+_default_input_values = [  ]
+type = 5
+value = Vector2( 0, 1 )
+
+[sub_resource type="VisualScriptOperator" id=28]
+
+_default_input_values = [ Vector2( 0, 0 ) ]
+operator = 10
+type = 5
+
+[sub_resource type="VisualScriptPropertySet" id=29]
+
+_default_input_values = [ Vector2( 0, 0 ) ]
+set_mode = 0
+base_type = "Node2D"
+type_cache = {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "GO_TO",
+"type": 5,
+"usage": 8199
+}
+property = "GO_TO"
+index = ""
+assign_op = 1
+
+[sub_resource type="VisualScriptPropertySet" id=30]
+
+_default_input_values = [ false ]
+set_mode = 0
+base_type = "Node2D"
+type_cache = {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "GO_TO",
+"type": 5,
+"usage": 8199
+}
+property = "GO_TO"
+index = ""
+assign_op = 1
+
+[sub_resource type="VisualScriptInputAction" id=31]
+
+_default_input_values = [  ]
+action = "K_P"
+mode = 0
+
+[sub_resource type="VisualScriptCondition" id=32]
+
+_default_input_values = [ false ]
+
+[sub_resource type="VisualScriptPropertySet" id=33]
+
+_default_input_values = [ false ]
+set_mode = 0
+base_type = "Node2D"
+type_cache = {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "CLIGNOTE",
+"type": 1,
+"usage": 8199
+}
+property = "CLIGNOTE"
+assign_op = 1
+
+[sub_resource type="VisualScriptConstant" id=34]
+
+_default_input_values = [  ]
+type = 1
+value = true
+
+[sub_resource type="VisualScriptPropertySet" id=35]
+
+_default_input_values = [ false ]
+set_mode = 0
+base_type = "Node2D"
+type_cache = {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "CLIGNOTE",
+"type": 1,
+"usage": 8199
+}
+property = "CLIGNOTE"
+assign_op = 1
+
+[sub_resource type="VisualScriptConstant" id=36]
+
+_default_input_values = [  ]
+type = 1
+value = false
+
+[sub_resource type="VisualScriptInputAction" id=112]
+
+_default_input_values = [  ]
+action = "ui_accept"
+mode = 0
+
+[sub_resource type="VisualScriptCondition" id=113]
+
+_default_input_values = [ false ]
+
+[sub_resource type="VisualScriptFunctionCall" id=114]
+
+_default_input_values = [  ]
+call_mode = 0
+base_type = "Node2D"
+argument_cache = {
+"args": [  ],
+"default_args": [  ],
+"flags": 1,
+"id": 0,
+"name": "clic",
+"return": {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "",
+"type": 0,
+"usage": 7
+}
+}
+function = "clic"
+validate = true
+rpc_call_mode = 0
+
+[sub_resource type="VisualScriptFunction" id=38]
+
 _default_input_values = [  ]
 argument_count = 0
 sequenced/sequenced = true
@@ -639,7 +429,284 @@ stack/size = 256
 stack/stackless = false
 rpc/mode = 0
 
-[sub_resource type="VisualScriptPropertySet" id=71]
+[sub_resource type="VisualScriptFunction" id=39]
+
+_default_input_values = [  ]
+argument_count = 0
+sequenced/sequenced = true
+stack/size = 256
+stack/stackless = false
+rpc/mode = 0
+_sections_unfolded = [ "argument_1" ]
+
+[sub_resource type="VisualScriptCondition" id=40]
+
+_default_input_values = [ false ]
+
+[sub_resource type="VisualScriptOperator" id=41]
+
+_default_input_values = [ 0.0, 0.0 ]
+operator = 4
+type = 3
+
+[sub_resource type="VisualScriptOperator" id=42]
+
+_default_input_values = [ 0.0, 0.0 ]
+operator = 5
+type = 3
+
+[sub_resource type="VisualScriptConstant" id=43]
+
+_default_input_values = [  ]
+type = 3
+value = 0.0
+
+[sub_resource type="VisualScriptOperator" id=44]
+
+_default_input_values = [ null, null ]
+operator = 20
+type = 0
+
+[sub_resource type="VisualScriptDeconstruct" id=45]
+
+_default_input_values = [ Vector2( 0, 0 ) ]
+type = 5
+elem_cache = [ "x", 3, "y", 3 ]
+
+[sub_resource type="VisualScriptOperator" id=46]
+
+_default_input_values = [ Vector2( 0, 0 ), Vector2( 0, 0 ) ]
+operator = 6
+type = 5
+
+[sub_resource type="VisualScriptVariableGet" id=47]
+
+_default_input_values = [  ]
+var_name = "GO_TO"
+
+[sub_resource type="VisualScriptConstant" id=48]
+
+_default_input_values = [  ]
+type = 3
+value = 6.0
+
+[sub_resource type="VisualScriptVariableGet" id=49]
+
+_default_input_values = [  ]
+var_name = "POS"
+
+[sub_resource type="VisualScriptDeconstruct" id=50]
+
+_default_input_values = [ Vector2( 0, 0 ) ]
+type = 5
+elem_cache = [ "x", 3, "y", 3 ]
+
+[sub_resource type="VisualScriptVariableGet" id=51]
+
+_default_input_values = [  ]
+var_name = "GO_TO"
+
+[sub_resource type="VisualScriptVariableSet" id=52]
+
+_default_input_values = [ Vector2( 0, 0 ) ]
+var_name = "POS"
+
+[sub_resource type="VisualScriptConstructor" id=53]
+
+_default_input_values = [ null, null ]
+type = 5
+constructor = {
+"args": [ {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "x",
+"type": 3,
+"usage": 7
+}, {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "y",
+"type": 3,
+"usage": 7
+} ],
+"default_args": [  ],
+"flags": 1,
+"id": 0,
+"name": "Vector2",
+"return": {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "",
+"type": 5,
+"usage": 7
+}
+}
+
+[sub_resource type="VisualScriptOperator" id=54]
+
+_default_input_values = [ 0.0, 0.0 ]
+operator = 6
+type = 3
+
+[sub_resource type="VisualScriptVariableGet" id=55]
+
+_default_input_values = [  ]
+var_name = "POS"
+
+[sub_resource type="VisualScriptDeconstruct" id=56]
+
+_default_input_values = [ Vector2( 0, 0 ) ]
+type = 5
+elem_cache = [ "x", 3, "y", 3 ]
+
+[sub_resource type="VisualScriptCondition" id=57]
+
+_default_input_values = [ false ]
+
+[sub_resource type="VisualScriptOperator" id=58]
+
+_default_input_values = [ 0.0, 0.0 ]
+operator = 4
+type = 3
+
+[sub_resource type="VisualScriptOperator" id=59]
+
+_default_input_values = [ 0.0, 0.0 ]
+operator = 5
+type = 3
+
+[sub_resource type="VisualScriptConstant" id=60]
+
+_default_input_values = [  ]
+type = 3
+value = 0.0
+
+[sub_resource type="VisualScriptOperator" id=61]
+
+_default_input_values = [ null, null ]
+operator = 20
+type = 0
+
+[sub_resource type="VisualScriptDeconstruct" id=62]
+
+_default_input_values = [ Vector2( 0, 0 ) ]
+type = 5
+elem_cache = [ "x", 3, "y", 3 ]
+
+[sub_resource type="VisualScriptOperator" id=63]
+
+_default_input_values = [ Vector2( 0, 0 ), Vector2( 0, 0 ) ]
+operator = 6
+type = 5
+
+[sub_resource type="VisualScriptVariableGet" id=64]
+
+_default_input_values = [  ]
+var_name = "GO_TO"
+
+[sub_resource type="VisualScriptConstant" id=65]
+
+_default_input_values = [  ]
+type = 3
+value = 6.0
+
+[sub_resource type="VisualScriptVariableGet" id=66]
+
+_default_input_values = [  ]
+var_name = "POS"
+
+[sub_resource type="VisualScriptVariableSet" id=67]
+
+_default_input_values = [ Vector2( 0, 0 ) ]
+var_name = "POS"
+
+[sub_resource type="VisualScriptConstructor" id=68]
+
+_default_input_values = [ null, null ]
+type = 5
+constructor = {
+"args": [ {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "x",
+"type": 3,
+"usage": 7
+}, {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "y",
+"type": 3,
+"usage": 7
+} ],
+"default_args": [  ],
+"flags": 1,
+"id": 0,
+"name": "Vector2",
+"return": {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "",
+"type": 5,
+"usage": 7
+}
+}
+
+[sub_resource type="VisualScriptDeconstruct" id=69]
+
+_default_input_values = [ Vector2( 0, 0 ) ]
+type = 5
+elem_cache = [ "x", 3, "y", 3 ]
+
+[sub_resource type="VisualScriptVariableGet" id=70]
+
+_default_input_values = [  ]
+var_name = "POS"
+
+[sub_resource type="VisualScriptOperator" id=71]
+
+_default_input_values = [ 0.0, 0.0 ]
+operator = 6
+type = 3
+
+[sub_resource type="VisualScriptPropertySet" id=72]
+
+_default_input_values = [ Vector2( 0, 0 ) ]
+set_mode = 0
+base_type = "Node2D"
+type_cache = {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "GO_TO",
+"type": 5,
+"usage": 8199
+}
+property = "GO_TO"
+index = ""
+assign_op = 0
+
+[sub_resource type="VisualScriptConstant" id=73]
+
+_default_input_values = [  ]
+type = 5
+value = Vector2( 0, 0 )
+
+[sub_resource type="VisualScriptFunction" id=74]
+
+_default_input_values = [  ]
+argument_count = 0
+sequenced/sequenced = true
+stack/size = 256
+stack/stackless = false
+rpc/mode = 0
+
+[sub_resource type="VisualScriptPropertySet" id=75]
 
 _default_input_values = [ 0.0 ]
 set_mode = 1
@@ -657,17 +724,17 @@ property = "modulate"
 index = "a"
 assign_op = 0
 
-[sub_resource type="VisualScriptVariableSet" id=72]
+[sub_resource type="VisualScriptVariableSet" id=76]
 
 _default_input_values = [ 0.0 ]
 var_name = "TYPE_OF_CLIGNO"
 
-[sub_resource type="VisualScriptVariableGet" id=73]
+[sub_resource type="VisualScriptVariableGet" id=77]
 
 _default_input_values = [  ]
 var_name = "ALPHA_CLIGNOTEMENT"
 
-[sub_resource type="VisualScriptPropertySet" id=74]
+[sub_resource type="VisualScriptPropertySet" id=78]
 
 _default_input_values = [ 0.0 ]
 set_mode = 1
@@ -685,7 +752,7 @@ property = "modulate"
 index = "a"
 assign_op = 0
 
-[sub_resource type="VisualScriptPropertySet" id=75]
+[sub_resource type="VisualScriptPropertySet" id=79]
 
 _default_input_values = [ 0.0 ]
 set_mode = 1
@@ -703,7 +770,7 @@ property = "modulate"
 index = "a"
 assign_op = 0
 
-[sub_resource type="VisualScriptPropertySet" id=76]
+[sub_resource type="VisualScriptPropertySet" id=80]
 
 _default_input_values = [ 0.0 ]
 set_mode = 1
@@ -721,36 +788,14 @@ property = "modulate"
 index = "a"
 assign_op = 0
 
-[sub_resource type="VisualScriptCondition" id=77]
+[sub_resource type="VisualScriptCondition" id=81]
 
 _default_input_values = [ false ]
 
-[sub_resource type="VisualScriptVariableGet" id=78]
+[sub_resource type="VisualScriptVariableGet" id=82]
 
 _default_input_values = [  ]
 var_name = "ALPHA_CLIGNOTEMENT"
-
-[sub_resource type="VisualScriptOperator" id=79]
-
-_default_input_values = [ null, null ]
-operator = 3
-type = 0
-
-[sub_resource type="VisualScriptConstant" id=80]
-
-_default_input_values = [  ]
-type = 3
-value = 255.0
-
-[sub_resource type="VisualScriptConstant" id=81]
-
-_default_input_values = [  ]
-type = 1
-value = false
-
-[sub_resource type="VisualScriptCondition" id=82]
-
-_default_input_values = [ false ]
 
 [sub_resource type="VisualScriptOperator" id=83]
 
@@ -762,118 +807,882 @@ type = 0
 
 _default_input_values = [  ]
 type = 3
+value = 255.0
+
+[sub_resource type="VisualScriptConstant" id=85]
+
+_default_input_values = [  ]
+type = 1
+value = false
+
+[sub_resource type="VisualScriptCondition" id=86]
+
+_default_input_values = [ false ]
+
+[sub_resource type="VisualScriptOperator" id=87]
+
+_default_input_values = [ null, null ]
+operator = 3
+type = 0
+
+[sub_resource type="VisualScriptConstant" id=88]
+
+_default_input_values = [  ]
+type = 3
 value = 0.0
 
-[sub_resource type="VisualScriptVariableSet" id=85]
+[sub_resource type="VisualScriptVariableSet" id=89]
 
 _default_input_values = [ 0.0 ]
 var_name = "TYPE_OF_CLIGNO"
 
-[sub_resource type="VisualScriptConstant" id=86]
+[sub_resource type="VisualScriptConstant" id=90]
 
 _default_input_values = [  ]
 type = 1
 value = true
 
-[sub_resource type="VisualScriptCondition" id=87]
+[sub_resource type="VisualScriptCondition" id=91]
 
 _default_input_values = [ false ]
 
-[sub_resource type="VisualScriptOperator" id=88]
+[sub_resource type="VisualScriptOperator" id=92]
 
 _default_input_values = [ 0.0, 0.0 ]
 operator = 6
 type = 0
 
-[sub_resource type="VisualScriptVariableSet" id=89]
+[sub_resource type="VisualScriptVariableSet" id=93]
 
 _default_input_values = [ 0.0 ]
 var_name = "ALPHA_CLIGNOTEMENT"
 
-[sub_resource type="VisualScriptVariableSet" id=90]
+[sub_resource type="VisualScriptVariableSet" id=94]
 
 _default_input_values = [ 0.0 ]
 var_name = "ALPHA_CLIGNOTEMENT"
 
-[sub_resource type="VisualScriptVariableGet" id=91]
+[sub_resource type="VisualScriptVariableGet" id=95]
 
 _default_input_values = [  ]
 var_name = "ALPHA_CLIGNOTEMENT"
 
-[sub_resource type="VisualScriptConstant" id=92]
+[sub_resource type="VisualScriptConstant" id=96]
 
 _default_input_values = [  ]
 type = 3
 value = 1.0
 
-[sub_resource type="VisualScriptOperator" id=93]
+[sub_resource type="VisualScriptOperator" id=97]
 
 _default_input_values = [ 0.0, 0.0 ]
 operator = 7
 type = 3
 
-[sub_resource type="VisualScriptVariableGet" id=94]
+[sub_resource type="VisualScriptVariableGet" id=98]
 
 _default_input_values = [  ]
 var_name = "ALPHA_CLIGNOTEMENT"
 
-[sub_resource type="VisualScriptConstant" id=95]
+[sub_resource type="VisualScriptConstant" id=99]
 
 _default_input_values = [  ]
 type = 3
 value = 1.0
 
-[sub_resource type="VisualScriptVariableGet" id=96]
+[sub_resource type="VisualScriptVariableGet" id=100]
 
 _default_input_values = [  ]
 var_name = "TYPE_OF_CLIGNO"
 
-[sub_resource type="VisualScript" id=97]
+[sub_resource type="VisualScriptFunction" id=37]
+
+resource_name = "swap"
+_default_input_values = [  ]
+argument_count = 0
+sequenced/sequenced = true
+stack/size = 256
+stack/stackless = false
+rpc/mode = 0
+
+[sub_resource type="VisualScriptFunction" id=115]
+
+resource_name = "pick_up"
+_default_input_values = [  ]
+argument_count = 0
+sequenced/sequenced = true
+stack/size = 256
+stack/stackless = false
+rpc/mode = 0
+
+[sub_resource type="VisualScriptVariableGet" id=116]
+
+_default_input_values = [  ]
+var_name = "POS"
+
+[sub_resource type="VisualScriptFunctionCall" id=117]
+
+_default_input_values = [ Vector2( 0, 0 ) ]
+call_mode = 1
+base_type = "TileMap"
+node_path = NodePath("../Curseur/IN_HAND")
+argument_cache = {
+"args": [ {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "x",
+"type": 2,
+"usage": 7
+}, {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "y",
+"type": 2,
+"usage": 7
+}, {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "tile",
+"type": 2,
+"usage": 7
+}, {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "flip_x",
+"type": 1,
+"usage": 7
+}, {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "flip_y",
+"type": 1,
+"usage": 7
+}, {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "transpose",
+"type": 1,
+"usage": 7
+}, {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "autotile_coord",
+"type": 5,
+"usage": 7
+} ],
+"default_args": [  ],
+"flags": 1,
+"id": 0,
+"name": "",
+"return": {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "",
+"type": 0,
+"usage": 7
+}
+}
+function = "set_cell"
+use_default_args = 4
+validate = true
+rpc_call_mode = 0
+
+[sub_resource type="VisualScriptFunctionCall" id=118]
+
+_default_input_values = [ Vector2( 0, 0 ) ]
+call_mode = 1
+base_type = "TileMap"
+node_path = NodePath("../ITEM")
+argument_cache = {
+"args": [ {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "position",
+"type": 5,
+"usage": 7
+} ],
+"default_args": [  ],
+"flags": 9,
+"id": 0,
+"name": "",
+"return": {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "",
+"type": 2,
+"usage": 7
+}
+}
+function = "get_cellv"
+validate = true
+rpc_call_mode = 0
+
+[sub_resource type="VisualScriptFunctionCall" id=119]
+
+_default_input_values = [ Vector2( 0, 0 ) ]
+call_mode = 1
+base_type = "TileMap"
+node_path = NodePath("../ITEM")
+argument_cache = {
+"args": [ {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "position",
+"type": 5,
+"usage": 7
+}, {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "tile",
+"type": 2,
+"usage": 7
+}, {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "flip_x",
+"type": 1,
+"usage": 7
+}, {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "flip_y",
+"type": 1,
+"usage": 7
+}, {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "transpose",
+"type": 1,
+"usage": 7
+} ],
+"default_args": [  ],
+"flags": 1,
+"id": 0,
+"name": "",
+"return": {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "",
+"type": 0,
+"usage": 7
+}
+}
+function = "set_cellv"
+use_default_args = 3
+validate = true
+rpc_call_mode = 0
+
+[sub_resource type="VisualScriptVariableGet" id=120]
+
+_default_input_values = [  ]
+var_name = "POS"
+
+[sub_resource type="VisualScriptConstant" id=121]
+
+_default_input_values = [  ]
+type = 2
+value = 0
+
+[sub_resource type="VisualScriptConstant" id=122]
+
+_default_input_values = [  ]
+type = 2
+value = 17
+
+[sub_resource type="VisualScriptFunction" id=123]
+
+resource_name = "put"
+_default_input_values = [  ]
+argument_count = 0
+sequenced/sequenced = true
+stack/size = 256
+stack/stackless = false
+rpc/mode = 0
+
+[sub_resource type="VisualScriptVariableGet" id=124]
+
+_default_input_values = [  ]
+var_name = "POS"
+
+[sub_resource type="VisualScriptFunctionCall" id=125]
+
+_default_input_values = [ Vector2( 0, 0 ) ]
+call_mode = 1
+base_type = "TileMap"
+node_path = NodePath("../Curseur/IN_HAND")
+argument_cache = {
+"args": [ {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "x",
+"type": 2,
+"usage": 7
+}, {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "y",
+"type": 2,
+"usage": 7
+}, {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "tile",
+"type": 2,
+"usage": 7
+}, {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "flip_x",
+"type": 1,
+"usage": 7
+}, {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "flip_y",
+"type": 1,
+"usage": 7
+}, {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "transpose",
+"type": 1,
+"usage": 7
+}, {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "autotile_coord",
+"type": 5,
+"usage": 7
+} ],
+"default_args": [  ],
+"flags": 1,
+"id": 0,
+"name": "",
+"return": {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "",
+"type": 0,
+"usage": 7
+}
+}
+function = "set_cell"
+use_default_args = 4
+validate = true
+rpc_call_mode = 0
+
+[sub_resource type="VisualScriptFunctionCall" id=126]
+
+_default_input_values = [ Vector2( 0, 0 ) ]
+call_mode = 1
+base_type = "TileMap"
+node_path = NodePath("IN_HAND")
+argument_cache = {
+"args": [ {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "position",
+"type": 5,
+"usage": 7
+} ],
+"default_args": [  ],
+"flags": 9,
+"id": 0,
+"name": "",
+"return": {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "",
+"type": 2,
+"usage": 7
+}
+}
+function = "get_cellv"
+validate = true
+rpc_call_mode = 0
+
+[sub_resource type="VisualScriptFunctionCall" id=127]
+
+_default_input_values = [ Vector2( 0, 0 ) ]
+call_mode = 1
+base_type = "TileMap"
+node_path = NodePath("../ITEM")
+argument_cache = {
+"args": [ {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "position",
+"type": 5,
+"usage": 7
+}, {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "tile",
+"type": 2,
+"usage": 7
+}, {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "flip_x",
+"type": 1,
+"usage": 7
+}, {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "flip_y",
+"type": 1,
+"usage": 7
+}, {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "transpose",
+"type": 1,
+"usage": 7
+} ],
+"default_args": [  ],
+"flags": 1,
+"id": 0,
+"name": "",
+"return": {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "",
+"type": 0,
+"usage": 7
+}
+}
+function = "set_cellv"
+use_default_args = 3
+validate = true
+rpc_call_mode = 0
+
+[sub_resource type="VisualScriptConstant" id=128]
+
+_default_input_values = [  ]
+type = 5
+value = Vector2( 0, 0 )
+
+[sub_resource type="VisualScriptConstant" id=129]
+
+_default_input_values = [  ]
+type = 2
+value = 17
+
+[sub_resource type="VisualScriptConstant" id=130]
+
+_default_input_values = [  ]
+type = 2
+value = 0
+
+[sub_resource type="VisualScriptFunction" id=131]
+
+resource_name = "clic"
+_default_input_values = [  ]
+argument_count = 0
+sequenced/sequenced = true
+stack/size = 256
+stack/stackless = false
+rpc/mode = 0
+
+[sub_resource type="VisualScriptFunctionCall" id=132]
+
+_default_input_values = [  ]
+call_mode = 1
+base_type = "TileMap"
+node_path = NodePath("IN_HAND")
+argument_cache = {
+"args": [ {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "x",
+"type": 2,
+"usage": 7
+}, {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "y",
+"type": 2,
+"usage": 7
+} ],
+"default_args": [  ],
+"flags": 9,
+"id": 0,
+"name": "",
+"return": {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "",
+"type": 2,
+"usage": 7
+}
+}
+function = "get_cell"
+validate = true
+rpc_call_mode = 0
+
+[sub_resource type="VisualScriptFunctionCall" id=133]
+
+_default_input_values = [  ]
+call_mode = 1
+base_type = "TileMap"
+node_path = NodePath("../ITEM")
+argument_cache = {
+"args": [ {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "position",
+"type": 5,
+"usage": 7
+} ],
+"default_args": [  ],
+"flags": 9,
+"id": 0,
+"name": "",
+"return": {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "",
+"type": 2,
+"usage": 7
+}
+}
+function = "get_cellv"
+validate = true
+rpc_call_mode = 0
+
+[sub_resource type="VisualScriptVariableGet" id=134]
+
+_default_input_values = [  ]
+var_name = "POS"
+
+[sub_resource type="VisualScriptConstant" id=135]
+
+_default_input_values = [  ]
+type = 2
+value = 0
+
+[sub_resource type="VisualScriptOperator" id=136]
+
+_default_input_values = [ null, null ]
+operator = 0
+type = 0
+
+[sub_resource type="VisualScriptConstant" id=137]
+
+_default_input_values = [  ]
+type = 2
+value = 17
+
+[sub_resource type="VisualScriptOperator" id=138]
+
+_default_input_values = [ null, null ]
+operator = 0
+type = 0
+
+[sub_resource type="VisualScriptCondition" id=139]
+
+_default_input_values = [ false ]
+
+[sub_resource type="VisualScriptCondition" id=140]
+
+_default_input_values = [ false ]
+
+[sub_resource type="VisualScriptCondition" id=141]
+
+_default_input_values = [ false ]
+
+[sub_resource type="VisualScriptCondition" id=142]
+
+_default_input_values = [ false ]
+
+[sub_resource type="VisualScriptOperator" id=143]
+
+_default_input_values = [ false ]
+operator = 20
+type = 0
+
+[sub_resource type="VisualScriptOperator" id=144]
+
+_default_input_values = [ false ]
+operator = 23
+type = 0
+
+[sub_resource type="VisualScriptFunctionCall" id=145]
+
+_default_input_values = [  ]
+call_mode = 0
+base_type = "Node2D"
+argument_cache = {
+"args": [  ],
+"default_args": [  ],
+"flags": 1,
+"id": 0,
+"name": "swap",
+"return": {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "",
+"type": 0,
+"usage": 7
+}
+}
+function = "swap"
+validate = true
+rpc_call_mode = 0
+
+[sub_resource type="VisualScriptFunctionCall" id=146]
+
+_default_input_values = [  ]
+call_mode = 1
+base_type = "TileMap"
+node_path = NodePath("IN_HAND")
+argument_cache = {
+"args": [ {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "x",
+"type": 2,
+"usage": 7
+}, {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "y",
+"type": 2,
+"usage": 7
+} ],
+"default_args": [  ],
+"flags": 9,
+"id": 0,
+"name": "",
+"return": {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "",
+"type": 2,
+"usage": 7
+}
+}
+function = "get_cell"
+validate = true
+rpc_call_mode = 0
+
+[sub_resource type="VisualScriptFunctionCall" id=147]
+
+_default_input_values = [  ]
+call_mode = 1
+base_type = "TileMap"
+node_path = NodePath("../ITEM")
+argument_cache = {
+"args": [ {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "position",
+"type": 5,
+"usage": 7
+} ],
+"default_args": [  ],
+"flags": 9,
+"id": 0,
+"name": "",
+"return": {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "",
+"type": 2,
+"usage": 7
+}
+}
+function = "get_cellv"
+validate = true
+rpc_call_mode = 0
+
+[sub_resource type="VisualScriptVariableGet" id=148]
+
+_default_input_values = [  ]
+var_name = "POS"
+
+[sub_resource type="VisualScriptConstant" id=149]
+
+_default_input_values = [  ]
+type = 2
+value = 0
+
+[sub_resource type="VisualScriptOperator" id=150]
+
+_default_input_values = [ null, null ]
+operator = 0
+type = 0
+
+[sub_resource type="VisualScriptConstant" id=151]
+
+_default_input_values = [  ]
+type = 2
+value = 17
+
+[sub_resource type="VisualScriptOperator" id=152]
+
+_default_input_values = [ null, null ]
+operator = 0
+type = 0
+
+[sub_resource type="VisualScriptFunctionCall" id=153]
+
+_default_input_values = [  ]
+call_mode = 0
+base_type = "Node2D"
+argument_cache = {
+"args": [  ],
+"default_args": [  ],
+"flags": 1,
+"id": 0,
+"name": "put",
+"return": {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "",
+"type": 0,
+"usage": 7
+}
+}
+function = "put"
+validate = true
+rpc_call_mode = 0
+
+[sub_resource type="VisualScriptFunctionCall" id=154]
+
+_default_input_values = [  ]
+call_mode = 0
+base_type = "Node2D"
+argument_cache = {
+"args": [  ],
+"default_args": [  ],
+"flags": 1,
+"id": 0,
+"name": "pick_up",
+"return": {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "",
+"type": 0,
+"usage": 7
+}
+}
+function = "pick_up"
+validate = true
+rpc_call_mode = 0
+
+[sub_resource type="VisualScript" id=101]
 
 data = {
 "base_type": "Node2D",
 "functions": [ {
-"data_connections": [ 7, 0, 3, 0, 56, 0, 4, 0, 58, 0, 5, 0, 60, 0, 6, 0, 76, 0, 75, 0, 79, 0, 78, 0, 81, 0, 79, 0, 86, 0, 85, 0, 83, 0, 88, 0, 83, 0, 90, 0, 88, 0, 92, 0, 143, 0, 145, 0, 148, 0, 147, 0, 152, 0, 150, 0 ],
-"function_id": 1,
-"name": "_input",
-"nodes": [ 1, Vector2( -140, 0 ), SubResource( 1 ), 3, Vector2( 140, 0 ), SubResource( 2 ), 4, Vector2( 300, 80 ), SubResource( 3 ), 5, Vector2( 460, 160 ), SubResource( 4 ), 6, Vector2( 620, 240 ), SubResource( 5 ), 7, Vector2( -20, 100 ), SubResource( 6 ), 56, Vector2( 140, 180 ), SubResource( 7 ), 58, Vector2( 300, 260 ), SubResource( 8 ), 60, Vector2( 460, 340 ), SubResource( 9 ), 75, Vector2( 0, 0 ), SubResource( 10 ), 76, Vector2( -160, 100 ), SubResource( 11 ), 78, Vector2( 300, -20 ), SubResource( 12 ), 79, Vector2( 160, -100 ), SubResource( 13 ), 81, Vector2( 20, -100 ), SubResource( 14 ), 83, Vector2( 440, -40 ), SubResource( 15 ), 85, Vector2( 460, 60 ), SubResource( 16 ), 86, Vector2( 300, -120 ), SubResource( 17 ), 88, Vector2( 600, 40 ), SubResource( 18 ), 90, Vector2( 620, 140 ), SubResource( 19 ), 92, Vector2( 780, 240 ), SubResource( 20 ), 143, Vector2( 620, 420 ), SubResource( 21 ), 145, Vector2( 780, 340 ), SubResource( 22 ), 147, Vector2( 940, 340 ), SubResource( 23 ), 148, Vector2( 920, 240 ), SubResource( 24 ), 150, Vector2( 940, 440 ), SubResource( 25 ), 152, Vector2( 920, 140 ), SubResource( 26 ) ],
-"scroll": Vector2( 689.343, -7.42676 ),
-"sequence_connections": [ 75, 0, 3, 3, 2, 4, 4, 2, 5, 5, 2, 6, 1, 0, 75, 3, 0, 78, 4, 0, 85, 5, 0, 90, 6, 0, 92, 6, 2, 145, 145, 0, 147, 145, 1, 150 ]
-}, {
-"data_connections": [ 97, 0, 96, 0 ],
+"data_connections": [ 97, 0, 96, 0, 189, 0, 184, 0, 186, 0, 185, 0, 185, 0, 189, 0, 187, 0, 185, 1, 191, 0, 189, 1 ],
 "function_id": 0,
 "name": "_process",
-"nodes": [ 0, Vector2( 0, 0 ), SubResource( 27 ), 61, Vector2( 140, 0 ), SubResource( 28 ), 95, Vector2( 280, 0 ), SubResource( 29 ), 96, Vector2( 420, 0 ), SubResource( 30 ), 97, Vector2( 280, 100 ), SubResource( 31 ), 182, Vector2( 580, 0 ), SubResource( 32 ) ],
-"scroll": Vector2( 292.823, -290.721 ),
-"sequence_connections": [ 0, 0, 61, 61, 0, 95, 95, 0, 96, 96, 0, 182 ]
+"nodes": [ 0, Vector2( 0, 0 ), SubResource( 1 ), 61, Vector2( 140, 0 ), SubResource( 2 ), 95, Vector2( 280, 0 ), SubResource( 3 ), 96, Vector2( 420, 0 ), SubResource( 4 ), 97, Vector2( 280, 100 ), SubResource( 5 ), 182, Vector2( 580, 0 ), SubResource( 6 ), 184, Vector2( 580, 100 ), SubResource( 7 ), 185, Vector2( 300, 200 ), SubResource( 8 ), 186, Vector2( 160, 200 ), SubResource( 9 ), 187, Vector2( 160, 300 ), SubResource( 10 ), 189, Vector2( 440, 180 ), SubResource( 110 ), 191, Vector2( 300, 320 ), SubResource( 111 ) ],
+"scroll": Vector2( 216.54, 74.6401 ),
+"sequence_connections": [ 0, 0, 61, 61, 0, 95, 95, 0, 96, 96, 0, 182, 96, 2, 184 ]
 }, {
-"data_connections": [  ],
-"function_id": 183,
-"name": "new_function",
-"nodes": [ 183, Vector2( 0, 0 ), SubResource( 33 ) ],
-"scroll": Vector2( -326, -203 ),
-"sequence_connections": [  ]
+"data_connections": [ 7, 0, 3, 0, 56, 0, 4, 0, 58, 0, 5, 0, 60, 0, 6, 0, 76, 0, 75, 0, 79, 0, 78, 0, 81, 0, 79, 0, 86, 0, 85, 0, 83, 0, 88, 0, 83, 0, 90, 0, 88, 0, 92, 0, 143, 0, 145, 0, 148, 0, 147, 0, 152, 0, 150, 0, 193, 0, 194, 0 ],
+"function_id": 1,
+"name": "_input",
+"nodes": [ 1, Vector2( -140, 0 ), SubResource( 11 ), 3, Vector2( 140, 0 ), SubResource( 12 ), 4, Vector2( 300, 80 ), SubResource( 13 ), 5, Vector2( 460, 160 ), SubResource( 14 ), 6, Vector2( 620, 240 ), SubResource( 15 ), 7, Vector2( -20, 100 ), SubResource( 16 ), 56, Vector2( 140, 180 ), SubResource( 17 ), 58, Vector2( 300, 260 ), SubResource( 18 ), 60, Vector2( 460, 340 ), SubResource( 19 ), 75, Vector2( 0, 0 ), SubResource( 20 ), 76, Vector2( -160, 100 ), SubResource( 21 ), 78, Vector2( 300, -20 ), SubResource( 22 ), 79, Vector2( 160, -100 ), SubResource( 23 ), 81, Vector2( 20, -100 ), SubResource( 24 ), 83, Vector2( 440, -40 ), SubResource( 25 ), 85, Vector2( 460, 60 ), SubResource( 26 ), 86, Vector2( 300, -120 ), SubResource( 27 ), 88, Vector2( 600, 40 ), SubResource( 28 ), 90, Vector2( 620, 140 ), SubResource( 29 ), 92, Vector2( 780, 240 ), SubResource( 30 ), 143, Vector2( 620, 420 ), SubResource( 31 ), 145, Vector2( 780, 340 ), SubResource( 32 ), 147, Vector2( 940, 340 ), SubResource( 33 ), 148, Vector2( 920, 240 ), SubResource( 34 ), 150, Vector2( 940, 440 ), SubResource( 35 ), 152, Vector2( 920, 140 ), SubResource( 36 ), 193, Vector2( 780, 620 ), SubResource( 112 ), 194, Vector2( 940, 540 ), SubResource( 113 ), 196, Vector2( 1100, 540 ), SubResource( 114 ) ],
+"scroll": Vector2( 502.79, 185.35 ),
+"sequence_connections": [ 75, 0, 3, 3, 2, 4, 4, 2, 5, 5, 2, 6, 1, 0, 75, 3, 0, 78, 4, 0, 85, 5, 0, 90, 6, 0, 92, 6, 2, 145, 145, 0, 147, 145, 1, 150, 145, 2, 194, 194, 0, 196 ]
 }, {
 "data_connections": [  ],
 "function_id": 93,
 "name": "SET_gen",
-"nodes": [ 93, Vector2( 0, 0 ), SubResource( 34 ) ],
+"nodes": [ 93, Vector2( 0, 0 ), SubResource( 38 ) ],
 "scroll": Vector2( -365, -243 ),
 "sequence_connections": [  ]
 }, {
 "data_connections": [ 12, 0, 8, 0, 20, 0, 9, 0, 13, 1, 10, 0, 9, 0, 12, 0, 16, 0, 13, 0, 17, 0, 16, 0, 30, 0, 24, 0, 27, 0, 26, 0, 24, 0, 27, 0, 32, 1, 28, 0, 25, 0, 32, 0, 39, 0, 34, 0, 43, 0, 36, 0, 40, 0, 37, 0, 36, 0, 39, 0, 41, 0, 40, 0, 42, 0, 41, 0, 48, 0, 46, 0, 54, 0, 48, 0, 52, 0, 50, 0, 50, 0, 54, 0, 73, 0, 72, 0, 13, 1, 9, 1, 11, 0, 10, 1, 10, 0, 12, 1, 22, 0, 16, 1, 28, 0, 27, 1, 24, 1, 28, 1, 40, 0, 36, 1, 38, 0, 37, 1, 37, 0, 39, 1, 44, 0, 41, 1, 50, 1, 48, 1, 32, 0, 54, 1 ],
 "function_id": 2,
 "name": "go_to",
-"nodes": [ 2, Vector2( 0, 20 ), SubResource( 35 ), 8, Vector2( 120, 20 ), SubResource( 36 ), 9, Vector2( -160, 40 ), SubResource( 37 ), 10, Vector2( -160, 160 ), SubResource( 38 ), 11, Vector2( -300, 200 ), SubResource( 39 ), 12, Vector2( -20, 80 ), SubResource( 40 ), 13, Vector2( -340, 80 ), SubResource( 41 ), 16, Vector2( -480, 80 ), SubResource( 42 ), 17, Vector2( -620, 80 ), SubResource( 43 ), 20, Vector2( -300, -20 ), SubResource( 44 ), 22, Vector2( -620, 180 ), SubResource( 45 ), 24, Vector2( -240, -140 ), SubResource( 46 ), 25, Vector2( -360, -220 ), SubResource( 47 ), 26, Vector2( 280, 20 ), SubResource( 48 ), 27, Vector2( 100, -100 ), SubResource( 49 ), 28, Vector2( -60, -100 ), SubResource( 50 ), 30, Vector2( -380, -120 ), SubResource( 51 ), 32, Vector2( -220, -260 ), SubResource( 52 ), 34, Vector2( 280, 120 ), SubResource( 53 ), 36, Vector2( 0, 200 ), SubResource( 54 ), 37, Vector2( 0, 320 ), SubResource( 55 ), 38, Vector2( -140, 500 ), SubResource( 56 ), 39, Vector2( 140, 200 ), SubResource( 57 ), 40, Vector2( -180, 380 ), SubResource( 58 ), 41, Vector2( -320, 380 ), SubResource( 59 ), 42, Vector2( -460, 380 ), SubResource( 60 ), 43, Vector2( -140, 280 ), SubResource( 61 ), 44, Vector2( -460, 480 ), SubResource( 62 ), 46, Vector2( 440, 120 ), SubResource( 63 ), 48, Vector2( 280, -100 ), SubResource( 64 ), 50, Vector2( -220, -380 ), SubResource( 65 ), 52, Vector2( -360, -360 ), SubResource( 66 ), 54, Vector2( -40, -220 ), SubResource( 67 ), 72, Vector2( 440, 220 ), SubResource( 68 ), 73, Vector2( 300, 300 ), SubResource( 69 ) ],
-"scroll": Vector2( -420.243, -67.9176 ),
+"nodes": [ 2, Vector2( 0, 20 ), SubResource( 39 ), 8, Vector2( 120, 20 ), SubResource( 40 ), 9, Vector2( -160, 40 ), SubResource( 41 ), 10, Vector2( -160, 160 ), SubResource( 42 ), 11, Vector2( -300, 200 ), SubResource( 43 ), 12, Vector2( -20, 80 ), SubResource( 44 ), 13, Vector2( -340, 80 ), SubResource( 45 ), 16, Vector2( -480, 80 ), SubResource( 46 ), 17, Vector2( -620, 80 ), SubResource( 47 ), 20, Vector2( -300, -20 ), SubResource( 48 ), 22, Vector2( -620, 180 ), SubResource( 49 ), 24, Vector2( -240, -140 ), SubResource( 50 ), 25, Vector2( -360, -220 ), SubResource( 51 ), 26, Vector2( 280, 20 ), SubResource( 52 ), 27, Vector2( 100, -100 ), SubResource( 53 ), 28, Vector2( -60, -100 ), SubResource( 54 ), 30, Vector2( -380, -120 ), SubResource( 55 ), 32, Vector2( -220, -260 ), SubResource( 56 ), 34, Vector2( 280, 120 ), SubResource( 57 ), 36, Vector2( 0, 200 ), SubResource( 58 ), 37, Vector2( 0, 320 ), SubResource( 59 ), 38, Vector2( -140, 500 ), SubResource( 60 ), 39, Vector2( 140, 200 ), SubResource( 61 ), 40, Vector2( -180, 380 ), SubResource( 62 ), 41, Vector2( -320, 380 ), SubResource( 63 ), 42, Vector2( -460, 380 ), SubResource( 64 ), 43, Vector2( -140, 280 ), SubResource( 65 ), 44, Vector2( -460, 480 ), SubResource( 66 ), 46, Vector2( 440, 120 ), SubResource( 67 ), 48, Vector2( 280, -100 ), SubResource( 68 ), 50, Vector2( -220, -380 ), SubResource( 69 ), 52, Vector2( -360, -360 ), SubResource( 70 ), 54, Vector2( -40, -220 ), SubResource( 71 ), 72, Vector2( 440, 220 ), SubResource( 72 ), 73, Vector2( 300, 300 ), SubResource( 73 ) ],
+"scroll": Vector2( 585, 70.13 ),
 "sequence_connections": [ 2, 0, 8, 8, 0, 26, 8, 2, 34, 34, 0, 46, 34, 2, 72 ]
 }, {
 "data_connections": [ 157, 0, 155, 0, 165, 0, 156, 0, 157, 0, 158, 0, 157, 0, 159, 0, 157, 0, 160, 0, 163, 0, 161, 0, 164, 0, 163, 0, 167, 0, 166, 0, 162, 0, 167, 0, 170, 0, 169, 0, 180, 0, 171, 0, 176, 0, 172, 0, 172, 0, 173, 0, 177, 0, 174, 0, 178, 0, 177, 0, 162, 0, 163, 1, 168, 0, 167, 1, 175, 0, 172, 1, 179, 0, 177, 1 ],
 "function_id": 153,
 "name": "clignote",
-"nodes": [ 153, Vector2( 0, 0 ), SubResource( 70 ), 155, Vector2( 120, 0 ), SubResource( 71 ), 156, Vector2( 1020, -160 ), SubResource( 72 ), 157, Vector2( -120, 60 ), SubResource( 73 ), 158, Vector2( 280, 0 ), SubResource( 74 ), 159, Vector2( 440, 0 ), SubResource( 75 ), 160, Vector2( 600, 0 ), SubResource( 76 ), 161, Vector2( 760, 0 ), SubResource( 77 ), 162, Vector2( 380, 200 ), SubResource( 78 ), 163, Vector2( 620, 100 ), SubResource( 79 ), 164, Vector2( 480, 100 ), SubResource( 80 ), 165, Vector2( 960, 0 ), SubResource( 81 ), 166, Vector2( 920, 100 ), SubResource( 82 ), 167, Vector2( 780, 180 ), SubResource( 83 ), 168, Vector2( 580, 320 ), SubResource( 84 ), 169, Vector2( 1280, -80 ), SubResource( 85 ), 170, Vector2( 1160, 80 ), SubResource( 86 ), 171, Vector2( 920, 280 ), SubResource( 87 ), 172, Vector2( 1320, 260 ), SubResource( 88 ), 173, Vector2( 1340, 100 ), SubResource( 89 ), 174, Vector2( 1060, 460 ), SubResource( 90 ), 175, Vector2( 1080, 360 ), SubResource( 91 ), 176, Vector2( 1180, 260 ), SubResource( 92 ), 177, Vector2( 920, 460 ), SubResource( 93 ), 178, Vector2( 680, 560 ), SubResource( 94 ), 179, Vector2( 780, 460 ), SubResource( 95 ), 180, Vector2( 720, 360 ), SubResource( 96 ) ],
+"nodes": [ 153, Vector2( 0, 0 ), SubResource( 74 ), 155, Vector2( 120, 0 ), SubResource( 75 ), 156, Vector2( 1020, -160 ), SubResource( 76 ), 157, Vector2( -120, 60 ), SubResource( 77 ), 158, Vector2( 280, 0 ), SubResource( 78 ), 159, Vector2( 440, 0 ), SubResource( 79 ), 160, Vector2( 600, 0 ), SubResource( 80 ), 161, Vector2( 760, 0 ), SubResource( 81 ), 162, Vector2( 380, 200 ), SubResource( 82 ), 163, Vector2( 620, 100 ), SubResource( 83 ), 164, Vector2( 480, 100 ), SubResource( 84 ), 165, Vector2( 960, 0 ), SubResource( 85 ), 166, Vector2( 920, 100 ), SubResource( 86 ), 167, Vector2( 780, 180 ), SubResource( 87 ), 168, Vector2( 580, 320 ), SubResource( 88 ), 169, Vector2( 1280, -80 ), SubResource( 89 ), 170, Vector2( 1160, 80 ), SubResource( 90 ), 171, Vector2( 920, 280 ), SubResource( 91 ), 172, Vector2( 1320, 260 ), SubResource( 92 ), 173, Vector2( 1340, 100 ), SubResource( 93 ), 174, Vector2( 1060, 460 ), SubResource( 94 ), 175, Vector2( 1080, 360 ), SubResource( 95 ), 176, Vector2( 1180, 260 ), SubResource( 96 ), 177, Vector2( 920, 460 ), SubResource( 97 ), 178, Vector2( 680, 560 ), SubResource( 98 ), 179, Vector2( 780, 460 ), SubResource( 99 ), 180, Vector2( 720, 360 ), SubResource( 100 ) ],
 "scroll": Vector2( 749.052, 70.13 ),
 "sequence_connections": [ 153, 0, 155, 161, 0, 156, 155, 0, 158, 158, 0, 159, 159, 0, 160, 160, 0, 161, 161, 1, 166, 166, 0, 169, 161, 2, 171, 171, 0, 173, 171, 1, 174 ]
+}, {
+"data_connections": [  ],
+"function_id": 183,
+"name": "swap",
+"nodes": [ 183, Vector2( 0, 0 ), SubResource( 37 ) ],
+"scroll": Vector2( -326, -203 ),
+"sequence_connections": [  ]
+}, {
+"data_connections": [ 243, 0, 236, 0, 235, 0, 238, 0, 242, 0, 240, 0, 243, 0, 236, 1, 245, 0, 240, 1, 238, 0, 236, 2 ],
+"function_id": 217,
+"name": "pick_up",
+"nodes": [ 217, Vector2( 0, 0 ), SubResource( 115 ), 235, Vector2( -220, 160 ), SubResource( 116 ), 236, Vector2( 120, 0 ), SubResource( 117 ), 238, Vector2( -80, 160 ), SubResource( 118 ), 240, Vector2( 400, 0 ), SubResource( 119 ), 242, Vector2( 240, 140 ), SubResource( 120 ), 243, Vector2( -20, 60 ), SubResource( 121 ), 245, Vector2( 240, 240 ), SubResource( 122 ) ],
+"scroll": Vector2( -286.657, -135.529 ),
+"sequence_connections": [ 217, 0, 236, 236, 0, 240 ]
+}, {
+"data_connections": [ 255, 0, 248, 0, 252, 0, 249, 0, 247, 0, 250, 0, 255, 0, 248, 1, 249, 0, 250, 1, 253, 0, 248, 2 ],
+"function_id": 216,
+"name": "put",
+"nodes": [ 216, Vector2( 0, 0 ), SubResource( 123 ), 247, Vector2( -20, 60 ), SubResource( 124 ), 248, Vector2( 320, 0 ), SubResource( 125 ), 249, Vector2( -80, 160 ), SubResource( 126 ), 250, Vector2( 120, 0 ), SubResource( 127 ), 252, Vector2( -220, 160 ), SubResource( 128 ), 253, Vector2( 180, 220 ), SubResource( 129 ), 255, Vector2( 180, 120 ), SubResource( 130 ) ],
+"scroll": Vector2( -293.936, -100 ),
+"sequence_connections": [ 250, 0, 248, 216, 0, 250 ]
+}, {
+"data_connections": [ 204, 0, 197, 0, 200, 0, 199, 0, 197, 0, 205, 0, 206, 0, 208, 0, 213, 0, 209, 0, 215, 0, 210, 0, 225, 0, 211, 0, 227, 0, 212, 0, 205, 0, 213, 0, 213, 0, 215, 0, 224, 0, 221, 0, 223, 0, 222, 0, 221, 0, 225, 0, 226, 0, 227, 0, 204, 0, 197, 1, 206, 0, 205, 1, 199, 0, 208, 1, 208, 0, 213, 1, 224, 0, 221, 1, 226, 0, 225, 1, 222, 0, 227, 1 ],
+"function_id": 195,
+"name": "clic",
+"nodes": [ 195, Vector2( 280, 0 ), SubResource( 131 ), 197, Vector2( -80, 60 ), SubResource( 132 ), 199, Vector2( -80, 280 ), SubResource( 133 ), 200, Vector2( -220, 280 ), SubResource( 134 ), 204, Vector2( -220, 60 ), SubResource( 135 ), 205, Vector2( 120, 60 ), SubResource( 136 ), 206, Vector2( -20, 180 ), SubResource( 137 ), 208, Vector2( 120, 180 ), SubResource( 138 ), 209, Vector2( 400, 0 ), SubResource( 139 ), 210, Vector2( 560, 0 ), SubResource( 140 ), 211, Vector2( 720, 100 ), SubResource( 141 ), 212, Vector2( 720, 280 ), SubResource( 142 ), 213, Vector2( 260, 60 ), SubResource( 143 ), 215, Vector2( 440, 180 ), SubResource( 144 ), 219, Vector2( 720, 0 ), SubResource( 145 ), 221, Vector2( 360, 280 ), SubResource( 146 ), 222, Vector2( 360, 500 ), SubResource( 147 ), 223, Vector2( 220, 500 ), SubResource( 148 ), 224, Vector2( 220, 300 ), SubResource( 149 ), 225, Vector2( 580, 180 ), SubResource( 150 ), 226, Vector2( 420, 400 ), SubResource( 151 ), 227, Vector2( 580, 300 ), SubResource( 152 ), 229, Vector2( 880, 280 ), SubResource( 153 ), 231, Vector2( 880, 100 ), SubResource( 154 ) ],
+"scroll": Vector2( 286.485, -100.986 ),
+"sequence_connections": [ 195, 0, 209, 212, 2, 209, 209, 1, 210, 210, 1, 211, 211, 1, 212, 210, 0, 219, 212, 0, 229, 211, 0, 231 ]
 } ],
 "signals": [  ],
 "variables": [ {
@@ -901,14 +1710,6 @@ data = {
 "type": 1,
 "usage": 7
 }, {
-"default_value": 255.0,
-"export": false,
-"hint": 0,
-"hint_string": "",
-"name": "ALPHA_CLIGNOTEMENT",
-"type": 3,
-"usage": 7
-}, {
 "default_value": false,
 "export": false,
 "hint": 0,
@@ -916,10 +1717,338 @@ data = {
 "name": "TYPE_OF_CLIGNO",
 "type": 1,
 "usage": 7
+}, {
+"default_value": 255.0,
+"export": false,
+"hint": 0,
+"hint_string": "",
+"name": "ALPHA_CLIGNOTEMENT",
+"type": 3,
+"usage": 7
 } ]
 }
 
-[sub_resource type="VisualScriptFunction" id=98]
+[sub_resource type="TileSet" id=108]
+
+0/name = "000"
+0/texture = ExtResource( 2 )
+0/tex_offset = Vector2( 0, 0 )
+0/modulate = Color( 1, 1, 1, 1 )
+0/region = Rect2( 0, 0, 0, 0 )
+0/is_autotile = false
+0/occluder_offset = Vector2( 0, 0 )
+0/navigation_offset = Vector2( 0, 0 )
+0/shapes = [  ]
+1/name = "001"
+1/texture = ExtResource( 3 )
+1/tex_offset = Vector2( 0, 0 )
+1/modulate = Color( 1, 1, 1, 1 )
+1/region = Rect2( 0, 0, 0, 0 )
+1/is_autotile = false
+1/occluder_offset = Vector2( 0, 0 )
+1/navigation_offset = Vector2( 0, 0 )
+1/shapes = [  ]
+2/name = "002"
+2/texture = ExtResource( 11 )
+2/tex_offset = Vector2( 0, 0 )
+2/modulate = Color( 1, 1, 1, 1 )
+2/region = Rect2( 0, 0, 0, 0 )
+2/is_autotile = false
+2/occluder_offset = Vector2( 0, 0 )
+2/navigation_offset = Vector2( 0, 0 )
+2/shapes = [  ]
+3/name = "003"
+3/texture = ExtResource( 12 )
+3/tex_offset = Vector2( 0, 0 )
+3/modulate = Color( 1, 1, 1, 1 )
+3/region = Rect2( 0, 0, 0, 0 )
+3/is_autotile = false
+3/occluder_offset = Vector2( 0, 0 )
+3/navigation_offset = Vector2( 0, 0 )
+3/shapes = [  ]
+4/name = "004"
+4/texture = ExtResource( 13 )
+4/tex_offset = Vector2( 0, 0 )
+4/modulate = Color( 1, 1, 1, 1 )
+4/region = Rect2( 0, 0, 0, 0 )
+4/is_autotile = false
+4/occluder_offset = Vector2( 0, 0 )
+4/navigation_offset = Vector2( 0, 0 )
+4/shapes = [  ]
+5/name = "005"
+5/texture = ExtResource( 14 )
+5/tex_offset = Vector2( 0, 0 )
+5/modulate = Color( 1, 1, 1, 1 )
+5/region = Rect2( 0, 0, 0, 0 )
+5/is_autotile = false
+5/occluder_offset = Vector2( 0, 0 )
+5/navigation_offset = Vector2( 0, 0 )
+5/shapes = [  ]
+6/name = "006"
+6/texture = ExtResource( 15 )
+6/tex_offset = Vector2( 0, 0 )
+6/modulate = Color( 1, 1, 1, 1 )
+6/region = Rect2( 0, 0, 0, 0 )
+6/is_autotile = false
+6/occluder_offset = Vector2( 0, 0 )
+6/navigation_offset = Vector2( 0, 0 )
+6/shapes = [  ]
+7/name = "007"
+7/texture = ExtResource( 16 )
+7/tex_offset = Vector2( 0, 0 )
+7/modulate = Color( 1, 1, 1, 1 )
+7/region = Rect2( 0, 0, 0, 0 )
+7/is_autotile = false
+7/occluder_offset = Vector2( 0, 0 )
+7/navigation_offset = Vector2( 0, 0 )
+7/shapes = [  ]
+8/name = "008"
+8/texture = ExtResource( 17 )
+8/tex_offset = Vector2( 0, 0 )
+8/modulate = Color( 1, 1, 1, 1 )
+8/region = Rect2( 0, 0, 0, 0 )
+8/is_autotile = false
+8/occluder_offset = Vector2( 0, 0 )
+8/navigation_offset = Vector2( 0, 0 )
+8/shapes = [  ]
+9/name = "009"
+9/texture = ExtResource( 18 )
+9/tex_offset = Vector2( 0, 0 )
+9/modulate = Color( 1, 1, 1, 1 )
+9/region = Rect2( 0, 0, 0, 0 )
+9/is_autotile = false
+9/occluder_offset = Vector2( 0, 0 )
+9/navigation_offset = Vector2( 0, 0 )
+9/shapes = [  ]
+10/name = "010"
+10/texture = ExtResource( 4 )
+10/tex_offset = Vector2( 0, 0 )
+10/modulate = Color( 1, 1, 1, 1 )
+10/region = Rect2( 0, 0, 0, 0 )
+10/is_autotile = false
+10/occluder_offset = Vector2( 0, 0 )
+10/navigation_offset = Vector2( 0, 0 )
+10/shapes = [  ]
+11/name = "011"
+11/texture = ExtResource( 5 )
+11/tex_offset = Vector2( 0, 0 )
+11/modulate = Color( 1, 1, 1, 1 )
+11/region = Rect2( 0, 0, 0, 0 )
+11/is_autotile = false
+11/occluder_offset = Vector2( 0, 0 )
+11/navigation_offset = Vector2( 0, 0 )
+11/shapes = [  ]
+12/name = "012"
+12/texture = ExtResource( 6 )
+12/tex_offset = Vector2( 0, 0 )
+12/modulate = Color( 1, 1, 1, 1 )
+12/region = Rect2( 0, 0, 0, 0 )
+12/is_autotile = false
+12/occluder_offset = Vector2( 0, 0 )
+12/navigation_offset = Vector2( 0, 0 )
+12/shapes = [  ]
+13/name = "013"
+13/texture = ExtResource( 7 )
+13/tex_offset = Vector2( 0, 0 )
+13/modulate = Color( 1, 1, 1, 1 )
+13/region = Rect2( 0, 0, 0, 0 )
+13/is_autotile = false
+13/occluder_offset = Vector2( 0, 0 )
+13/navigation_offset = Vector2( 0, 0 )
+13/shapes = [  ]
+14/name = "014"
+14/texture = ExtResource( 8 )
+14/tex_offset = Vector2( 0, 0 )
+14/modulate = Color( 1, 1, 1, 1 )
+14/region = Rect2( 0, 0, 0, 0 )
+14/is_autotile = false
+14/occluder_offset = Vector2( 0, 0 )
+14/navigation_offset = Vector2( 0, 0 )
+14/shapes = [  ]
+15/name = "015"
+15/texture = ExtResource( 9 )
+15/tex_offset = Vector2( 0, 0 )
+15/modulate = Color( 1, 1, 1, 1 )
+15/region = Rect2( 0, 0, 0, 0 )
+15/is_autotile = false
+15/occluder_offset = Vector2( 0, 0 )
+15/navigation_offset = Vector2( 0, 0 )
+15/shapes = [  ]
+16/name = "016"
+16/texture = ExtResource( 10 )
+16/tex_offset = Vector2( 0, 0 )
+16/modulate = Color( 1, 1, 1, 1 )
+16/region = Rect2( 0, 0, 0, 0 )
+16/is_autotile = false
+16/occluder_offset = Vector2( 0, 0 )
+16/navigation_offset = Vector2( 0, 0 )
+16/shapes = [  ]
+17/name = "017"
+17/tex_offset = Vector2( 0, 0 )
+17/modulate = Color( 1, 1, 1, 1 )
+17/region = Rect2( 0, 0, 0, 0 )
+17/is_autotile = false
+17/occluder_offset = Vector2( 0, 0 )
+17/navigation_offset = Vector2( 0, 0 )
+17/shapes = [  ]
+_sections_unfolded = [ "16", "17" ]
+
+[sub_resource type="VisualScriptFunction" id=155]
+
+resource_name = "_process"
+_default_input_values = [  ]
+argument_count = 1
+argument_1/type = 3
+argument_1/name = "delta"
+sequenced/sequenced = true
+stack/size = 256
+stack/stackless = false
+rpc/mode = 0
+
+[sub_resource type="VisualScriptFunction" id=156]
+
+resource_name = "_ready"
+_default_input_values = [  ]
+argument_count = 0
+sequenced/sequenced = true
+stack/size = 256
+stack/stackless = false
+rpc/mode = 0
+
+[sub_resource type="VisualScriptFunctionCall" id=157]
+
+_default_input_values = [ 0, 0, 0 ]
+call_mode = 0
+base_type = "TileMap"
+argument_cache = {
+"args": [  ],
+"default_args": [  ],
+"flags": 1,
+"id": 0,
+"name": "",
+"return": {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "",
+"type": 0,
+"usage": 7
+}
+}
+function = "clear"
+validate = true
+rpc_call_mode = 0
+
+[sub_resource type="VisualScriptFunctionCall" id=158]
+
+_default_input_values = [ 0, 0, 0 ]
+call_mode = 0
+base_type = "TileMap"
+argument_cache = {
+"args": [ {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "x",
+"type": 2,
+"usage": 7
+}, {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "y",
+"type": 2,
+"usage": 7
+}, {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "tile",
+"type": 2,
+"usage": 7
+}, {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "flip_x",
+"type": 1,
+"usage": 7
+}, {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "flip_y",
+"type": 1,
+"usage": 7
+}, {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "transpose",
+"type": 1,
+"usage": 7
+}, {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "autotile_coord",
+"type": 5,
+"usage": 7
+} ],
+"default_args": [  ],
+"flags": 1,
+"id": 0,
+"name": "",
+"return": {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "",
+"type": 0,
+"usage": 7
+}
+}
+function = "set_cell"
+use_default_args = 4
+validate = true
+rpc_call_mode = 0
+
+[sub_resource type="VisualScriptConstant" id=159]
+
+_default_input_values = [  ]
+type = 2
+value = 0
+
+[sub_resource type="VisualScriptConstant" id=160]
+
+_default_input_values = [  ]
+type = 2
+value = 17
+
+[sub_resource type="VisualScript" id=161]
+
+data = {
+"base_type": "TileMap",
+"functions": [ {
+"data_connections": [  ],
+"function_id": 2,
+"name": "_process",
+"nodes": [ 2, Vector2( 0, 0 ), SubResource( 155 ) ],
+"scroll": Vector2( -342, -176 ),
+"sequence_connections": [  ]
+}, {
+"data_connections": [ 5, 0, 4, 0, 5, 0, 4, 1, 7, 0, 4, 2 ],
+"function_id": 0,
+"name": "_ready",
+"nodes": [ 0, Vector2( 0, 0 ), SubResource( 156 ), 1, Vector2( 120, 0 ), SubResource( 157 ), 4, Vector2( 260, 0 ), SubResource( 158 ), 5, Vector2( 120, 60 ), SubResource( 159 ), 7, Vector2( 120, 160 ), SubResource( 160 ) ],
+"scroll": Vector2( -88, -31.8861 ),
+"sequence_connections": [ 0, 0, 1, 1, 0, 4 ]
+} ],
+"signals": [  ],
+"variables": [  ]
+}
+
+[sub_resource type="VisualScriptFunction" id=102]
 
 _default_input_values = [  ]
 argument_count = 1
@@ -930,7 +2059,7 @@ stack/size = 256
 stack/stackless = false
 rpc/mode = 0
 
-[sub_resource type="VisualScriptPropertyGet" id=99]
+[sub_resource type="VisualScriptPropertyGet" id=103]
 
 _default_input_values = [  ]
 set_mode = 1
@@ -939,7 +2068,7 @@ type_cache = 0
 node_path = NodePath("../Curseur")
 property = "POS"
 
-[sub_resource type="VisualScriptPropertySet" id=100]
+[sub_resource type="VisualScriptPropertySet" id=104]
 
 _default_input_values = [ "Null" ]
 set_mode = 0
@@ -955,7 +2084,7 @@ type_cache = {
 property = "text"
 assign_op = 0
 
-[sub_resource type="VisualScriptConstructor" id=101]
+[sub_resource type="VisualScriptConstructor" id=105]
 
 _default_input_values = [ null ]
 type = 4
@@ -982,7 +2111,7 @@ constructor = {
 }
 }
 
-[sub_resource type="VisualScript" id=102]
+[sub_resource type="VisualScript" id=106]
 
 data = {
 "base_type": "Label",
@@ -990,7 +2119,7 @@ data = {
 "data_connections": [ 3, 0, 2, 0, 1, 0, 3, 0 ],
 "function_id": 0,
 "name": "_process",
-"nodes": [ 0, Vector2( 0, 0 ), SubResource( 98 ), 1, Vector2( -200, 100 ), SubResource( 99 ), 2, Vector2( 140, 0 ), SubResource( 100 ), 3, Vector2( -40, 100 ), SubResource( 101 ) ],
+"nodes": [ 0, Vector2( 0, 0 ), SubResource( 102 ), 1, Vector2( -200, 100 ), SubResource( 103 ), 2, Vector2( 140, 0 ), SubResource( 104 ), 3, Vector2( -40, 100 ), SubResource( 105 ) ],
 "scroll": Vector2( -426.61, -116 ),
 "sequence_connections": [ 0, 0, 2 ]
 } ],
@@ -998,10 +2127,10 @@ data = {
 "variables": [  ]
 }
 
-[sub_resource type="TileSet" id=103]
+[sub_resource type="TileSet" id=107]
 
 0/name = ""
-0/texture = ExtResource( 2 )
+0/texture = ExtResource( 19 )
 0/tex_offset = Vector2( 0, 0 )
 0/modulate = Color( 1, 1, 1, 1 )
 0/region = Rect2( 0, 0, 0, 0 )
@@ -1011,169 +2140,11 @@ data = {
 0/shapes = [  ]
 _sections_unfolded = [ "0", "Resource" ]
 
-[sub_resource type="TileSet" id=104]
+[sub_resource type="World" id=109]
 
-0/name = "000"
-0/texture = ExtResource( 3 )
-0/tex_offset = Vector2( 0, 0 )
-0/modulate = Color( 1, 1, 1, 1 )
-0/region = Rect2( 0, 0, 0, 0 )
-0/is_autotile = false
-0/occluder_offset = Vector2( 0, 0 )
-0/navigation_offset = Vector2( 0, 0 )
-0/shapes = [  ]
-1/name = "001"
-1/texture = ExtResource( 4 )
-1/tex_offset = Vector2( 0, 0 )
-1/modulate = Color( 1, 1, 1, 1 )
-1/region = Rect2( 0, 0, 0, 0 )
-1/is_autotile = false
-1/occluder_offset = Vector2( 0, 0 )
-1/navigation_offset = Vector2( 0, 0 )
-1/shapes = [  ]
-2/name = "002"
-2/texture = ExtResource( 12 )
-2/tex_offset = Vector2( 0, 0 )
-2/modulate = Color( 1, 1, 1, 1 )
-2/region = Rect2( 0, 0, 0, 0 )
-2/is_autotile = false
-2/occluder_offset = Vector2( 0, 0 )
-2/navigation_offset = Vector2( 0, 0 )
-2/shapes = [  ]
-3/name = "003"
-3/texture = ExtResource( 13 )
-3/tex_offset = Vector2( 0, 0 )
-3/modulate = Color( 1, 1, 1, 1 )
-3/region = Rect2( 0, 0, 0, 0 )
-3/is_autotile = false
-3/occluder_offset = Vector2( 0, 0 )
-3/navigation_offset = Vector2( 0, 0 )
-3/shapes = [  ]
-4/name = "004"
-4/texture = ExtResource( 14 )
-4/tex_offset = Vector2( 0, 0 )
-4/modulate = Color( 1, 1, 1, 1 )
-4/region = Rect2( 0, 0, 0, 0 )
-4/is_autotile = false
-4/occluder_offset = Vector2( 0, 0 )
-4/navigation_offset = Vector2( 0, 0 )
-4/shapes = [  ]
-5/name = "005"
-5/texture = ExtResource( 15 )
-5/tex_offset = Vector2( 0, 0 )
-5/modulate = Color( 1, 1, 1, 1 )
-5/region = Rect2( 0, 0, 0, 0 )
-5/is_autotile = false
-5/occluder_offset = Vector2( 0, 0 )
-5/navigation_offset = Vector2( 0, 0 )
-5/shapes = [  ]
-6/name = "006"
-6/texture = ExtResource( 16 )
-6/tex_offset = Vector2( 0, 0 )
-6/modulate = Color( 1, 1, 1, 1 )
-6/region = Rect2( 0, 0, 0, 0 )
-6/is_autotile = false
-6/occluder_offset = Vector2( 0, 0 )
-6/navigation_offset = Vector2( 0, 0 )
-6/shapes = [  ]
-7/name = "007"
-7/texture = ExtResource( 17 )
-7/tex_offset = Vector2( 0, 0 )
-7/modulate = Color( 1, 1, 1, 1 )
-7/region = Rect2( 0, 0, 0, 0 )
-7/is_autotile = false
-7/occluder_offset = Vector2( 0, 0 )
-7/navigation_offset = Vector2( 0, 0 )
-7/shapes = [  ]
-8/name = "008"
-8/texture = ExtResource( 18 )
-8/tex_offset = Vector2( 0, 0 )
-8/modulate = Color( 1, 1, 1, 1 )
-8/region = Rect2( 0, 0, 0, 0 )
-8/is_autotile = false
-8/occluder_offset = Vector2( 0, 0 )
-8/navigation_offset = Vector2( 0, 0 )
-8/shapes = [  ]
-9/name = "009"
-9/texture = ExtResource( 19 )
-9/tex_offset = Vector2( 0, 0 )
-9/modulate = Color( 1, 1, 1, 1 )
-9/region = Rect2( 0, 0, 0, 0 )
-9/is_autotile = false
-9/occluder_offset = Vector2( 0, 0 )
-9/navigation_offset = Vector2( 0, 0 )
-9/shapes = [  ]
-10/name = "010"
-10/texture = ExtResource( 5 )
-10/tex_offset = Vector2( 0, 0 )
-10/modulate = Color( 1, 1, 1, 1 )
-10/region = Rect2( 0, 0, 0, 0 )
-10/is_autotile = false
-10/occluder_offset = Vector2( 0, 0 )
-10/navigation_offset = Vector2( 0, 0 )
-10/shapes = [  ]
-11/name = "011"
-11/texture = ExtResource( 6 )
-11/tex_offset = Vector2( 0, 0 )
-11/modulate = Color( 1, 1, 1, 1 )
-11/region = Rect2( 0, 0, 0, 0 )
-11/is_autotile = false
-11/occluder_offset = Vector2( 0, 0 )
-11/navigation_offset = Vector2( 0, 0 )
-11/shapes = [  ]
-12/name = "012"
-12/texture = ExtResource( 7 )
-12/tex_offset = Vector2( 0, 0 )
-12/modulate = Color( 1, 1, 1, 1 )
-12/region = Rect2( 0, 0, 0, 0 )
-12/is_autotile = false
-12/occluder_offset = Vector2( 0, 0 )
-12/navigation_offset = Vector2( 0, 0 )
-12/shapes = [  ]
-13/name = "013"
-13/texture = ExtResource( 8 )
-13/tex_offset = Vector2( 0, 0 )
-13/modulate = Color( 1, 1, 1, 1 )
-13/region = Rect2( 0, 0, 0, 0 )
-13/is_autotile = false
-13/occluder_offset = Vector2( 0, 0 )
-13/navigation_offset = Vector2( 0, 0 )
-13/shapes = [  ]
-14/name = "014"
-14/texture = ExtResource( 9 )
-14/tex_offset = Vector2( 0, 0 )
-14/modulate = Color( 1, 1, 1, 1 )
-14/region = Rect2( 0, 0, 0, 0 )
-14/is_autotile = false
-14/occluder_offset = Vector2( 0, 0 )
-14/navigation_offset = Vector2( 0, 0 )
-14/shapes = [  ]
-15/name = "015"
-15/texture = ExtResource( 10 )
-15/tex_offset = Vector2( 0, 0 )
-15/modulate = Color( 1, 1, 1, 1 )
-15/region = Rect2( 0, 0, 0, 0 )
-15/is_autotile = false
-15/occluder_offset = Vector2( 0, 0 )
-15/navigation_offset = Vector2( 0, 0 )
-15/shapes = [  ]
-16/name = "016"
-16/texture = ExtResource( 11 )
-16/tex_offset = Vector2( 0, 0 )
-16/modulate = Color( 1, 1, 1, 1 )
-16/region = Rect2( 0, 0, 0, 0 )
-16/is_autotile = false
-16/occluder_offset = Vector2( 0, 0 )
-16/navigation_offset = Vector2( 0, 0 )
-16/shapes = [  ]
-_sections_unfolded = [ "16" ]
-
-[sub_resource type="World" id=105]
-
-resource_name = "INV_SUB_WORLD_1"
 environment = ExtResource( 20 )
 
-[node name="Node2D" type="Node2D"]
+[node name="Node2D" type="Node2D" index="0"]
 
 script = ExtResource( 1 )
 _sections_unfolded = [ "Transform" ]
@@ -1207,8 +2178,9 @@ _sections_unfolded = [ "Limit", "Smoothing", "Transform" ]
 
 [node name="Curseur" type="Node2D" parent="." index="1"]
 
+position = Vector2( 10000, 10000 )
 z_index = 1
-script = SubResource( 97 )
+script = SubResource( 101 )
 _sections_unfolded = [ "Material", "Pause", "Transform", "Visibility", "Z Index" ]
 POS = Vector2( 0, 0 )
 
@@ -1218,6 +2190,7 @@ position = Vector2( -64, -64 )
 points = PoolVector2Array( 0, 50, 0, 0, 50, 0 )
 width = 10.0
 default_color = Color( 0.4, 0.5, 1, 1 )
+texture_mode = -266032133
 sharp_limit = 2.0
 round_precision = 8
 _sections_unfolded = [ "Transform" ]
@@ -1254,6 +2227,28 @@ sharp_limit = 2.0
 round_precision = 8
 _sections_unfolded = [ "Transform" ]
 
+[node name="IN_HAND" type="TileMap" parent="Curseur" index="4"]
+
+mode = 0
+tile_set = SubResource( 108 )
+cell_size = Vector2( 128, 128 )
+cell_quadrant_size = 1
+cell_custom_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+cell_half_offset = 2
+cell_tile_origin = 0
+cell_y_sort = false
+cell_clip_uv = false
+collision_use_kinematic = false
+collision_friction = 1.0
+collision_bounce = 0.0
+collision_layer = 1
+collision_mask = 1
+occluder_light_mask = 1
+format = 1
+tile_data = PoolIntArray( 65536, 1, 0, 65537, 10, 0, 65538, 5, 0, 65539, 15, 0, 65540, 12, 0, 131072, 4, 0, 131073, 2, 0, 131074, 11, 0, 131075, 9, 0, 196608, 8, 0, 196609, 6, 0, 196610, 3, 0, 196611, 7, 0, 196612, 13, 0, 262144, 14, 0, 262145, 0, 0, 262146, 16, 0 )
+script = SubResource( 161 )
+_sections_unfolded = [ "Cell", "Transform" ]
+
 [node name="Label" type="Label" parent="." index="2"]
 
 anchor_left = 0.0
@@ -1273,13 +2268,13 @@ size_flags_vertical = 4
 percent_visible = 1.0
 lines_skipped = 0
 max_lines_visible = -1
-script = SubResource( 102 )
+script = SubResource( 106 )
 _sections_unfolded = [ "Anchor", "Grow Direction", "Hint", "Margin", "Material", "Mouse", "Rect", "Size Flags", "Theme", "Visibility", "custom_constants" ]
 
 [node name="CELL" type="TileMap" parent="." index="3"]
 
 mode = 0
-tile_set = SubResource( 103 )
+tile_set = SubResource( 107 )
 cell_size = Vector2( 128, 128 )
 cell_quadrant_size = 16
 cell_custom_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
@@ -1300,7 +2295,7 @@ _sections_unfolded = [ "Cell", "Transform" ]
 [node name="ITEM" type="TileMap" parent="." index="4"]
 
 mode = 0
-tile_set = SubResource( 104 )
+tile_set = SubResource( 108 )
 cell_size = Vector2( 128, 128 )
 cell_quadrant_size = 16
 cell_custom_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
@@ -1315,7 +2310,7 @@ collision_layer = 1
 collision_mask = 1
 occluder_light_mask = 1
 format = 1
-tile_data = PoolIntArray( 65536, 1, 0, 65537, 10, 0, 65538, 5, 0, 65539, 15, 0, 65540, 12, 0, 131072, 4, 0, 131073, 2, 0, 131074, 11, 0, 131075, 9, 0, 196608, 8, 0, 196609, 6, 0, 196610, 3, 0, 196611, 7, 0, 196612, 13, 0, 262144, 14, 0, 262145, 0, 0, 262146, 16, 0 )
+tile_data = PoolIntArray( 0, 17, 0, 1, 17, 0, 2, 17, 0, 3, 17, 0, 4, 17, 0, 5, 17, 0, 65536, 1, 0, 65537, 10, 0, 65538, 5, 0, 65539, 15, 0, 65540, 12, 0, 65541, 17, 0, 131072, 4, 0, 131073, 2, 0, 131074, 11, 0, 131075, 9, 0, 131076, 17, 0, 131077, 17, 0, 196608, 8, 0, 196609, 6, 0, 196610, 3, 0, 196611, 7, 0, 196612, 13, 0, 196613, 17, 0, 262144, 14, 0, 262145, 0, 0, 262146, 16, 0, 262147, 17, 0, 262148, 17, 0, 262149, 17, 0, 327680, 17, 0, 327681, 17, 0, 327682, 17, 0, 327683, 17, 0, 327684, 17, 0, 327685, 17, 0 )
 _sections_unfolded = [ "Cell" ]
 
 [node name="Viewport" type="Viewport" parent="." index="5"]
@@ -1323,7 +2318,7 @@ _sections_unfolded = [ "Cell" ]
 arvr = false
 size = Vector2( 0, 0 )
 own_world = false
-world = SubResource( 105 )
+world = SubResource( 109 )
 transparent_bg = false
 msaa = 0
 hdr = true
