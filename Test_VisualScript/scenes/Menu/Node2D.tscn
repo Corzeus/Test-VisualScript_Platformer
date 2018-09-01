@@ -1,9 +1,10 @@
-[gd_scene load_steps=12 format=2]
+[gd_scene load_steps=13 format=2]
 
 [ext_resource path="res://scenes/Menu/Camera2D.vs" type="Script" id=1]
 [ext_resource path="res://scenes/Menu/center_play.vs" type="Script" id=2]
 [ext_resource path="res://scenes/Menu/PLAYButton.gd" type="Script" id=3]
 [ext_resource path="res://scenes/Menu/OPTIONButton.gd" type="Script" id=4]
+[ext_resource path="res://scenes/Menu/Node2D.gdns" type="Script" id=5]
 
 [sub_resource type="VisualScriptFunction" id=1]
 
@@ -123,7 +124,7 @@ data = {
 "variables": [  ]
 }
 
-[node name="Node2D" type="Node2D"]
+[node name="Node2D" type="Node2D" index="0"]
 
 script = SubResource( 3 )
 _sections_unfolded = [ "Material", "Transform", "Visibility", "Z Index" ]
@@ -169,6 +170,7 @@ anchor_bottom = 1.0
 margin_right = -4.0
 margin_bottom = -44.0
 rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
 focus_neighbour_top = NodePath("../../Node2DEXIT/Button")
 focus_neighbour_bottom = NodePath("../../Node2DOPTION/Button")
 focus_next = NodePath("../../Node2DOPTION/Button")
@@ -202,6 +204,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 margin_bottom = -44.0
 rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
 focus_neighbour_top = NodePath("../../Node2DPLAY/Button")
 focus_neighbour_bottom = NodePath("../../Node2DEXIT/Button")
 focus_next = NodePath("../../Node2DEXIT/Button")
@@ -234,6 +237,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 margin_bottom = -44.0
 rect_pivot_offset = Vector2( 0, 0 )
+rect_clip_content = false
 focus_neighbour_top = NodePath("../../Node2DOPTION/Button")
 focus_neighbour_bottom = NodePath("../../Node2DPLAY/Button")
 focus_next = NodePath("../../Node2DPLAY/Button")
@@ -285,6 +289,10 @@ selection_enabled = false
 override_selected_font_color = false
 script = SubResource( 7 )
 _sections_unfolded = [ "BBCode", "Focus", "Hint", "Mouse", "Rect", "Size Flags", "Theme" ]
+
+[node name="Node2D" type="Node2D" parent="." index="5"]
+
+script = ExtResource( 5 )
 
 [connection signal="pressed" from="Node2DPLAY/Button" to="Node2DPLAY/Button" method="_on_Button_pressed"]
 
