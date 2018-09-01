@@ -232,7 +232,7 @@ data = {
 "variables": [  ]
 }
 
-[node name="level1" type="Node2D" index="0"]
+[node name="level1" type="Node2D"]
 
 pause_mode = 2
 _sections_unfolded = [ "Material", "Pause", "Transform", "Visibility", "Z Index" ]

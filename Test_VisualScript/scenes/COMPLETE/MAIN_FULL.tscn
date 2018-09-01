@@ -1,0 +1,1176 @@
+[gd_scene load_steps=95 format=2]
+
+[ext_resource path="res://img/Enemies/slimeBlock.png" type="Texture" id=1]
+[ext_resource path="res://scenes/COMPLETE/BRUIT DE PAS STREAM.tres" type="AudioStream" id=2]
+[ext_resource path="res://img/Backgrounds/colored_land.png" type="Texture" id=3]
+
+[sub_resource type="VisualScriptFunction" id=2]
+
+resource_name = "_process"
+_default_input_values = [  ]
+argument_count = 1
+argument_1/type = 3
+argument_1/name = "delta"
+sequenced/sequenced = true
+stack/size = 256
+stack/stackless = false
+rpc/mode = 0
+
+[sub_resource type="VisualScriptFunctionCall" id=3]
+
+_default_input_values = [ 0, 0.0, 0.0, 0.0 ]
+call_mode = 0
+base_type = "KinematicBody2D"
+argument_cache = {
+"args": [  ],
+"default_args": [  ],
+"flags": 1,
+"id": 0,
+"name": "move",
+"return": {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "",
+"type": 0,
+"usage": 7
+}
+}
+function = "move"
+validate = true
+rpc_call_mode = 0
+
+[sub_resource type="VisualScriptFunctionCall" id=99]
+
+_default_input_values = [ 0, 0.0, 0.0, 0.0 ]
+call_mode = 0
+base_type = "KinematicBody2D"
+argument_cache = {
+"args": [  ],
+"default_args": [  ],
+"flags": 1,
+"id": 0,
+"name": "turn",
+"return": {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "",
+"type": 0,
+"usage": 7
+}
+}
+function = "turn"
+validate = true
+rpc_call_mode = 0
+
+[sub_resource type="VisualScriptFunction" id=37]
+
+resource_name = "turn"
+_default_input_values = [  ]
+argument_count = 0
+sequenced/sequenced = true
+stack/size = 256
+stack/stackless = false
+rpc/mode = 0
+
+[sub_resource type="VisualScriptPropertySet" id=38]
+
+_default_input_values = [ 0.0 ]
+set_mode = 0
+base_type = "KinematicBody2D"
+type_cache = {
+"class_name": "",
+"hint": 1,
+"hint_string": "-1440,1440,0.1",
+"name": "rotation_degrees",
+"type": 3,
+"usage": 514
+}
+property = "rotation_degrees"
+assign_op = 0
+
+[sub_resource type="VisualScriptBuiltinFunc" id=39]
+
+_default_input_values = [ 0.0 ]
+function = 4
+
+[sub_resource type="VisualScriptFunctionCall" id=40]
+
+_default_input_values = [ 0, 0.0, 0.0, 0.0 ]
+call_mode = 4
+base_type = "InputDefault"
+singleton = "Input"
+argument_cache = {
+"args": [ {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "device",
+"type": 2,
+"usage": 7
+}, {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "axis",
+"type": 2,
+"usage": 7
+} ],
+"default_args": [  ],
+"flags": 9,
+"id": 0,
+"name": "",
+"return": {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "",
+"type": 3,
+"usage": 7
+}
+}
+function = "get_joy_axis"
+validate = true
+rpc_call_mode = 0
+
+[sub_resource type="VisualScriptFunctionCall" id=41]
+
+_default_input_values = [ 0, 0.0, 0.0, 0.0 ]
+call_mode = 4
+base_type = "InputDefault"
+singleton = "Input"
+argument_cache = {
+"args": [ {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "device",
+"type": 2,
+"usage": 7
+}, {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "axis",
+"type": 2,
+"usage": 7
+} ],
+"default_args": [  ],
+"flags": 9,
+"id": 0,
+"name": "",
+"return": {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "",
+"type": 3,
+"usage": 7
+}
+}
+function = "get_joy_axis"
+validate = true
+rpc_call_mode = 0
+
+[sub_resource type="VisualScriptConstant" id=42]
+
+_default_input_values = [  ]
+type = 2
+value = 0
+
+[sub_resource type="VisualScriptConstant" id=43]
+
+_default_input_values = [  ]
+type = 2
+value = 1
+
+[sub_resource type="VisualScriptOperator" id=44]
+
+_default_input_values = [ 0.0, 0.0 ]
+operator = 9
+type = 3
+
+[sub_resource type="VisualScriptBuiltinFunc" id=45]
+
+_default_input_values = [ 0.0, 0.0 ]
+function = 18
+
+[sub_resource type="VisualScriptConstant" id=46]
+
+_default_input_values = [  ]
+type = 3
+value = 0.5
+
+[sub_resource type="VisualScriptBuiltinFunc" id=47]
+
+_default_input_values = [ 0.0, 0.0 ]
+function = 18
+
+[sub_resource type="VisualScriptConstant" id=48]
+
+_default_input_values = [  ]
+type = 3
+value = 2.0
+
+[sub_resource type="VisualScriptOperator" id=49]
+
+_default_input_values = [ 0.0, 0.0 ]
+operator = 6
+type = 3
+
+[sub_resource type="VisualScriptBuiltinFunc" id=50]
+
+_default_input_values = [ 0.0, 0.0 ]
+function = 18
+
+[sub_resource type="VisualScriptFunctionCall" id=51]
+
+_default_input_values = [ 0, 0.0, 0.0, 0.0 ]
+call_mode = 4
+base_type = "InputDefault"
+singleton = "Input"
+argument_cache = {
+"args": [ {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "device",
+"type": 2,
+"usage": 7
+}, {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "axis",
+"type": 2,
+"usage": 7
+} ],
+"default_args": [  ],
+"flags": 9,
+"id": 0,
+"name": "",
+"return": {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "",
+"type": 3,
+"usage": 7
+}
+}
+function = "get_joy_axis"
+validate = true
+rpc_call_mode = 0
+
+[sub_resource type="VisualScriptConstant" id=52]
+
+_default_input_values = [  ]
+type = 2
+value = 0
+
+[sub_resource type="VisualScriptConstant" id=53]
+
+_default_input_values = [  ]
+type = 2
+value = 1
+
+[sub_resource type="VisualScriptFunctionCall" id=54]
+
+_default_input_values = [ 0, 0.0, 0.0, 0.0 ]
+call_mode = 4
+base_type = "InputDefault"
+singleton = "Input"
+argument_cache = {
+"args": [ {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "device",
+"type": 2,
+"usage": 7
+}, {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "axis",
+"type": 2,
+"usage": 7
+} ],
+"default_args": [  ],
+"flags": 9,
+"id": 0,
+"name": "",
+"return": {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "",
+"type": 3,
+"usage": 7
+}
+}
+function = "get_joy_axis"
+validate = true
+rpc_call_mode = 0
+
+[sub_resource type="VisualScriptConstant" id=55]
+
+_default_input_values = [  ]
+type = 2
+value = 0
+
+[sub_resource type="VisualScriptOperator" id=56]
+
+_default_input_values = [ 0.0, 0.0 ]
+operator = 0
+type = 3
+
+[sub_resource type="VisualScriptCondition" id=57]
+
+_default_input_values = [ false ]
+
+[sub_resource type="VisualScriptOperator" id=58]
+
+_default_input_values = [ 0.0, 0.0 ]
+operator = 6
+type = 3
+
+[sub_resource type="VisualScriptVariableSet" id=59]
+
+_default_input_values = [ 0.0 ]
+var_name = "direction"
+
+[sub_resource type="VisualScriptVariableSet" id=60]
+
+_default_input_values = [ 0 ]
+var_name = "direction"
+
+[sub_resource type="VisualScriptVariableGet" id=61]
+
+_default_input_values = [  ]
+var_name = "direction"
+
+[sub_resource type="VisualScriptCondition" id=62]
+
+_default_input_values = [ false ]
+
+[sub_resource type="VisualScriptCondition" id=63]
+
+_default_input_values = [ false ]
+
+[sub_resource type="VisualScriptCondition" id=64]
+
+_default_input_values = [ false ]
+
+[sub_resource type="VisualScriptVariableGet" id=65]
+
+_default_input_values = [  ]
+var_name = "direction_axis"
+
+[sub_resource type="VisualScriptVariableSet" id=66]
+
+_default_input_values = [ 0 ]
+var_name = "direction_axis"
+
+[sub_resource type="VisualScriptVariableSet" id=67]
+
+_default_input_values = [ 0 ]
+var_name = "direction_axis"
+
+[sub_resource type="VisualScriptCondition" id=68]
+
+_default_input_values = [ false ]
+
+[sub_resource type="VisualScriptFunctionCall" id=69]
+
+_default_input_values = [ 0, 0.0, 0.0, 0.0 ]
+call_mode = 4
+base_type = "InputDefault"
+singleton = "Input"
+argument_cache = {
+"args": [ {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "device",
+"type": 2,
+"usage": 7
+}, {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "axis",
+"type": 2,
+"usage": 7
+} ],
+"default_args": [  ],
+"flags": 9,
+"id": 0,
+"name": "",
+"return": {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "",
+"type": 3,
+"usage": 7
+}
+}
+function = "get_joy_axis"
+validate = true
+rpc_call_mode = 0
+
+[sub_resource type="VisualScriptFunctionCall" id=70]
+
+_default_input_values = [ 0, 0.0, 0.0, 0.0 ]
+call_mode = 4
+base_type = "InputDefault"
+singleton = "Input"
+argument_cache = {
+"args": [ {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "device",
+"type": 2,
+"usage": 7
+}, {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "axis",
+"type": 2,
+"usage": 7
+} ],
+"default_args": [  ],
+"flags": 9,
+"id": 0,
+"name": "",
+"return": {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "",
+"type": 3,
+"usage": 7
+}
+}
+function = "get_joy_axis"
+validate = true
+rpc_call_mode = 0
+
+[sub_resource type="VisualScriptConstant" id=71]
+
+_default_input_values = [  ]
+type = 2
+value = 0
+
+[sub_resource type="VisualScriptConstant" id=72]
+
+_default_input_values = [  ]
+type = 2
+value = 1
+
+[sub_resource type="VisualScriptOperator" id=73]
+
+_default_input_values = [ null, null ]
+operator = 4
+type = 0
+
+[sub_resource type="VisualScriptOperator" id=74]
+
+_default_input_values = [ null, null ]
+operator = 20
+type = 0
+
+[sub_resource type="VisualScriptOperator" id=75]
+
+_default_input_values = [ null, null ]
+operator = 4
+type = 0
+
+[sub_resource type="VisualScriptOperator" id=76]
+
+_default_input_values = [ null, null ]
+operator = 20
+type = 0
+
+[sub_resource type="VisualScriptOperator" id=77]
+
+_default_input_values = [ null, null ]
+operator = 4
+type = 0
+
+[sub_resource type="VisualScriptOperator" id=78]
+
+_default_input_values = [ null, null ]
+operator = 10
+type = 0
+
+[sub_resource type="VisualScriptOperator" id=79]
+
+_default_input_values = [ null, null ]
+operator = 10
+type = 0
+
+[sub_resource type="VisualScriptOperator" id=80]
+
+_default_input_values = [ null, null ]
+operator = 10
+type = 0
+
+[sub_resource type="VisualScriptVariableSet" id=81]
+
+_default_input_values = [ 0.0 ]
+var_name = "direction"
+
+[sub_resource type="VisualScriptVariableSet" id=82]
+
+_default_input_values = [ 0 ]
+var_name = "direction"
+
+[sub_resource type="VisualScriptVariableSet" id=83]
+
+_default_input_values = [ 0 ]
+var_name = "direction_axis"
+
+[sub_resource type="VisualScriptVariableSet" id=84]
+
+_default_input_values = [ 0 ]
+var_name = "direction_axis"
+
+[sub_resource type="VisualScriptCondition" id=85]
+
+_default_input_values = [ false ]
+
+[sub_resource type="VisualScriptCondition" id=86]
+
+_default_input_values = [ false ]
+
+[sub_resource type="VisualScriptCondition" id=87]
+
+_default_input_values = [ false ]
+
+[sub_resource type="VisualScriptCondition" id=88]
+
+_default_input_values = [ false ]
+
+[sub_resource type="VisualScriptVariableSet" id=89]
+
+_default_input_values = [ 0.0 ]
+var_name = "direction"
+
+[sub_resource type="VisualScriptVariableSet" id=90]
+
+_default_input_values = [ 0 ]
+var_name = "direction_axis"
+
+[sub_resource type="VisualScriptVariableSet" id=91]
+
+_default_input_values = [ 0.0 ]
+var_name = "direction"
+
+[sub_resource type="VisualScriptVariableSet" id=92]
+
+_default_input_values = [ 0 ]
+var_name = "direction"
+
+[sub_resource type="VisualScriptVariableSet" id=93]
+
+_default_input_values = [ 0 ]
+var_name = "direction_axis"
+
+[sub_resource type="VisualScriptVariableSet" id=94]
+
+_default_input_values = [ 0 ]
+var_name = "direction_axis"
+
+[sub_resource type="VisualScriptVariableSet" id=95]
+
+_default_input_values = [ 0.0 ]
+var_name = "direction"
+
+[sub_resource type="VisualScriptVariableSet" id=96]
+
+_default_input_values = [ 0 ]
+var_name = "direction"
+
+[sub_resource type="VisualScriptVariableSet" id=97]
+
+_default_input_values = [ 0 ]
+var_name = "direction_axis"
+
+[sub_resource type="VisualScriptVariableSet" id=98]
+
+_default_input_values = [ 0 ]
+var_name = "direction_axis"
+
+[sub_resource type="VisualScriptFunction" id=100]
+
+resource_name = "move"
+_default_input_values = [  ]
+argument_count = 0
+sequenced/sequenced = true
+stack/size = 256
+stack/stackless = false
+rpc/mode = 0
+
+[sub_resource type="VisualScriptFunctionCall" id=101]
+
+_default_input_values = [ 0, 0.0, 0.0, 0.0 ]
+call_mode = 0
+base_type = "KinematicBody2D"
+argument_cache = {
+"args": [ {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "linear_velocity",
+"type": 5,
+"usage": 7
+}, {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "floor_normal",
+"type": 5,
+"usage": 7
+}, {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "slope_stop_min_velocity",
+"type": 3,
+"usage": 7
+}, {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "max_bounces",
+"type": 2,
+"usage": 7
+}, {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "floor_max_angle",
+"type": 3,
+"usage": 7
+} ],
+"default_args": [  ],
+"flags": 1,
+"id": 0,
+"name": "",
+"return": {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "",
+"type": 5,
+"usage": 7
+}
+}
+function = "move_and_slide"
+use_default_args = 4
+validate = true
+rpc_call_mode = 0
+
+[sub_resource type="VisualScriptConstant" id=102]
+
+_default_input_values = [  ]
+type = 3
+value = 20.0
+
+[sub_resource type="VisualScriptFunctionCall" id=103]
+
+_default_input_values = [ 0, 0.0, 0.0, 0.0 ]
+call_mode = 4
+base_type = "InputDefault"
+singleton = "Input"
+argument_cache = {
+"args": [ {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "device",
+"type": 2,
+"usage": 7
+}, {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "axis",
+"type": 2,
+"usage": 7
+} ],
+"default_args": [  ],
+"flags": 9,
+"id": 0,
+"name": "",
+"return": {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "",
+"type": 3,
+"usage": 7
+}
+}
+function = "get_joy_axis"
+validate = true
+rpc_call_mode = 0
+
+[sub_resource type="VisualScriptOperator" id=104]
+
+_default_input_values = [ 0.0, 0.0 ]
+operator = 8
+type = 3
+
+[sub_resource type="VisualScriptOperator" id=105]
+
+_default_input_values = [ 0.0, 0.0 ]
+operator = 8
+type = 3
+
+[sub_resource type="VisualScriptConstructor" id=106]
+
+_default_input_values = [ null, null ]
+type = 5
+constructor = {
+"args": [ {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "x",
+"type": 3,
+"usage": 7
+}, {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "y",
+"type": 3,
+"usage": 7
+} ],
+"default_args": [  ],
+"flags": 1,
+"id": 0,
+"name": "Vector2",
+"return": {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "",
+"type": 5,
+"usage": 7
+}
+}
+
+[sub_resource type="VisualScriptFunctionCall" id=107]
+
+_default_input_values = [ 0, 0.0, 0.0, 0.0 ]
+call_mode = 4
+base_type = "InputDefault"
+singleton = "Input"
+argument_cache = {
+"args": [ {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "device",
+"type": 2,
+"usage": 7
+}, {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "axis",
+"type": 2,
+"usage": 7
+} ],
+"default_args": [  ],
+"flags": 9,
+"id": 0,
+"name": "",
+"return": {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "",
+"type": 3,
+"usage": 7
+}
+}
+function = "get_joy_axis"
+validate = true
+rpc_call_mode = 0
+
+[sub_resource type="VisualScriptConstant" id=108]
+
+_default_input_values = [  ]
+type = 2
+value = 0
+
+[sub_resource type="VisualScriptConstant" id=109]
+
+_default_input_values = [  ]
+type = 2
+value = 1
+
+[sub_resource type="VisualScriptBuiltinFunc" id=110]
+
+_default_input_values = [ 0.0 ]
+function = 15
+
+[sub_resource type="VisualScriptBuiltinFunc" id=111]
+
+_default_input_values = [ 0.0 ]
+function = 15
+
+[sub_resource type="VisualScriptConstructor" id=112]
+
+_default_input_values = [ null ]
+type = 3
+constructor = {
+"args": [ {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "from",
+"type": 2,
+"usage": 7
+} ],
+"default_args": [  ],
+"flags": 1,
+"id": 0,
+"name": "float",
+"return": {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "",
+"type": 3,
+"usage": 7
+}
+}
+
+[sub_resource type="VisualScriptConstructor" id=113]
+
+_default_input_values = [ null ]
+type = 3
+constructor = {
+"args": [ {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "from",
+"type": 2,
+"usage": 7
+} ],
+"default_args": [  ],
+"flags": 1,
+"id": 0,
+"name": "float",
+"return": {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "",
+"type": 3,
+"usage": 7
+}
+}
+
+[sub_resource type="VisualScriptFunctionCall" id=114]
+
+_default_input_values = [ 0, 0.0, 0.0, 0.0 ]
+call_mode = 4
+base_type = "InputDefault"
+singleton = "Input"
+argument_cache = {
+"args": [ {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "device",
+"type": 2,
+"usage": 7
+}, {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "weak_magnitude",
+"type": 3,
+"usage": 7
+}, {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "strong_magnitude",
+"type": 3,
+"usage": 7
+}, {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "duration",
+"type": 3,
+"usage": 7
+} ],
+"default_args": [  ],
+"flags": 1,
+"id": 0,
+"name": "",
+"return": {
+"class_name": "",
+"hint": 0,
+"hint_string": "",
+"name": "",
+"type": 0,
+"usage": 7
+}
+}
+function = "start_joy_vibration"
+use_default_args = 0
+validate = true
+rpc_call_mode = 0
+
+[sub_resource type="VisualScriptOperator" id=115]
+
+_default_input_values = [ Vector2( 0, 0 ), Vector2( 0, 0 ) ]
+operator = 1
+type = 5
+
+[sub_resource type="VisualScriptCondition" id=116]
+
+_default_input_values = [ false ]
+
+[sub_resource type="VisualScriptConstant" id=118]
+
+_default_input_values = [  ]
+type = 2
+value = 0
+
+[sub_resource type="VisualScriptConstant" id=119]
+
+_default_input_values = [  ]
+type = 5
+value = Vector2( 0, 0 )
+
+[sub_resource type="VisualScriptConstant" id=120]
+
+_default_input_values = [  ]
+type = 3
+value = 0.1
+
+[sub_resource type="VisualScript" id=5]
+
+data = {
+"base_type": "KinematicBody2D",
+"functions": [ {
+"data_connections": [  ],
+"function_id": 0,
+"name": "_process",
+"nodes": [ 0, Vector2( 0, 0 ), SubResource( 2 ), 1, Vector2( 140, 0 ), SubResource( 3 ), 142, Vector2( 280, 0 ), SubResource( 99 ) ],
+"scroll": Vector2( -174.664, -236.22 ),
+"sequence_connections": [ 0, 0, 1 ]
+}, {
+"data_connections": [ 64, 0, 39, 0, 45, 0, 40, 0, 43, 0, 41, 0, 43, 0, 42, 0, 51, 0, 45, 0, 41, 0, 46, 0, 42, 0, 48, 0, 46, 0, 50, 0, 50, 0, 51, 0, 53, 0, 52, 0, 57, 0, 56, 0, 56, 0, 59, 0, 59, 0, 60, 0, 67, 0, 64, 0, 92, 0, 69, 0, 96, 0, 71, 0, 98, 0, 73, 0, 103, 0, 83, 0, 89, 0, 87, 0, 89, 0, 88, 0, 87, 0, 91, 0, 91, 0, 92, 0, 88, 0, 94, 0, 101, 0, 96, 0, 87, 0, 98, 0, 94, 0, 99, 0, 91, 0, 101, 0, 98, 0, 103, 0, 43, 0, 41, 1, 44, 0, 42, 1, 52, 0, 45, 1, 49, 0, 46, 1, 49, 0, 48, 1, 48, 0, 50, 1, 47, 0, 51, 1, 54, 0, 52, 1, 75, 0, 56, 1, 40, 0, 64, 1, 89, 0, 87, 1, 90, 0, 88, 1, 89, 0, 91, 1, 94, 0, 92, 1, 89, 0, 94, 1, 99, 0, 96, 1, 88, 0, 98, 1 ],
+"function_id": 37,
+"name": "turn",
+"nodes": [ 37, Vector2( -540, -600 ), SubResource( 37 ), 39, Vector2( 900, 100 ), SubResource( 38 ), 40, Vector2( 500, 380 ), SubResource( 39 ), 41, Vector2( -780, 260 ), SubResource( 40 ), 42, Vector2( -780, 480 ), SubResource( 41 ), 43, Vector2( -920, 260 ), SubResource( 42 ), 44, Vector2( -920, 500 ), SubResource( 43 ), 45, Vector2( 160, 420 ), SubResource( 44 ), 46, Vector2( -580, 260 ), SubResource( 45 ), 47, Vector2( -420, 380 ), SubResource( 46 ), 48, Vector2( -580, 380 ), SubResource( 47 ), 49, Vector2( -720, 380 ), SubResource( 48 ), 50, Vector2( -420, 260 ), SubResource( 49 ), 51, Vector2( -280, 260 ), SubResource( 50 ), 52, Vector2( -420, 480 ), SubResource( 51 ), 53, Vector2( -560, 500 ), SubResource( 52 ), 54, Vector2( -560, 600 ), SubResource( 53 ), 56, Vector2( 580, -680 ), SubResource( 54 ), 57, Vector2( 540, -640 ), SubResource( 55 ), 59, Vector2( 540, -620 ), SubResource( 56 ), 60, Vector2( 740, -720 ), SubResource( 57 ), 64, Vector2( 920, 440 ), SubResource( 58 ), 65, Vector2( -60, -600 ), SubResource( 59 ), 66, Vector2( -60, -500 ), SubResource( 60 ), 67, Vector2( 720, 300 ), SubResource( 61 ), 69, Vector2( -380, -600 ), SubResource( 62 ), 71, Vector2( -220, -420 ), SubResource( 63 ), 73, Vector2( -220, -600 ), SubResource( 64 ), 75, Vector2( 520, -660 ), SubResource( 65 ), 77, Vector2( 100, -500 ), SubResource( 66 ), 79, Vector2( 100, -600 ), SubResource( 67 ), 83, Vector2( -60, -400 ), SubResource( 68 ), 87, Vector2( -860, -540 ), SubResource( 69 ), 88, Vector2( -860, -420 ), SubResource( 70 ), 89, Vector2( -1000, -540 ), SubResource( 71 ), 90, Vector2( -1000, -440 ), SubResource( 72 ), 91, Vector2( -660, -540 ), SubResource( 73 ), 92, Vector2( -520, -540 ), SubResource( 74 ), 94, Vector2( -660, -420 ), SubResource( 75 ), 96, Vector2( -360, -300 ), SubResource( 76 ), 98, Vector2( -360, -420 ), SubResource( 77 ), 99, Vector2( -500, -280 ), SubResource( 78 ), 101, Vector2( -500, -360 ), SubResource( 79 ), 103, Vector2( -220, -240 ), SubResource( 80 ), 105, Vector2( 100, -400 ), SubResource( 81 ), 106, Vector2( 100, -300 ), SubResource( 82 ), 107, Vector2( 260, -300 ), SubResource( 83 ), 108, Vector2( 260, -400 ), SubResource( 84 ), 110, Vector2( 100, -200 ), SubResource( 85 ), 112, Vector2( -80, -220 ), SubResource( 86 ), 114, Vector2( 100, -20 ), SubResource( 87 ), 116, Vector2( 280, 0 ), SubResource( 88 ), 118, Vector2( 280, 180 ), SubResource( 89 ), 119, Vector2( 440, 200 ), SubResource( 90 ), 121, Vector2( 280, -200 ), SubResource( 91 ), 122, Vector2( 280, -100 ), SubResource( 92 ), 123, Vector2( 440, -100 ), SubResource( 93 ), 124, Vector2( 440, -200 ), SubResource( 94 ), 126, Vector2( 460, 0 ), SubResource( 95 ), 127, Vector2( 460, 100 ), SubResource( 96 ), 128, Vector2( 620, 100 ), SubResource( 97 ), 129, Vector2( 620, 0 ), SubResource( 98 ) ],
+"scroll": Vector2( -322.48, -570.49 ),
+"sequence_connections": [ 60, 0, 39, 37, 0, 60, 73, 0, 65, 73, 1, 66, 69, 1, 71, 69, 0, 73, 66, 0, 77, 65, 0, 79, 71, 0, 83, 83, 0, 105, 83, 1, 106, 106, 0, 107, 105, 0, 108, 112, 0, 110, 71, 1, 112, 112, 1, 114, 114, 0, 116, 114, 1, 118, 118, 0, 119, 110, 0, 121, 110, 1, 122, 122, 0, 123, 121, 0, 124, 116, 0, 126, 116, 1, 127, 127, 0, 128, 126, 0, 129 ]
+}, {
+"data_connections": [ 137, 0, 132, 0, 139, 0, 134, 0, 134, 0, 135, 0, 133, 0, 136, 0, 147, 0, 137, 0, 139, 0, 138, 0, 135, 0, 143, 0, 136, 0, 145, 0, 145, 0, 146, 0, 143, 0, 147, 0, 155, 0, 149, 0, 132, 0, 150, 0, 150, 0, 151, 0, 139, 0, 134, 1, 133, 0, 135, 1, 138, 0, 136, 1, 146, 0, 137, 1, 140, 0, 138, 1, 159, 0, 149, 1, 157, 0, 150, 1, 159, 0, 149, 2, 159, 0, 149, 3 ],
+"function_id": 130,
+"name": "move",
+"nodes": [ 130, Vector2( 360, 0 ), SubResource( 100 ), 132, Vector2( 480, 0 ), SubResource( 101 ), 133, Vector2( -340, 180 ), SubResource( 102 ), 134, Vector2( -400, 60 ), SubResource( 103 ), 135, Vector2( -200, 60 ), SubResource( 104 ), 136, Vector2( -200, 180 ), SubResource( 105 ), 137, Vector2( 300, 60 ), SubResource( 106 ), 138, Vector2( -400, 280 ), SubResource( 107 ), 139, Vector2( -540, 60 ), SubResource( 108 ), 140, Vector2( -540, 300 ), SubResource( 109 ), 143, Vector2( -60, 60 ), SubResource( 110 ), 145, Vector2( -60, 160 ), SubResource( 111 ), 146, Vector2( 100, 160 ), SubResource( 112 ), 147, Vector2( 100, 60 ), SubResource( 113 ), 149, Vector2( 860, -40 ), SubResource( 114 ), 150, Vector2( 560, 100 ), SubResource( 115 ), 151, Vector2( 700, 0 ), SubResource( 116 ), 155, Vector2( 720, -100 ), SubResource( 118 ), 157, Vector2( 340, 180 ), SubResource( 119 ), 159, Vector2( 720, -200 ), SubResource( 120 ) ],
+"scroll": Vector2( 539.351, 75.0878 ),
+"sequence_connections": [ 130, 0, 132, 151, 0, 149, 132, 0, 151 ]
+} ],
+"signals": [  ],
+"variables": [ {
+"default_value": 0.0,
+"export": false,
+"hint": 0,
+"hint_string": "",
+"name": "direction",
+"type": 3,
+"usage": 7
+}, {
+"default_value": 1,
+"export": false,
+"hint": 0,
+"hint_string": "",
+"name": "direction_axis",
+"type": 2,
+"usage": 7
+} ]
+}
+
+[sub_resource type="VisualScriptFunction" id=32]
+
+resource_name = "_process"
+_default_input_values = [  ]
+argument_count = 1
+argument_1/type = 3
+argument_1/name = "delta"
+sequenced/sequenced = true
+stack/size = 256
+stack/stackless = false
+rpc/mode = 0
+
+[sub_resource type="VisualScriptPropertyGet" id=33]
+
+_default_input_values = [  ]
+set_mode = 1
+base_type = "KinematicBody2D"
+type_cache = 3
+node_path = NodePath("..")
+property = "rotation_degrees"
+
+[sub_resource type="VisualScriptOperator" id=34]
+
+_default_input_values = [ 0.0 ]
+operator = 10
+type = 3
+
+[sub_resource type="VisualScriptPropertySet" id=35]
+
+_default_input_values = [ 0.0 ]
+set_mode = 0
+base_type = "Camera2D"
+type_cache = {
+"class_name": "",
+"hint": 1,
+"hint_string": "-1440,1440,0.1",
+"name": "rotation_degrees",
+"type": 3,
+"usage": 514
+}
+property = "rotation_degrees"
+assign_op = 0
+
+[sub_resource type="VisualScript" id=36]
+
+data = {
+"base_type": "Camera2D",
+"functions": [ {
+"data_connections": [ 1, 0, 2, 0, 2, 0, 3, 0 ],
+"function_id": 0,
+"name": "_process",
+"nodes": [ 0, Vector2( 0, 0 ), SubResource( 32 ), 1, Vector2( -200, 100 ), SubResource( 33 ), 2, Vector2( 0, 100 ), SubResource( 34 ), 3, Vector2( 140, 0 ), SubResource( 35 ) ],
+"scroll": Vector2( -288.474, -116 ),
+"sequence_connections": [ 0, 0, 3 ]
+} ],
+"signals": [  ],
+"variables": [  ]
+}
+
+[node name="Node2D" type="Node2D" index="0"]
+
+[node name="MAP" type="StaticBody2D" parent="." index="0"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+_sections_unfolded = [ "Collision", "Pickable", "Transform" ]
+
+[node name="MAP_DESIGN" type="CollisionPolygon2D" parent="MAP" index="0"]
+
+build_mode = 1
+polygon = PoolVector2Array( -1000, 500, 1000, 500, 1200, 300, 1200, -300, 1000, -500, -1000, -500, -1200, -300, -1200, 300 )
+_sections_unfolded = [ "Visibility" ]
+
+[node name="PLAYER" type="KinematicBody2D" parent="." index="1"]
+
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+collision/safe_margin = 0.08
+script = SubResource( 5 )
+_sections_unfolded = [ "Transform" ]
+
+[node name="PLAYER_IMG" type="Sprite" parent="PLAYER" index="0"]
+
+texture = ExtResource( 1 )
+_sections_unfolded = [ "Animation", "Offset", "Region", "Transform" ]
+
+[node name="PLAYER COLIDING" type="CollisionPolygon2D" parent="PLAYER" index="1"]
+
+build_mode = 0
+polygon = PoolVector2Array( 46, -28, 46, 64, -46, 64, -46, -28 )
+_sections_unfolded = [ "Transform" ]
+
+[node name="PLAYER FOLOWING" type="Camera2D" parent="PLAYER" index="2"]
+
+anchor_mode = 1
+rotating = true
+current = true
+zoom = Vector2( 1, 1 )
+limit_left = -10000000
+limit_top = -10000000
+limit_right = 10000000
+limit_bottom = 10000000
+limit_smoothed = false
+drag_margin_h_enabled = true
+drag_margin_v_enabled = true
+smoothing_enabled = false
+smoothing_speed = 5.0
+offset_v = 0.0
+offset_h = 0.0
+drag_margin_left = 0.2
+drag_margin_top = 0.2
+drag_margin_right = 0.2
+drag_margin_bottom = 0.2
+editor_draw_screen = true
+editor_draw_limits = false
+editor_draw_drag_margin = false
+script = SubResource( 36 )
+_sections_unfolded = [ "Drag Margin", "Editor", "Limit", "Offset", "Smoothing" ]
+
+[node name="FOOT_NOISE" type="AudioStreamPlayer2D" parent="PLAYER" index="3"]
+
+stream = ExtResource( 2 )
+volume_db = 0.0
+pitch_scale = 1.0
+autoplay = false
+max_distance = 2000.0
+attenuation = 1.0
+bus = "Master"
+area_mask = 1
+
+[node name="ParallaxBackground" type="ParallaxBackground" parent="." index="2"]
+
+layer = -1
+offset = Vector2( 0, 0 )
+rotation = 0.0
+scale = Vector2( 1, 1 )
+transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+scroll_offset = Vector2( 0, 0 )
+scroll_base_offset = Vector2( 0, 0 )
+scroll_base_scale = Vector2( 1, 1 )
+scroll_limit_begin = Vector2( 0, 0 )
+scroll_limit_end = Vector2( 0, 0 )
+scroll_ignore_camera_zoom = true
+_sections_unfolded = [ "Scroll" ]
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="ParallaxBackground" index="0"]
+
+motion_scale = Vector2( 1, 1 )
+motion_offset = Vector2( 0, 0 )
+motion_mirroring = Vector2( 0, 0 )
+_sections_unfolded = [ "Motion", "Transform" ]
+
+[node name="Sprite" type="Sprite" parent="ParallaxBackground/ParallaxLayer" index="0"]
+
+texture = ExtResource( 3 )
+_sections_unfolded = [ "Transform" ]
+
+
